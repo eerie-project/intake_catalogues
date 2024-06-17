@@ -1,17 +1,12 @@
 sources:
-  atmos:
+  v20231106:
     args:
-      path: "{{CATALOG_DIR}}/atmos/main.yaml"
+      path: "{{CATALOG_DIR}}/v20231106/main.yaml"
     description: This catalog contains atmospheric EERIE ICON-ESM-ER eerie-control-1950 output available at DKRZ disk.
     driver: yaml_file_cat
-  ocean:
+  v20240618:
     args:
-      path: "{{CATALOG_DIR}}/ocean/main.yaml"
-    description: This catalog contains oceanic EERIE ICON-ESM-ER eerie-control-1950 output available at DKRZ disk.
-    driver: yaml_file_cat
-  land:
-    args:
-      path: "{{CATALOG_DIR}}/land/main.yaml"
-    description: This catalog contains land EERIE ICON-ESM-ER eerie-control-1950 output available at DKRZ disk.
-    driver: yaml_file_cat
+      path: "{{CATALOG_DIR}}/v20240618/main.yaml"
+    description: This catalog contains atmospheric EERIE ICON-ESM-ER eerie-control-1950 output available at DKRZ disk.
+    driver: yaml_file_cat    
 
