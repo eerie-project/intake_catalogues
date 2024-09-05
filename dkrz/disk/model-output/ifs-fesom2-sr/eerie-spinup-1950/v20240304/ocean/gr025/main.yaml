@@ -7,6 +7,8 @@ sources:
         lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched_new/IFS-FESOM2-SR_eerie-spinup-1950/FESOM_025_daily/combined.parq
+      drop_variables:
+        - MLD1
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -59,7 +61,6 @@ sources:
       time_min: 85800
       variable-long_names:
       - Mixed Layer Depth
-      - Mixed Layer Depth
       - ice concentration
       - ice height
       - sea surface elevation
@@ -70,7 +71,6 @@ sources:
     parameters:
       variables:
         allowed:
-        - MLD1
         - MLD2
         - a_ice
         - m_ice
@@ -79,7 +79,7 @@ sources:
         - sst
         - uice
         - vice
-        default: MLD1
+        default: MLD2
         description: All available variables in the dataset
         type: str
   monthly:

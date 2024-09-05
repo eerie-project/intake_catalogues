@@ -34,7 +34,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1d_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_2d_daily_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -151,7 +151,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1d_square/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_2d_daily_square/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -208,7 +208,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_2d_monthly_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -332,7 +332,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_2d_1mth_square/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_2d_monthly_square/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -396,7 +396,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_5lev_1d_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_5lev_daily_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -455,7 +455,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_eddy_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_eddy_monthly_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -640,7 +640,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_ml_1d_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_model-level_daily_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
@@ -706,7 +706,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/erc1011/oce_ml_1mth_mean/combined.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20231106/ocean_native_model-level_monthly_mean/combined.parq
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)

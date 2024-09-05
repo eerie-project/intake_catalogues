@@ -7,6 +7,18 @@ sources:
         lazy: true
         remote_protocol: file
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/IFS_025_daily_2d/combined.parq
+      drop_variables:
+        - ewss
+        - nss
+        - sshf
+        - slhf
+        - ssrd
+        - strd
+        - tsr
+        - ttr
+        - tp
+        - ssr
+        - str
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -44,38 +56,16 @@ sources:
       time_min: 23.833333333333332
       variable-long_names:
       - 2 metre temperature
-      - Eastward turbulent surface stress
       - Mean sea level pressure
-      - Northward turbulent surface stress
       - Snow depth
-      - Surface latent heat flux
       - Surface pressure
-      - Surface sensible heat flux
-      - Surface net solar radiation
-      - Surface solar radiation downwards
-      - Surface net thermal radiation
-      - Surface thermal radiation downwards
-      - Total Precipitation
-      - Top net solar radiation
-      - Top net thermal radiation
     parameters:
       variables:
         allowed:
         - 2t
-        - ewss
         - msl
-        - nsss
         - sd
-        - slhf
         - sp
-        - sshf
-        - ssr
-        - ssrd
-        - str
-        - strd
-        - tp
-        - tsr
-        - ttr
         default: 2t
         description: All available variables in the dataset
         type: str
