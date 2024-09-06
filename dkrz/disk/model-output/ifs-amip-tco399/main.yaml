@@ -1,0 +1,56 @@
+sources:
+  hist.v20240901.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20240901/atmos/gr025/main.yaml"
+    description: This catalog contains the medium-resolution (tco399, ~ 28km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. 
+    driver: yaml_file_cat
+  hist-c-0-a-lr20.v20240901.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-0-a-lr20/v20240901/atmos/gr025/main.yaml"
+    description: This catalog contains the medium-resolution (tco399, ~ 28km) EERIE IFS-AMIP *filtered anomalies* historical production run, forced with ESA-CCI v3 SST & sea ice. SST anomalies are filtered with LR20.
+    driver: yaml_file_cat
+  hist-c-lr20-a-0.v20240901.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-lr20-a-0/v20240901/atmos/gr025/main.yaml"
+    description: This catalog contains the medium-resolution (tco399, ~ 28km) EERIE IFS-AMIP *filtered climatology* historical production run, forced with ESA-CCI v3 SST & sea ice. The daily SST climatology is filtered with LR20.
+    driver: yaml_file_cat
+  hist.v20240304.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20240304/atmos/gr025/main.yaml"
+    description: This catalog contains an EERIE IFS-AMIP historical test experiment with prepIFS CY48r1.0. ESA-CCI v3 SST & sea ice forcing.
+    driver: yaml_file_cat
+  hist.v20231106.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20231106/atmos/gr025/main.yaml"
+    description: This catalog contains an EERIE IFS-AMIP historical test experiment with prepIFS CY48r1.0. OSTIA SST & sea ice forcing.
+    driver: yaml_file_cat
+  hist.v20231006.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20231006/atmos/gr025/main.yaml"
+    description: This catalog contains an EERIE IFS-AMIP test experiment with NextGEMS cycle3 configuration. OSTIA SST & sea ice forcing. Constant 2020 forcing (except SST).
+    driver: yaml_file_cat
+  hist-c-0-a-lr30.v20240304.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-0-a-lr30/v20240304/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-esav3-c-0-a-lr30 test experiment with prepIFS CY48r1.0. ESA-CCI v3 SST (LR30 smoothed anomalies) and new EERIE configuration 
+    driver: yaml_file_cat
+  hist-c-0-a-lr30.v20231106.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-0-a-lr30/v20231106/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-lr30 test experiment with prepIFS CY48r1.0. smoothed OSTIA SST anomalies and new EERIE configuration 
+    driver: yaml_file_cat
+  hist-c-0-a-lr30.v20231006.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-0-a-lr30/v20231006/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-lr30 test experiment with NextGEMS cycle3 configuration. smoothed OSTIA SST anomalies
+    driver: yaml_file_cat
+  hist-c-lr30-a-0.v20231106.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-lr30-a-0/v20231106/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-c-lr30-a-0 test experiment with prepIFS CY48r1.0 - smoothed OSTIA SST climatology and new EERIE configuration 
+    driver: yaml_file_cat
+  hist-c-lr30-a-lr30.v20231106.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-lr30-a-lr30/v20231106/atmos/gr025/main.yaml"
+    description: This catalog contains EERIE IFS-AMIP amip-hist-obs-c-lr30-a-lr30 test experiment with prepIFS CY48r1.0 - smoothed OSTIA SST climatology & anomalies, and new EERIE configuration 
+    driver: yaml_file_cat

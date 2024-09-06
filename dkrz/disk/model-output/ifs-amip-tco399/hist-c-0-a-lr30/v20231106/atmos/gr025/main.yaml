@@ -1,0 +1,324 @@
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  2D_24h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/2D_24h_0.25deg/atm2d.parq
+    description: 2D daily variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - lmlt
+        - mn2t24
+        - mx2t24
+        default: lmlt
+        description: All available variables in the dataset
+        type: str
+  2D_6h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/2D_6h_0.25deg/atm2d.parq
+    description: 2D 6-hourly variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - 10u
+        - 10v
+        - 2d
+        - 2t
+        - cape
+        - ci
+        - cp
+        - e
+        - ewss
+        - fal
+        - iews
+        - inss
+        - lcc
+        - lsp
+        - msl
+        - nsss
+        - ro
+        - sd
+        - sf
+        - skt
+        - slhf
+        - sro
+        - sshf
+        - ssr
+        - ssrd
+        - ssro
+        - sst
+        - stl1
+        - stl2
+        - stl3
+        - stl4
+        - str
+        - strd
+        - sund
+        - swvl1
+        - swvl2
+        - swvl3
+        - swvl4
+        - tcc
+        - tciw
+        - tclw
+        - tcwv
+        - tisr
+        - tp
+        - tsr
+        - ttr
+        default: 10u
+        description: All available variables in the dataset
+        type: str
+  2D_6h_native:
+    args:
+      consolidated: false
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA_LR30/gribscan/2D_6h_native/json.dir/atm2d.json
+    description: 2D 6-hourly variables from IFS-AMIP on native tco399 grid
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - 10u
+        - 10v
+        - ewss
+        - nsss
+        - slhf
+        - sshf
+        - ssr
+        - sst
+        - str
+        - tcc
+        - tp
+        default: 10u
+        description: All available variables in the dataset
+        type: str
+  2D_const_0.25deg:
+    args:
+      path_as_pattern: false
+      urlpath: /work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA_LR30/gribscan/2D_const_0.25deg/*.grib
+      xarray_kwargs:
+        engine: cfgrib
+    description: 2D constant variables from IFS-AMIP
+    driver: netcdf
+    metadata:
+      Conventions: CF-1.7
+      GRIB_centre: ecmf
+      GRIB_centreDescription: European Centre for Medium-Range Weather Forecasts
+      GRIB_edition: 1
+      GRIB_subCentre: 0
+      history: '2024-03-05T12:10 GRIB to CDM+CF via cfgrib-0.9.10.3/ecCodes-2.29.0
+        with {"source": "../../../../../../../work/bk1377/b382473/IFS_AMIP/prepIFS/OSTIA_LR30/gribscan/2D_const_0.25deg/mmsf_fc_sfc_26.128_0_7200_0.25.grib",
+        "filter_by_keys": {}, "encode_cf": ["parameter", "time", "geography", "vertical"]}'
+      institution: European Centre for Medium-Range Weather Forecasts
+      variable-long_names:
+      - Lake cover
+      - Lake total depth
+      - Land-sea mask
+      - Geopotential
+    parameters:
+      variables:
+        allowed:
+        - cl
+        - dl
+        - lsm
+        - z
+        default: cl
+        description: All available variables in the dataset
+        type: str
+  2D_monthly_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/2D_monthly_0.25deg/atm2d.parq
+    description: 2D monthly variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - 10si
+        - 10u
+        - 10v
+        - 2d
+        - 2t
+        - cape
+        - ci
+        - cprate
+        - erate
+        - ewssra
+        - fal
+        - iews
+        - inss
+        - lcc
+        - lmlt
+        - mlsprt
+        - mn2t24
+        - mrort
+        - msdr
+        - msdsrf
+        - msdtrf
+        - msl
+        - mslhfl
+        - msnsrf
+        - msntrf
+        - msror
+        - msshfl
+        - mssror
+        - mtnsrf
+        - mtntrf
+        - mtsfr
+        - mx2t24
+        - nsssra
+        - sd
+        - skt
+        - soira
+        - sst
+        - stl1
+        - stl2
+        - stl3
+        - stl4
+        - swvl1
+        - swvl2
+        - swvl3
+        - swvl4
+        - tcc
+        - tciw
+        - tclw
+        - tcwv
+        - tprate
+        default: 10si
+        description: All available variables in the dataset
+        type: str
+  3D_24h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/3D_24h_0.25deg/atm3d.parq
+    description: 3D daily variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - q
+        - t
+        - u
+        - v
+        - z
+        default: q
+        description: All available variables in the dataset
+        type: str
+  3D_6h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/3D_6h_0.25deg/atm3d.parq
+    description: 3D 6-hourly variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - d
+        - q
+        - t
+        - u
+        - v
+        - vo
+        - z
+        default: d
+        description: All available variables in the dataset
+        type: str
+  3D_monthly_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/3D_monthly_0.25deg/atm3d.parq
+    description: 3D monthly variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - d
+        - q
+        - t
+        - u
+        - v
+        - vo
+        - z
+        default: d
+        description: All available variables in the dataset
+        type: str

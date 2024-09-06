@@ -1,0 +1,11 @@
+sources:
+  hist.v20240901.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20240901/atmos/gr025/main.yaml"
+    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. 
+    driver: yaml_file_cat
+  hist-c-0-a-lr20.v20240901.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-0-a-lr20/v20240901/atmos/gr025/main.yaml"
+    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP *filtered anomalies* historical production run, forced with ESA-CCI v3 SST & sea ice. SST anomalies are filtered with LR20.
+    driver: yaml_file_cat

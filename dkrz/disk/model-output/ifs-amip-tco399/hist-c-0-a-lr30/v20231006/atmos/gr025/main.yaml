@@ -1,0 +1,136 @@
+sources:
+  2D_6h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/dcda/atm2d.parq
+    description: 2D 6-hourly variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - 100u
+        - 100v
+        - 10u
+        - 10v
+        - 2d
+        - 2t
+        - cape
+        - ci
+        - ewss
+        - fdir
+        - hcc
+        - i10fg
+        - lcc
+        - lgws
+        - lsm
+        - mcc
+        - mgws
+        - msl
+        - nsss
+        - rsn
+        - sd
+        - sf
+        - skt
+        - slhf
+        - sp
+        - sro
+        - sshf
+        - ssr
+        - ssrd
+        - ssrdc
+        - ssro
+        - sst
+        - stl1
+        - stl2
+        - stl3
+        - stl4
+        - str
+        - strd
+        - swvl1
+        - swvl2
+        - swvl3
+        - swvl4
+        - tcc
+        - tciw
+        - tclw
+        - tcrw
+        - tcsw
+        - tcwv
+        - tisr
+        - tp
+        - tsr
+        - ttr
+        - z
+        default: 100u
+        description: All available variables in the dataset
+        type: str
+  2D_6h_0.25deg_lightning:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/lightning/atm2d.parq
+    description: 2D 6-hourly variables from IFS-AMIP - only lightning density
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - litota6
+        default: litota6
+        description: All available variables in the dataset
+        type: str
+  3D_24h_0.25deg:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip_OSTIA_LR30/dcda/atm3d.parq
+    description: 3D daily variables from IFS-AMIP
+    driver: zarr
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+      variable-long_names: []
+    parameters:
+      variables:
+        allowed:
+        - cc
+        - ciwc
+        - clwc
+        - crwc
+        - cswc
+        - q
+        - t
+        - u
+        - v
+        - w
+        - z
+        - '~'
+        default: cc
+        description: All available variables in the dataset
+        type: str
