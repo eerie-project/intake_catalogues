@@ -1,29 +1,4 @@
 sources:
-  IFS_9-production-hist:
-    args:
-      path: "{{CATALOG_DIR}}/IFS_9-production-hist/atmos/gr025/main.yaml"
-    description: This catalog contains EERIE IFS-AMIP amip-hist-obs output available at DKRZ disk - OSTIA SST and new EERIE configuration 
-    driver: yaml_file_cat
-  IFS_28-production-hist:
-    args:
-      path: "{{CATALOG_DIR}}/IFS_28-production-hist/atmos/gr025/main.yaml"
-    description: This catalog contains EERIE IFS-AMIP amip-hist-obs output available at DKRZ disk - OSTIA SST and new EERIE configuration 
-    driver: yaml_file_cat
-  IFS_9-production-hist-c-0-a-lr20:
-    args:
-      path: "{{CATALOG_DIR}}/IFS_9-production-hist-c-0-a-lr20/atmos/gr025/main.yaml"
-    description: This catalog contains EERIE IFS-AMIP amip-hist-obs output available at DKRZ disk - OSTIA SST and new EERIE configuration 
-    driver: yaml_file_cat
-  IFS_28-production-hist-c-0-a-lr20:
-    args:
-      path: "{{CATALOG_DIR}}/IFS_28-production-hist-c-0-a-lr20/atmos/gr025/main.yaml"
-    description: This catalog contains EERIE IFS-AMIP amip-hist-obs output available at DKRZ disk - OSTIA SST and new EERIE configuration 
-    driver: yaml_file_cat
-  IFS_28-production-hist-c-lr20-a-0:
-    args:
-      path: "{{CATALOG_DIR}}/IFS_28-production-hist-c-lr20-a-0/atmos/gr025/main.yaml"
-    description: This catalog contains EERIE IFS-AMIP amip-hist-obs output available at DKRZ disk - OSTIA SST and new EERIE configuration 
-    driver: yaml_file_cat
   amip-hist-obs.atmos.gr025:
     args:
       path: "{{CATALOG_DIR}}/amip-hist-obs/atmos/gr025/main.yaml"
