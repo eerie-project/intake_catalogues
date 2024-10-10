@@ -2,10 +2,20 @@ sources:
   hist.v20240901.atmos.gr025:
     args:
       path: "{{CATALOG_DIR}}/hist/v20240901/atmos/gr025/main.yaml"
-    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. 
+    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on regular 0.25 x 0.25 degree grid. 
+    driver: yaml_file_cat
+  hist.v20240901.atmos.native:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20240901/atmos/native/main.yaml"
+    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on native tco1279 grid.
     driver: yaml_file_cat
   hist-c-0-a-lr20.v20240901.atmos.gr025:
     args:
       path: "{{CATALOG_DIR}}/hist-c-0-a-lr20/v20240901/atmos/gr025/main.yaml"
-    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP *filtered anomalies* historical production run, forced with ESA-CCI v3 SST & sea ice. SST anomalies are filtered with LR20.
+    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP *filtered anomalies* historical production run, forced with ESA-CCI v3 SST & sea ice. SST anomalies are filtered with LR20. Output on regular 0.25 x 0.25 degree grid. 
+    driver: yaml_file_cat
+  hist-c-0-a-lr20.v20240901.atmos.native:
+    args:
+      path: "{{CATALOG_DIR}}/hist-c-0-a-lr20/v20240901/atmos/native/main.yaml"
+    description: This catalog contains the high-resolution (tco1279, ~ 9km) EERIE IFS-AMIP *filtered anomalies* historical production run, forced with ESA-CCI v3 SST & sea ice. SST anomalies are filtered with LR20. Output on native tco1279 grid.
     driver: yaml_file_cat
