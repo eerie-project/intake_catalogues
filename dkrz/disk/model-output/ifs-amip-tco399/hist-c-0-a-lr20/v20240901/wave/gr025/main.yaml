@@ -1,6 +1,6 @@
 sources:
   2D_monthly:
-    description: 2D monthly mean wave model output from IFS-AMIP on 0.25 regular grid. NOTE: only positive values are valid.
+    description: 2D monthly mean wave model output from IFS-AMIP on 0.25 regular grid. NOTE - only positive values are valid.
     driver: zarr
     args:
       consolidated: False
@@ -50,7 +50,7 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/wave/clmn/jsons.2022/atm2d_avg.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/wave/clmn/jsons.2023/atm2d_avg.json
   # 2D_24h:
-  #   description: 2D daily mean wave model output from IFS-AMIP on 0.25 regular grid. NOTE: only positive values are valid.
+  #   description: 2D daily mean wave model output from IFS-AMIP on 0.25 regular grid. NOTE - only positive values are valid.
   #   driver: zarr
   #   args:
   #     consolidated: False
