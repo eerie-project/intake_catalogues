@@ -6,6 +6,13 @@ sources:
       IFS-AMIP *filtered anomalies* historical production run, forced with ESA-CCI
       v3 SST & sea ice. SST anomalies are filtered with LR20. Output on regular 0.25 x 0.25 degree grid.
     driver: yaml_file_cat
+  hist-c-0-a-lr20.v20240901.wave.gr025:
+    args:
+      path: '{{CATALOG_DIR}}/hist-c-0-a-lr20/v20240901/wave/gr025/main.yaml'
+    description: This catalog contains the wave-model output of the medium-resolution (tco399, ~ 28km) EERIE
+      IFS-AMIP *filtered anomalies* historical production run, forced with ESA-CCI
+      v3 SST & sea ice. SST anomalies are filtered with LR20. Output on regular 0.25 x 0.25 degree grid. NOTE: only positive values are valid.
+    driver: yaml_file_cat
   hist-c-0-a-lr20.v20240901.atmos.native:
     args:
       path: '{{CATALOG_DIR}}/hist-c-0-a-lr20/v20240901/atmos/native/main.yaml'
@@ -51,6 +58,13 @@ sources:
     description: This catalog contains the medium-resolution (tco399, ~ 28km) EERIE
       IFS-AMIP *filtered climatology* historical production run, forced with ESA-CCI
       v3 SST & sea ice. The daily SST climatology is filtered with LR20. Output on regular 0.25 x 0.25 degree grid.
+    driver: yaml_file_cat
+  hist-c-lr20-a-0.v20240901.wave.gr025:
+    args:
+      path: '{{CATALOG_DIR}}/hist-c-lr20-a-0/v20240901/wave/gr025/main.yaml'
+    description: This catalog contains the wave-model output of the medium-resolution (tco399, ~ 28km) EERIE
+      IFS-AMIP *filtered climatology* historical production run, forced with ESA-CCI
+      v3 SST & sea ice. The daily SST climatology is filtered with LR20. Output on regular 0.25 x 0.25 degree grid. NOTE: only positive values are valid.
     driver: yaml_file_cat
   hist-c-lr20-a-0.v20240901.atmos.native:
     args:
@@ -123,6 +137,12 @@ sources:
       path: '{{CATALOG_DIR}}/hist/v20240901/atmos/gr025/main.yaml'
     description: This catalog contains the medium-resolution (tco399, ~ 28km) EERIE
       IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on regular 0.25 x 0.25 degree grid.
+    driver: yaml_file_cat
+  hist.v20240901.wave.gr025:
+    args:
+      path: '{{CATALOG_DIR}}/hist/v20240901/wave/gr025/main.yaml'
+    description: This catalog contains the wave model output of the medium-resolution (tco399, ~ 28km) EERIE
+      IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on regular 0.25 x 0.25 degree grid. NOTE: only positive values are valid.
     driver: yaml_file_cat
   hist.v20240901.atmos.native:
     args:
