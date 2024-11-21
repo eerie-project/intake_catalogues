@@ -206,7 +206,7 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202407/latlon/clte/jsons.2021/atm2d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202407/latlon/clte/jsons.2022/atm2d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202407/latlon/clte/jsons.2023/atm2d.json
-  2D_6h_0.25deg_acc:
+  2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
