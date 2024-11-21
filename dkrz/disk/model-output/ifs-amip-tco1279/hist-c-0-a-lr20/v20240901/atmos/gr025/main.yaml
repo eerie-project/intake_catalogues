@@ -164,11 +164,11 @@ sources:
       urlpath:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1980/atm2d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1981/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1982/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1983/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1984/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1985/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1986/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1982/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1983/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1984/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1985/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1986/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1987/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1988/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.1989/atm2d.json
