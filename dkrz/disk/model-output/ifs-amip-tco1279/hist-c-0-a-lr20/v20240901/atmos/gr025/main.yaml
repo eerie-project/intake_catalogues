@@ -201,9 +201,9 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d.json
   2D_6h_acc:
