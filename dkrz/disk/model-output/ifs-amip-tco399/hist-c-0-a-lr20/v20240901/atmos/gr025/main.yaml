@@ -87,69 +87,69 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2002/atm2d_avg.json
       # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2002/atm2d_min.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2002/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_max.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_avg.json
-      # # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_min.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_max.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_avg.json
+      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_min.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_max.json
   2D_6h:
     description: 2D 6-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -179,27 +179,27 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2000/atm2d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2001/atm2d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2002/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d.json
   2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -229,27 +229,27 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2000/atm2d_acc.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2001/atm2d_acc.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2002/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_acc.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm2d_acc.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm2d_acc.json
   3D_monthly:
     description: 3D monthly average variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -285,27 +285,27 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2000/atm3d_avg.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2001/atm3d_avg.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2002/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm3d_avg.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm3d_avg.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm3d_avg.json
   3D_6h:
     description: 3D 6-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -335,24 +335,24 @@ sources:
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2000/atm3d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2001/atm3d.json
       - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2002/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm3d.json
-      # - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2003/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2004/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2005/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2006/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2007/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2008/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2009/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2010/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2011/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2012/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2013/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2014/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2015/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2016/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2017/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2018/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2019/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2020/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2021/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2022/atm3d.json
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_0_a_LR20/latlon/clte/jsons.2023/atm3d.json
