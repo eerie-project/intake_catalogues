@@ -1,0 +1,78 @@
+{
+  "title": "Intake Catalogues for EERIE Data",
+  "creators": [
+    {
+      "name": "Wachsmann, Fabian",
+      "affiliation": "The German Climate Computing Center"
+    },
+    {
+      "name": "Aengenheyster, Matthias",
+      "affiliation": "ECMWF"
+    },
+    {
+      "name": "Wickramage, Chathurika",
+      "affiliation": "German Climate Computing Centre"
+    },
+    {
+      "name": "Seddon, Jon",
+      "affiliation": "Met Office"
+    },
+    {
+      "name": "Koldunov, Nikolay",
+      "affiliation": "Alfred Wegener Institute for Polar and Marine Research"
+    },
+    {
+      "name": "Ziemen, Florian",
+      "affiliation": "German Climate Computing Centre"
+    }
+  ],
+  "description": "This repository contains Intake catalogues for the EERIE data held at the analysis facilities (JASMIN and DKRZ). The `eerie.yaml` file is used to load all catalogue files into Intake. The `dkrz/` directory contains the Intake catalogue for data held by DKRZ in Intake YAML format, while the `jasmin/` directory contains the Intake catalogue for the initial Met Office data at JASMIN, created with intake-esm.",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "EERIE",
+    "Intake",
+    "Data Catalogues",
+    "JASMIN",
+    "DKRZ"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://eerie-project.eu/"
+    }
+  ],
+  "grants": [
+    {
+      "id": "101081383",
+      "funder": {
+        "name": "European Commission",
+        "identifier": "https://doi.org/10.13039/501100000780",
+        "scheme": "Crossref Funder ID"
+      }
+    },
+    {
+      "id": "10049639",
+      "funder": {
+        "name": "UK Research and Innovation",
+        "identifier": "https://doi.org/10.13039/501100000266",
+        "scheme": "Crossref Funder ID"
+      }
+    },
+    {
+      "id": "10057890",
+      "funder": {
+        "name": "UK Research and Innovation",
+        "identifier": "https://doi.org/10.13039/501100000266",
+        "scheme": "Crossref Funder ID"
+      }
+    },
+    {
+      "id": "10040510",
+      "funder": {
+        "name": "UK Research and Innovation",
+        "identifier": "https://doi.org/10.13039/501100000266",
+        "scheme": "Crossref Funder ID"
+      }
+    }
+  ]
+}
