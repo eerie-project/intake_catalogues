@@ -4,6 +4,7 @@ sources:
       consolidated: false
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr30/v20240304/atmos/native/2D_6h.parq
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
     description: 2D 6-hourly variables from IFS-AMIP on native grid
     driver: zarr

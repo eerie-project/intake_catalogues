@@ -3,47 +3,47 @@ sources:
     description: 2D 24-hourly variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/2D_24h_0.25deg/json.dir/atm2d.json
   2D_6h:
     description: 2D 6-hourly variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/2D_6h_0.25deg/json.dir/atm2d.json
   2D_6h_native:
     description: 2D 6-hourly variables from IFS-AMIP on native grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/2D_6h_native/json.dir/atm2d.json
   2D_const:
     description: 2D constant variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/2D_const_0.25deg/json.dir/atm2d.json
   2D_monthly:
     description: 2D monthly variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/2D_monthly_0.25deg/json.dir/atm2d.json
   3D_24h:
     description: 3D 24-hourly variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/3D_24h_0.25deg/json.dir/atm3d.json
   3D_6h:
     description: 3D 6-hourly variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/3D_6h_0.25deg/json.dir/atm3d.json
   3D_monthly:
     description: 3D monthly variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/3D_monthly_0.25deg/json.dir/atm3d.json

@@ -2,7 +2,8 @@ sources:
   2D_6h:
     args:
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
       consolidated: false
       urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr30/v20231106/atmos/native/2D_6h.parq
     description: 2D 6-hourly variables from IFS-AMIP on native tco399 grid
