@@ -14,7 +14,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly.parq
   2D_24h:
     description: 2D 24-hourly variables from IFS-AMIP on the native grid. Mostly daily averages, but also mininum (mn2t24) and maximum (mx2t24, 10fg)
     driver: zarr
@@ -23,7 +23,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h.parq
   2D_6h:
     description: 2D 6-hourly instantaneous variables from IFS-AMIP on the native grid
     driver: zarr
@@ -32,7 +32,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h.parq
   2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on the native grid
     driver: zarr
@@ -41,7 +41,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_native_acc.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_acc.parq
   3D_monthly:
     description: 3D monthly average variables from IFS-AMIP on the native grid
     driver: zarr
@@ -50,7 +50,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_monthly.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_monthly.parq
   3D_24h:
     description: 3D 24-hourly average variables from IFS-AMIP on the native grid
     driver: zarr
@@ -59,7 +59,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_24h.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_24h.parq
   3D_6h:
     description: 3D 6-hourly instantaneous variables from IFS-AMIP on the native grid
     driver: zarr
@@ -68,7 +68,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_6h.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/3D_6h.parq
   2D_monthly_wam:
     description: 2D monthly mean variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
@@ -77,7 +77,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly_wam.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_monthly_wam.parq
   2D_24h_wam:
     description: 2D daily mean variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
@@ -86,7 +86,7 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h_wam.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_24h_wam.parq
   2D_6h_wam:
     description: 6-hourly instantaneous variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
@@ -95,4 +95,4 @@ sources:
         lazy: true
         remote_protocol: file
       consolidated: False
-      urlpath: reference:://work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_wam.parq
+      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco1279/hist-c-0-a-lr20/v20240901/atmos/native/2D_6h_wam.parq
