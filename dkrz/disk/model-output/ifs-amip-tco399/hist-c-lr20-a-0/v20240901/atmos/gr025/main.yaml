@@ -3,7 +3,7 @@ sources:
   #   description: 2D constant variables from IFS-AMIP on 0.25 degree grid
   #   driver: zarr
   #   args:
-  #     consolidated: False
+  #     consolidated: false
   #     urlpath:
   #     - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202408-c_LR20_a_0/latlon/clte/jsons.1980/atm2d_const.json
   2D_monthly:
@@ -11,54 +11,61 @@ sources:
     driver: zarr
     args:
       storage_options:
-        lazy: True
-      consolidated: False
+        remote_protocol: file
+        lazy: true
+      consolidated: false
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist-c-lr20-a-0/v20240901/atmos/gr025/2D_monthly.parq
   2D_24h:
     description: 2D 24-hourly variables from IFS-AMIP on 0.25 degree grid. Mostly daily averages, but also mininum (mn2t24) and maximum (mx2t24, 10fg)
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist-c-lr20-a-0/v20240901/atmos/gr025/2D_24h.parq
   2D_6h:
     description: 2D 6-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist-c-lr20-a-0/v20240901/atmos/gr025/2D_6h.parq
   2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist-c-lr20-a-0/v20240901/atmos/gr025/2D_6h_acc.parq
   3D_monthly:
     description: 3D monthly average variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist-c-lr20-a-0/v20240901/atmos/gr025/3D_monthly.parq
   3D_24h:
     description: 3D 24-hourly average variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist-c-lr20-a-0/v20240901/atmos/gr025/3D_24h.parq
   3D_6h:
     description: 3D 6-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
     args:
-      consolidated: False
+      consolidated: false
       storage_options:
-        lazy: True
+        remote_protocol: file
+        lazy: true
       urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist-c-lr20-a-0/v20240901/atmos/gr025/3D_6h.parq
