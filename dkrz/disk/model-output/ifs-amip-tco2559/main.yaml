@@ -1,0 +1,11 @@
+sources:
+  hist.v20240901.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20240901/atmos/gr025/main.yaml"
+    description: This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on regular 0.25 x 0.25 degree grid. 
+    driver: yaml_file_cat
+  hist.v20250101.atmos.gr025:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20240901/atmos/gr025/main.yaml"
+    description: This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on regular 0.25 x 0.25 degree grid. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
+    driver: yaml_file_cat
