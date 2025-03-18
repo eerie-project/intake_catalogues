@@ -9,6 +9,11 @@ sources:
       path: "{{CATALOG_DIR}}/ifs-fesom2-sr/main.yaml"
     description: IFS-FESOM2 output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
     driver: yaml_file_cat
+  ifs-amip-tco2559:
+    args:
+      path: "{{CATALOG_DIR}}/ifs-amip-tco2559/main.yaml"
+    description: High-resolution (tco2559, ~ 4.4km) IFS-AMIP output available on DKRZ's Levante File System. Currently only on scratch, not persistent
+    driver: yaml_file_cat
   ifs-amip-tco1279:
     args:
       path: "{{CATALOG_DIR}}/ifs-amip-tco1279/main.yaml"
