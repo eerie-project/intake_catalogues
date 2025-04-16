@@ -7,7 +7,7 @@ sources:
         remote_protocol: file
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_monthly.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_monthly.parq
   2D_monthly_extra:
     description: additional 2D monthly variables from IFS-AMIP on 0.25 degree grid. Monthly averages. Only available for part of the time-period, and data may not correctly encoded as monthly time-means.
     driver: zarr
@@ -16,7 +16,7 @@ sources:
         remote_protocol: file
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_monthly_extra.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_monthly_extra.parq
   2D_24h:
     description: 2D 24-hourly variables from IFS-AMIP on 0.25 degree grid. Mostly daily averages, but also mininum (mn2t24) and maximum (mx2t24, 10fg)
     driver: zarr
@@ -25,7 +25,7 @@ sources:
         remote_protocol: file
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_24h.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_24h.parq
   2D_24h_extra:
     description: additional 2D 24-hourly variables from IFS-AMIP on 0.25 degree grid. Daily averages. Only available for part of the time-period, and data may not correctly encoded as monthly time-means.
     driver: zarr
@@ -34,7 +34,7 @@ sources:
         remote_protocol: file
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_24h_extra.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_24h_extra.parq
   2D_1h:
     description: 2D 1-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -43,7 +43,7 @@ sources:
         remote_protocol: file
         lazy: true            
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_1h.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_1h.parq
   2D_1h_extra:
     description: 2D 1-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -52,7 +52,7 @@ sources:
         remote_protocol: file
         lazy: true            
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_1h_extra.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_1h_extra.parq
   2D_1h_acc:
     description: 2D 1-hourly accumulated variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -61,7 +61,7 @@ sources:
         remote_protocol: file
         lazy: true            
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_1h_acc.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_1h_acc.parq
   2D_1h_acc_extra:
     description: 2D 1-hourly accumulated variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -70,7 +70,7 @@ sources:
         remote_protocol: file
         lazy: true            
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/2D_1h_acc_extra.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/2D_1h_acc_extra.parq
   3D_monthly:
     description: 3D monthly average variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -79,7 +79,7 @@ sources:
         remote_protocol: file
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/3D_monthly.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/3D_monthly.parq
   3D_24h:
     description: 3D 24-hourly average variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -88,7 +88,7 @@ sources:
         remote_protocol: file
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/3D_24h.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/3D_24h.parq
   3D_1h:
     description: 3D 1-hourly instantaneous variables from IFS-AMIP on 0.25 degree grid
     driver: zarr
@@ -97,4 +97,4 @@ sources:
         remote_protocol: file
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/gr025/3D_1h.parq
+      urlpath: reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix32/3D_1h.parq

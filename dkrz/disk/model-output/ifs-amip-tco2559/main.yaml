@@ -2,10 +2,35 @@ sources:
   hist.v20240901.atmos.gr025:
     args:
       path: "{{CATALOG_DIR}}/hist/v20240901/atmos/gr025/main.yaml"
-    description: This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on regular 0.25 x 0.25 degree grid. 
+    description: Output on 0.25 degree regular grid. This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. 
     driver: yaml_file_cat
   hist.v20250101.atmos.gr025:
     args:
       path: "{{CATALOG_DIR}}/hist/v20250101/atmos/gr025/main.yaml"
-    description: This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. Output on regular 0.25 x 0.25 degree grid. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
+    description: Output on 0.25 degree regular grid. This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
+    driver: yaml_file_cat
+  hist.v20250101.atmos.native:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20250101/atmos/native/main.yaml"
+    description: Output on native model grid. This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
+    driver: yaml_file_cat
+  hist.v20250101.atmos.healpix32:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20250101/atmos/healpix32/main.yaml"
+    description: Output on HEALPix grid H32. This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
+    driver: yaml_file_cat
+  hist.v20250101.atmos.healpix128:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20250101/atmos/healpix128/main.yaml"
+    description: Output on HEALPix grid H128. This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
+    driver: yaml_file_cat
+  hist.v20250101.atmos.healpix512:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20250101/atmos/healpix512/main.yaml"
+    description: Output on HEALPix grid H512. This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
+    driver: yaml_file_cat
+  hist.v20250101.atmos.healpix1024:
+    args:
+      path: "{{CATALOG_DIR}}/hist/v20250101/atmos/healpix1024/main.yaml"
+    description: Output on HEALPix grid H1024. This catalog contains the high-resolution (tco2559, ~4.4km) EERIE IFS-AMIP historical production run, forced with ESA-CCI v3 SST & sea ice. The difference to v20240901 is that v20250101 uses "reduced cloud-base mass flux".
     driver: yaml_file_cat
