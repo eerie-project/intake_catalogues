@@ -10,7 +10,7 @@ sources:
       chunks: auto
       consolidated: true
       urlpath: >
-        https://s3.eu-dkrz-1.dkrz.cloud/dkrz/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_cyc.zarr
+        https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_cyc.zarr
     driver: zarr
     metadata:
       title: Eddy composites of IFS-FESOM EERIE run, control-1950, anticyclonic, Southern Ocean
@@ -26,7 +26,7 @@ sources:
       chunks: auto
       consolidated: true
       urlpath: >
-        https://s3.eu-dkrz-1.dkrz.cloud/dkrz/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_cyc.zarr
+        https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_cyc.zarr
     driver: zarr
     metadata:
       title: Eddy composites of IFS-FESOM EERIE run, control-1950, cyclonic, Southern Ocean
@@ -42,7 +42,7 @@ sources:
       # chunks: auto
       # consolidated: true
       consolidated: false
-      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/dkrz/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_cyc.zarr
+      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_cyc.zarr
     driver: zarr
     metadata:
       title: Eddy composites of IFS-FESOM EERIE run, control-1950, anticyclonic, Gulf Stream
@@ -58,7 +58,7 @@ sources:
       chunks: auto
       consolidated: true
       urlpath: >
-        https://s3.eu-dkrz-1.dkrz.cloud/dkrz/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_cyc.zarr
+        https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_cyc.zarr
     driver: zarr
     metadata:
       title: Eddy composites of IFS-FESOM EERIE run, control-1950, cyclonic, Gulf Stream
