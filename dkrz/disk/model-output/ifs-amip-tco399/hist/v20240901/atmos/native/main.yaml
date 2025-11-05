@@ -1,11 +1,11 @@
 sources:
-  # 2D_const:
-  #   description: 2D constant variables from IFS-AMIP on 0.25 degree grid
-  #   driver: zarr
-  #   args:
-  #     consolidated: false
-  #     urlpath:
-  #     - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202407/native/clte/jsons.1980/atm2d_const.json
+  2D_const:
+    description: 2D constant variables from IFS-AMIP on 0.25 degree grid
+    driver: zarr
+    args:
+      consolidated: false
+      urlpath:
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202407/native/clte/jsons.1980/atm2d_const.json
   2D_monthly:
     description: 2D monthly variables from IFS-AMIP on the native grid. Mostly monthly averages, but also mininum (mn2t) and maximum (mx2t, 10fg)
     driver: zarr
