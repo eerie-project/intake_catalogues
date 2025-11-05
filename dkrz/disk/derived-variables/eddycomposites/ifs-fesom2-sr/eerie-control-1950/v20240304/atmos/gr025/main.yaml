@@ -1,0 +1,5 @@
+sources:
+  2D_daily_avg:
+    args:
+      path: "{{CATALOG_DIR}}/2D_daily_avg/main.yaml"
+    driver: yaml_file_cat

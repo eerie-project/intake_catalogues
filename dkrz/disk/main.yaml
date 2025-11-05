@@ -9,6 +9,11 @@ sources:
       path: "{{CATALOG_DIR}}/observations/main.yaml"
     description: This catalog contains observational data that is used for EERIE evaluation.
     driver: yaml_file_cat
+  derived-variables:
+    args:
+      path: "{{CATALOG_DIR}}/derived-variables/main.yaml"
+    description: Derived variables computed from model output.
+    driver: yaml_file_cat
   CMOR_testing:
     args:
       path: "{{CATALOG_DIR}}/CMOR_testing/main.yaml"
