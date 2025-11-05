@@ -1,6 +1,0 @@
-sources:
-  hist-1950:
-    args:
-      path: "{{CATALOG_DIR}}/hist-1950/main.yaml"
-    description: This catalog contains CMORized IFS-FESOM2-SR histtorical testing output available at DKRZ disk.
-    driver: yaml_file_cat

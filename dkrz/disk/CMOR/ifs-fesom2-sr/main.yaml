@@ -1,0 +1,11 @@
+sources:
+  hist-1950:
+    args:
+      path: "{{CATALOG_DIR}}/hist-1950/main.yaml"
+    description: This catalog contains CMORized IFS-FESOM2-SR historical output available at DKRZ disk.
+    driver: yaml_file_cat
+  highres-future-ssp245:
+    args:
+      path: "{{CATALOG_DIR}}/highres-future-ssp245/main.yaml"
+    description: This catalog contains CMORized IFS-FESOM2-SR highres-future-ssp245 output available at DKRZ disk.
+    driver: yaml_file_cat

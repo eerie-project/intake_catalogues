@@ -1,6 +1,0 @@
-sources:
-  eerie-control-1950:
-    args:
-      path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
-    description: This catalog contains CMORized EERIE ICON-ESM-ER eerie-1950control testing output available at DKRZ disk.
-    driver: yaml_file_cat

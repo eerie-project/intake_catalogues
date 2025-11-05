@@ -1,0 +1,6 @@
+sources:
+  gr025:
+    args:
+      path: "{{CATALOG_DIR}}/gr025/main.yaml"
+    description: This catalog contains CMORized EERIE ICON-ESM-ER hist-1950 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat

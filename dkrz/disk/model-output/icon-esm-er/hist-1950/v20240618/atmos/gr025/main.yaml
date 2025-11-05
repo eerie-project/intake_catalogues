@@ -685,4 +685,113 @@ sources:
       - Vertical velocity
       variant_label: r1i1p1f1
       version_id: v20240618
-      
+  pfull_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/atmos/gr025/atm_pfull_1d_mean_remap025.parquet
+    driver: zarr
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-09-22T11:30:09'
+      data_specs_version: 01.00.32
+      experiment: coupled historical 1950-2014
+      experiment_id: hist-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      variable-long_names:
+      - Pressure at full level
+      variant_label: r1i1p1f1
+      version_id: v20240618      
+  pfull_phalf_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2020/v20240618/atmos/gr025/atm_pfull_phalf_1mth_mean_remap025.parquet
+    driver: zarr
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-09-19T16:34:09' 
+      data_specs_version: 01.00.32
+      experiment: coupled historical 1950-2014
+      experiment_id: hist-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      variable-long_names:
+      - Pressure at half level
+      variant_label: r1i1p1f1
+      version_id: v20240618  

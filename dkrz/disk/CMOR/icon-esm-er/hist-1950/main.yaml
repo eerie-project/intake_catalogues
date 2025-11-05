@@ -1,0 +1,6 @@
+sources:
+  v20240618:
+    args:
+      path: "{{CATALOG_DIR}}/v20240618/main.yaml"
+    description: This catalog contains CMORized EERIE ICON-ESM-ER hist-1950 testing output available at DKRZ disk; v1.
+    driver: yaml_file_cat

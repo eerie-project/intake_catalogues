@@ -315,4 +315,56 @@ sources:
         default: avg_so
         description: All available variables in the dataset
         type: str
-        
+  AMOC:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/amoc_phase1-ssp245-fesom.parquet
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR highres-future-ssp245 run
+      activity_id: EERIE
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_ssp245      
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Atlantic Meridional Overturning Circulation
+    parameters:
+      variables:
+        allowed:
+        - atlantic_moc
+        default: atlantic_moc
+        description: All available variables in the dataset
+        type: str
+                

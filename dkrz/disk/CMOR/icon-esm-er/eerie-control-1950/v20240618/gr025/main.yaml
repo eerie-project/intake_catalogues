@@ -1,0 +1,93 @@
+sources:
+  Amon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_Amon.parquet
+    driver: zarr
+  day:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_day.parquet
+    driver: zarr
+  HRAmon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HRAmon.parquet
+    driver: zarr
+  HRday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HRday.parquet
+    driver: zarr   
+  HROday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HROday.parquet
+    driver: zarr
+  HROmon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_HROmon.parquet
+    driver: zarr 
+  Oday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_Oday.parquet
+    driver: zarr  
+  Omon:
+    args:
+      chunks: null
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_Omon.parquet       
+    driver: zarr
+  SIday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_SIday.parquet
+    driver: zarr
+  SImon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/CMOR/ICON-ESM-ER_eerie-control-1950_SImon.parquet
+    driver: zarr
+
+    

@@ -1,0 +1,16 @@
+sources:
+  eerie-control-1950:
+    args:
+      path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
+    description: This catalog contains CMORized EERIE ICON-ESM-ER eerie-1950control output available at DKRZ disk.
+    driver: yaml_file_cat
+  hist-1950:
+    args:
+      path: "{{CATALOG_DIR}}/hist-1950/main.yaml"
+    description: This catalog contains CMORized EERIE ICON-ESM-ER hist-1950 output available at DKRZ disk.
+    driver: yaml_file_cat
+  highres-future-ssp245:
+    args:
+      path: "{{CATALOG_DIR}}/highres-future-ssp245/main.yaml"
+    description: This catalog contains CMORized EERIE ICON-ESM-ER highres-future-ssp245 output available at DKRZ disk.
+    driver: yaml_file_cat    

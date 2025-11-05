@@ -1,0 +1,102 @@
+sources:
+  6hrPlevPt:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_6hrPlevPt.parquet
+    driver: zarr
+  Amon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_Amon.parquet
+    driver: zarr
+  day:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_day.parquet
+    driver: zarr
+  HR6hr:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_HR6hr.parquet
+    driver: zarr
+  HRday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_HRday.parquet
+    driver: zarr   
+  HROday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_HROday.parquet
+    driver: zarr
+  HROmon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_HROmon.parquet
+    driver: zarr 
+  Oday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_Oday.parquet
+    driver: zarr  
+  Omon:
+    args:
+      chunks: null
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_Omon.parquet    
+    driver: zarr
+  SIday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_SIday.parquet
+    driver: zarr
+  SImon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/hist-1950/v20240304/cmor/IFS-FESOM2-SR_hist-1950_SImon.parquet
+    driver: zarr
+
+    
