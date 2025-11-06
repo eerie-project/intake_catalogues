@@ -1,0 +1,5 @@
+sources:
+  atmos:
+    args:
+      path: "{{CATALOG_DIR}}/atmos/main.yaml"
+    driver: yaml_file_cat

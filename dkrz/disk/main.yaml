@@ -14,3 +14,8 @@ sources:
       path: "{{CATALOG_DIR}}/CMOR/main.yaml"
     description: This catalog contains CMORized testing data that is going to use for ESGF publication.
     driver: yaml_file_cat
+  derived-variables:
+    args:
+      path: "{{CATALOG_DIR}}/derived-variables/main.yaml"
+    description: Derived variables computed from model output.
+    driver: yaml_file_cat

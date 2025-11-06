@@ -1,0 +1,5 @@
+sources:
+  ifs-fesom2-sr:
+    args:
+      path: "{{CATALOG_DIR}}/ifs-fesom2-sr/main.yaml"
+    driver: yaml_file_cat

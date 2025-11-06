@@ -1,0 +1,5 @@
+sources:
+  v20240304:
+    args:
+      path: "{{CATALOG_DIR}}/v20240304/main.yaml"
+    driver: yaml_file_cat

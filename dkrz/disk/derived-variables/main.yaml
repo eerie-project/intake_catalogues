@@ -7,6 +7,10 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/eddytracks/main.yaml"
     driver: yaml_file_cat
+  eddycomposites:
+    args:
+      path: "{{CATALOG_DIR}}/eddycomposites/main.yaml"
+    driver: yaml_file_cat
 
   crossSSTgrad_dm:
     args:
