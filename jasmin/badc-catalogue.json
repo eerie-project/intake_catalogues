@@ -190,5 +190,5 @@
   "description": null,
   "title": null,
   "last_updated": "2025-11-11T16:53:50Z",
-  "catalog_file": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/refs/heads/jasmin-202511/jasmin/badc-catalogue.csv"
+  "catalog_file": "https://raw.githubusercontent.com/eerie-project/intake_catalogues/main/jasmin/badc-catalogue.csv"
 }
