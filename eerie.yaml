@@ -4,6 +4,11 @@ sources:
       obj: "{{CATALOG_DIR}}/jasmin/jasmin-catalogue.json"
     description: This catalog contains datasets for EERIE stored on JASMIN
     driver: intake.open_esm_datastore
+  jasmin_badc:
+    args:
+      obj: "{{CATALOG_DIR}}/jasmin/badc-catalogue.json"
+    description: This catalog contains MOHC datasets that have been published by BADC at JASMIN
+    driver: intake.open_esm_datastore
   dkrz:
     args:
       path: "{{CATALOG_DIR}}/dkrz/main.yaml"
