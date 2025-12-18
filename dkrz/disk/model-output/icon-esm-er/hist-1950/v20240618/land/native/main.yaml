@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_2d_daily_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/land_native_2d_daily_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -67,7 +67,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_2d_monthly_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/land_native_2d_monthly_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -126,7 +126,7 @@ sources:
   mon:
     args:
       chunks: auto
-      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_land_native_mon.zarr.zip
+      urlpath: zip:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/land_native_mon.zarr.zip
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
