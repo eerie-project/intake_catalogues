@@ -3,3 +3,7 @@ sources:
     args:
       path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
     driver: yaml_file_cat
+  hist-1950:
+    args:
+      path: "{{CATALOG_DIR}}/hist-1950/main.yaml"
+    driver: yaml_file_cat

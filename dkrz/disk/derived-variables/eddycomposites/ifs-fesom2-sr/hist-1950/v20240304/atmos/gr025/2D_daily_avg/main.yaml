@@ -6,10 +6,10 @@ sources:
     args:
       chunks: {}
       consolidated: true
-      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_acyc.zarr
+      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/hist-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_acyc.zarr
     driver: zarr
     metadata:
-      title: Eddy composites of IFS-FESOM EERIE run, control-1950, anticyclonic, Southern Ocean
+      title: Eddy composites of IFS-FESOM EERIE hist-1950, anticyclonic, Southern Ocean
       summary: Composites of Southern Ocean eddies
       license: Creative Commons CC BY 4.0. https://creativecommons.org/licenses/by/4.0/
       creator_name: Matthias Aengenheyster, Chris Roberts
@@ -18,10 +18,10 @@ sources:
     args:
       chunks: {}
       consolidated: true
-      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_cyc.zarr
+      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/hist-1950/v20240304/atmos/gr025/2D_daily_avg/composites_rot_cyc.zarr
     driver: zarr
     metadata:
-      title: Eddy composites of IFS-FESOM EERIE run, control-1950, cyclonic, Southern Ocean
+      title: Eddy composites of IFS-FESOM EERIE hist-1950, cyclonic, Southern Ocean
       summary: Composites of Southern Ocean eddies
       license: Creative Commons CC BY 4.0. https://creativecommons.org/licenses/by/4.0/
       creator_name: Matthias Aengenheyster, Chris Roberts
@@ -30,10 +30,10 @@ sources:
     args:
       chunks: {}
       consolidated: true
-      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_acyc.zarr
+      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/hist-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_acyc.zarr
     driver: zarr
     metadata:
-      title: Eddy composites of IFS-FESOM EERIE run, control-1950, anticyclonic, Gulf Stream
+      title: Eddy composites of IFS-FESOM EERIE hist-1950, anticyclonic, Gulf Stream
       summary: Composites of Southern Ocean eddies
       license: Creative Commons CC BY 4.0. https://creativecommons.org/licenses/by/4.0/
       creator_name: Matthias Aengenheyster, Chris Roberts
@@ -42,10 +42,10 @@ sources:
     args:
       chunks: {}
       consolidated: true
-      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/eerie-control-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_cyc.zarr
+      urlpath: https://s3.eu-dkrz-1.dkrz.cloud/bm1344/composites/ifs-fesom2-sr/hist-1950/v20240304/atmos/gr025/2D_daily_avg/composites_GS_rot_cyc.zarr
     driver: zarr
     metadata:
-      title: Eddy composites of IFS-FESOM EERIE run, control-1950, cyclonic, Gulf Stream
+      title: Eddy composites of IFS-FESOM EERIE hist-1950, cyclonic, Gulf Stream
       summary: Composites of Southern Ocean eddies
       license: Creative Commons CC BY 4.0. https://creativecommons.org/licenses/by/4.0/
       creator_name: Matthias Aengenheyster, Chris Roberts

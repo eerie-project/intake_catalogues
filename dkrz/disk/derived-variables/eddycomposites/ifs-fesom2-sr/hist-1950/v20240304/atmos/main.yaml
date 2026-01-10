@@ -1,0 +1,5 @@
+sources:
+  gr025:
+    args:
+      path: "{{CATALOG_DIR}}/gr025/main.yaml"
+    driver: yaml_file_cat
