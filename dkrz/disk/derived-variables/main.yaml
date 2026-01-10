@@ -1,8 +1,8 @@
 sources:
-  dataviewer:
-    args:
-      path: "{{CATALOG_DIR}}/dataviewer/main.yaml"
-    driver: yaml_file_cat
+#  dataviewer:
+#    args:
+#      path: "{{CATALOG_DIR}}/dataviewer/main.yaml"
+#    driver: yaml_file_cat
   eddytracks:
     args:
       path: "{{CATALOG_DIR}}/eddytracks/main.yaml"
@@ -12,31 +12,31 @@ sources:
       path: "{{CATALOG_DIR}}/eddycomposites/main.yaml"
     driver: yaml_file_cat
 
-  crossSSTgrad_dm:
-    args:
-      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/crossSSTgrad/dm/*.nc
-      xarray_kwargs:
-        compat: override
-        coords: minimal
-    driver: netcdf
-  downSSTgrad_dm:
-    args:
-      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/downSSTgrad/dm/*.nc
-      xarray_kwargs:
-        compat: override
-        coords: minimal
-    driver: netcdf
-  taudiv_dm:
-    args:
-      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/taudiv/dm/*.nc
-      xarray_kwargs:
-        compat: override
-        coords: minimal
-    driver: netcdf
-  taucurl_dm:
-    args:
-      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/taucurl/dm/*.nc
-      xarray_kwargs:
-        compat: override
-        coords: minimal
-    driver: netcdf
+#  crossSSTgrad_dm:
+#    args:
+#      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/crossSSTgrad/dm/*.nc
+#      xarray_kwargs:
+#        compat: override
+#        coords: minimal
+#    driver: netcdf
+#  downSSTgrad_dm:
+#    args:
+#      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/downSSTgrad/dm/*.nc
+#      xarray_kwargs:
+#        compat: override
+#        coords: minimal
+#    driver: netcdf
+#  taudiv_dm:
+#    args:
+#      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/taudiv/dm/*.nc
+#      xarray_kwargs:
+#        compat: override
+#        coords: minimal
+#    driver: netcdf
+#  taucurl_dm:
+#    args:
+#      urlpath: /work/mh0287/m300466/EERIE/erc1011/SSTgrad_TAUdivcurl/taucurl/dm/*.nc
+#      xarray_kwargs:
+#        compat: override
+#        coords: minimal
+#    driver: netcdf

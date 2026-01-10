@@ -127,7 +127,7 @@ sources:
         default: avg_so
         description: All available variables in the dataset
         type: str
-  3D_monthly_avg_elems:
+  3D_monthly_avg:
     args:
       chunks: auto
       consolidated: false

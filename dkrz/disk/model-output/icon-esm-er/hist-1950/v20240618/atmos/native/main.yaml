@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_1h_inst.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_1h_inst.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -61,7 +61,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_1h_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_1h_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -116,7 +116,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_3h_inst.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_3h_inst.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -173,7 +173,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_6h_inst.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_6h_inst.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -232,7 +232,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_6h_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_6h_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -287,7 +287,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_daily_max.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_daily_max.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -344,7 +344,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_daily_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_daily_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -419,7 +419,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_daily_min.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_daily_min.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -475,7 +475,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_2d_monthly_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_monthly_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -562,7 +562,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_model-level_daily_mean_1.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_model-level_daily_mean_1.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -620,7 +620,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_model-level_daily_mean_2.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_model-level_daily_mean_2.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -678,7 +678,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_model-level_monthly_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_model-level_monthly_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -739,7 +739,7 @@ sources:
   mon:
     args:
       chunks: auto
-      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_mon.zarr.zip
+      urlpath: zip:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_mon.zarr.zip
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -809,7 +809,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/hist-1950/v20240618/erc2020_atmos_native_pl_6h_inst.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_pl_6h_inst.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2

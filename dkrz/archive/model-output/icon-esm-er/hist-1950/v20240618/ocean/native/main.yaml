@@ -1,0 +1,100 @@
+sources:
+  2d_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_mean_slk.parq
+    driver: zarr
+  2d_daily_square:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_square_slk.parq
+    driver: zarr
+  2d_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_mean_slk.parq
+    driver: zarr
+  2d_monthly_square:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_square_slk.parq
+    driver: zarr
+  5lev_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_5lev_daily_mean_slk.parq
+    driver: zarr
+  eddy_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_eddy_monthly_mean_slk.parq
+    driver: zarr
+  model-level_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_daily_mean_slk.parq
+    driver: zarr
+  model-level_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_monthly_mean_slk.parq
+    driver: zarr
+  ocean_native_mon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-control-1950/v20240618/ocean_native_ocean_native_mon_slk.parq
+    driver: zarr

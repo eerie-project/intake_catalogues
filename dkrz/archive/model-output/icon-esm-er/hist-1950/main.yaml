@@ -1,0 +1,6 @@
+sources:
+  v20240618:
+    args:
+      path: "{{CATALOG_DIR}}/v20240618/main.yaml"
+    description: ICON-ESM-ER output available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/DKRZ/kerchunks
+    driver: yaml_file_cat 

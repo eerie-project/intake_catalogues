@@ -1,0 +1,6 @@
+sources:
+  atmos:
+    args:
+      path: "{{CATALOG_DIR}}/atmos/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat

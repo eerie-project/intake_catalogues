@@ -82,7 +82,7 @@ sources:
     driver: zarr  
   Omon:
     args:
-      chunks: null
+      chunks: auto
       consolidated: false
       storage_options:
         lazy: true

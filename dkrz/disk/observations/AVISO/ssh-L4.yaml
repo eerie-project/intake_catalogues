@@ -3,12 +3,23 @@ plugins:
     - module: intake_xarray
 
 sources:
-  daily:
+  daily_two:
     description: AVISO ssh vDT2021    
     driver: zarr
     args:
+      chunks: auto
       consolidated: False
       compat: override
       combine: nested
       urlpath: 
       - reference::/work/bm1344/k202193/Kerchunk/Obs/AVISO.parq
+  daily_multi:
+    description: AVISO ssh vDT2024    
+    driver: zarr
+    args:
+      chunks: auto
+      consolidated: False
+      compat: override
+      combine: nested
+      urlpath: 
+      - reference::/work/bm1344/k202193/Kerchunk/Obs/aviso_allsat.parq

@@ -1,0 +1,155 @@
+sources:
+  2d_1h_inst:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_1h_inst_slk.parq
+    driver: zarr
+  2d_1h_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_1h_mean_slk.parq
+    driver: zarr
+  2d_3h_inst:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_3h_inst_slk.parq
+    driver: zarr
+  2d_6h_inst:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_6h_inst_slk.parq
+    driver: zarr
+  2d_6h_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_6h_mean_slk.parq
+    driver: zarr
+  2d_daily_max:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_daily_max_slk.parq
+    driver: zarr
+  2d_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_daily_mean_slk.parq
+    driver: zarr
+  2d_daily_min:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_daily_min_slk.parq
+    driver: zarr
+  2d_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_2d_monthly_mean_slk.parq
+    driver: zarr
+  atmos_native_mon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_atmos_native_mon_slk.parq
+    driver: zarr
+  model-level_daily_mean_1:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_model-level_daily_mean_1_slk.parq
+    driver: zarr
+  model-level_daily_mean_2:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_model-level_daily_mean_2_slk.parq
+    driver: zarr
+  model-level_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_model-level_monthly_mean_slk.parq
+    driver: zarr
+  pl_6h_inst:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/hist-1950/v20240618/atmos_native_pl_6h_inst_slk.parq
+    driver: zarr

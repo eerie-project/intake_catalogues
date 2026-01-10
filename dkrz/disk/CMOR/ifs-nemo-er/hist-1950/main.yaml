@@ -1,0 +1,6 @@
+sources:
+  v20250516:
+    args:
+      path: "{{CATALOG_DIR}}/v20250516/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output available at DKRZ disk; v1.
+    driver: yaml_file_cat

@@ -1,0 +1,8 @@
+sources:
+  native:
+    args:
+      path: "{{CATALOG_DIR}}/native/main.yaml"
+    description: This catalog contains oceanic EERIE ICON-ESM-ER eerie-spinup-1950 output on native grid available at DKRZ disk.
+    driver: yaml_file_cat
+
+

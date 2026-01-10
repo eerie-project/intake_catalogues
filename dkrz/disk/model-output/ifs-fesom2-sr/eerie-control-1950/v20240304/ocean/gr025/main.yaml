@@ -1,12 +1,12 @@
 sources:
-  2D_daily_avg_1950-2014:
+  2D_daily_avg_1950-2050:
     args:
       chunks: auto
       consolidated: false
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/2D_daily_avg_1950-2014.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/2D_daily_avg_1950-2050.parquet
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -67,14 +67,14 @@ sources:
         default: avg_mlotst125
         description: All available variables in the dataset
         type: str
-  2D_daily_avg_1984-2014:
+  2D_daily_avg_1984-2050:
     args:
       chunks: auto
       consolidated: false
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/2D_daily_avg_1984-2014.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/2D_daily_avg_1984-2050.parquet
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -119,14 +119,14 @@ sources:
         default: avg_mlotst030
         description: All available variables in the dataset
         type: str
-  2D_daily_avg_2000-2014:
+  2D_daily_avg_2000-2050:
     args:
       chunks: auto
       consolidated: false
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/2D_daily_avg_2000-2014.parq
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/2D_daily_avg_2000-2050.parquet
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)

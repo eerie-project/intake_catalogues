@@ -82,7 +82,7 @@ sources:
     driver: zarr  
   Omon:
     args:
-      chunks: null
+      chunks: auto
       consolidated: false
       storage_options:
         lazy: true
@@ -96,7 +96,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/cmor/IICON-ESM-ER_highres-future-ssp245_SIday.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/cmor/ICON-ESM-ER_highres-future-ssp245_SIday.parquet
     driver: zarr
   SImon:
     args:

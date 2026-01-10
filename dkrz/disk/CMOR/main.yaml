@@ -2,10 +2,15 @@ sources:
   icon-esm-er:
     args:
       path: "{{CATALOG_DIR}}/icon-esm-er/main.yaml"
-    description: CMORized ICON-ESM-ER test output for publication on ESGF
+    description: CMORized ICON-ESM-ER output for publication on ESGF
     driver: yaml_file_cat
   ifs-fesom2-sr:
     args:
       path: "{{CATALOG_DIR}}/ifs-fesom2-sr/main.yaml"
-    description: CMORized IFS-FESOM2 test output for publication on ESGF
+    description: CMORized IFS-FESOM2 output for publication on ESGF
+    driver: yaml_file_cat
+  ifs-nemo-er:
+    args:
+      path: "{{CATALOG_DIR}}/ifs-nemo-er/main.yaml"
+    description: CMORized IFS-NEMO-ER output for publication on ESGF
     driver: yaml_file_cat

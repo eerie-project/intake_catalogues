@@ -17,5 +17,5 @@ sources:
   derived-variables:
     args:
       path: "{{CATALOG_DIR}}/derived-variables/main.yaml"
-    description: Derived variables computed from model output.
-    driver: yaml_file_cat
+    description: Products of EERIE Earth System Model output available on DKRZ's Levante File System.
+    driver: yaml_file_cat    

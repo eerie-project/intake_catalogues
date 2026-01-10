@@ -4,9 +4,9 @@ sources:
       path: "{{CATALOG_DIR}}/gr025/main.yaml"
     description: This catalog contains atmospheric EERIE ICON-ESM-ER eerie-control-1950 output on regular grid available at DKRZ disk.
     driver: yaml_file_cat
-  native:
-    args:
-      path: "{{CATALOG_DIR}}/native/main.yaml"
-    description: This catalog contains atmospheric EERIE ICON-ESM-ER eerie-control-1950 output on native grid available at DKRZ disk.
-    driver: yaml_file_cat
+# native:
+    #args:
+    #  path: "{{CATALOG_DIR}}/native/main.yaml"
+    #description: This catalog contains atmospheric EERIE ICON-ESM-ER eerie-control-1950 output on native grid available at DKRZ disk.
+    #driver: yaml_file_cat
 
