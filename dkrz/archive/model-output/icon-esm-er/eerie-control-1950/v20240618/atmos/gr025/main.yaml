@@ -7,7 +7,7 @@ sources:
         lazy: true
         remote_options:
           slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
-        remote_protocol: slk
+        remote_protocol: slk    
       urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/atm_2d_1d_max_remap025.parquet
     driver: zarr
   2d_daily_mean:
