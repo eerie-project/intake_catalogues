@@ -74,7 +74,8 @@ sources:
         remote_options:
           slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1mth_mean_vertical-remap025.parquet    
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1mth_mean_vertical-remap025.parquet 
+    driver: zarr      
   2d_monthly_square:
     args:
       chunks: auto
@@ -96,7 +97,6 @@ sources:
           slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
         remote_protocol: slk
       urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_ml_1mth_mean_remap025.parquet
-    driver: zarr
     driver: zarr
   ml_monthly_mean_w:
     args:
