@@ -97,7 +97,6 @@ sources:
         remote_protocol: slk
       urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_ml_1mth_mean_remap025.parquet
     driver: zarr
-    driver: zarr
   ml_monthly_mean_w:
     args:
       chunks: auto
