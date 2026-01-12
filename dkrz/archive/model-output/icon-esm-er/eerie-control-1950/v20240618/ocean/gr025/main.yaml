@@ -1,0 +1,115 @@
+sources:
+  2d_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: slk        
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1d_mean_remap025.parquet
+    driver: zarr
+  2d_daily_mean_vertical:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1d_mean_vertical-remap025.parquet
+    driver: zarr  
+  2d_daily_square:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1d_square_remap025.parquet
+    driver: zarr  
+  5lev_daily_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_5lev_1d_mean_remap025.parquet
+    driver: zarr
+  5lev_daily_mean_w:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_5lev_1d_mean_w_remap025.parquet
+    driver: zarr       
+  2d_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1mth_mean_remap025.parquet
+    driver: zarr
+  2d_monthly_mean_w:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1mth_mean_vertical-remap025.parquet    
+  2d_monthly_square:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_2d_1mth_square_remap025.parquet
+    driver: zarr        
+  ml_monthly_mean:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_ml_1mth_mean_remap025.parquet
+    driver: zarr
+    driver: zarr
+  ml_monthly_mean_w:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: "/scratch/{{ env(USER)[0] }}/{{ env(USER) }}/INTAKE_CACHE"
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/control_new_set/archived_ICON_control/oce_ml_1mth_mean_w_remap025.parquet
+    driver: zarr
+
+
+
+    
