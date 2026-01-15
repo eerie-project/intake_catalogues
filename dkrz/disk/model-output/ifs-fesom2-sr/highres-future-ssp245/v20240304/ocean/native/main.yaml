@@ -112,7 +112,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2050-12-31T12:00:00.000000000'
+      time_max: '2070-12-31T00:00:00.000000000'
       time_min: '2015-01-01T12:00:00.000000000'
       variable-long_names:
       - Time-mean sea water practical salinity
@@ -172,7 +172,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2050-12-31T12:00:00.000000000'
+      time_max: '2070-12-16T00:00:00.000000000'
       time_min: '2015-01-01T12:00:00.000000000'
       variable-long_names:
       - Time-mean sea water practical salinity
