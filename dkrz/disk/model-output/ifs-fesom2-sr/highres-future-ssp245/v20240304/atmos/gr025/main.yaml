@@ -40,7 +40,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Mean convective precipitation rate
@@ -176,7 +176,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Maximum 10 metre wind gust since previous post-processing
@@ -230,7 +230,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Minimum temperature at 2 metres in the last 24 hours
@@ -282,7 +282,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Mean convective precipitation rate
@@ -418,7 +418,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Maximum 10 metre wind gust since previous post-processing
@@ -472,7 +472,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Minimum temperature at 2 metres since previous post-processing
@@ -524,7 +524,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Time-mean specific humidity
@@ -588,7 +588,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T12:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Time-mean specific humidity
@@ -652,7 +652,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T18:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Specific humidity
@@ -716,7 +716,7 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
+      time_max: '2070-12-31T21:00:00.000000000'
       time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Convective precipitation
@@ -810,8 +810,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_highres-future-ssp245
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2039-12-31T21:00:00.000000000'
-      time_min: '2015-01-01T03:00:00.000000000'
+      time_max: '2070-12-31T18:00:00.000000000'
+      time_min: '2015-01-01T06:00:00.000000000'
       variable-long_names:
       - 10 metre wind speed
       - 10 metre U wind component
