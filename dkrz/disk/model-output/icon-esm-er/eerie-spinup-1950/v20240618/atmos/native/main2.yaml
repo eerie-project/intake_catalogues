@@ -1,0 +1,336 @@
+aliases: {}
+data:
+  1a92787711263168:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_2d_daily_mean.parq
+    metadata: {}
+    user_parameters: {}
+  3681c58c43477a94:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_2d_daily_max.parq
+    metadata: {}
+    user_parameters: {}
+  412979a6fbfd5715:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  57f1a1a1991d69df:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_atm_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  9e95331f39aa9000:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_2d_daily_max.parq
+    metadata: {}
+    user_parameters: {}
+  b7bcc60ee08602b8:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_2d_daily_min.parq
+    metadata: {}
+    user_parameters: {}
+  b864963d36a23be9:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_2d_daily_min.parq
+    metadata: {}
+    user_parameters: {}
+  ce776d87c0cf3fdd:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_pp_batched/ICON/eerie-spinup-1950/v20240618/atmos_native_2d_daily_mean.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_daily_max:
+    kwargs:
+      args:
+      - '{data(3681c58c43477a94)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1095839'
+      time_min: '-1'
+      time_reduction: max
+      title: ICON simulation
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - relative humidity
+      - 10m windspeed
+      - temperature in 2m
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_max_parquet_0:
+    kwargs:
+      args:
+      - '{data(9e95331f39aa9000)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_mean:
+    kwargs:
+      args:
+      - '{data(ce776d87c0cf3fdd)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1095839'
+      time_min: '-1'
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - total cloud cover
+      - evaporation
+      - latent heat flux
+      - sensible heat flux
+      - relative humidity
+      - specific humidity in 2m
+      - precipitation flux
+      - water vapor path
+      - surface pressure
+      - mean sea level pressure
+      - rain path
+      - surface downwelling longwave radiation
+      - surface upwelling longwave radiation
+      - toa outgoing longwave radiation
+      - surface downwelling shortwave radiation
+      - surface upwelling shortwave radiation
+      - 10m windspeed
+      - temperature in 2m
+      - surface temperature
+      - zonal wind in 10m
+      - meridional wind in 10m
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(1a92787711263168)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_min:
+    kwargs:
+      args:
+      - '{data(b7bcc60ee08602b8)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1095839'
+      time_min: '-1'
+      time_reduction: min
+      title: ICON simulation
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - relative humidity
+      - temperature in 2m
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_min_parquet_0:
+    kwargs:
+      args:
+      - '{data(b864963d36a23be9)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  mon:
+    kwargs:
+      args:
+      - '{data(57f1a1a1991d69df)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2148479'
+      time_min: '-1'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_atm_mon_19500201T000000Z.nc
+      variable-long_names:
+      - mean vertically integrated moist internal energy change by physics
+      - global mean evaporation flux
+      - mean surface freshwater flux over ocean surface
+      - mean vert. integr. dissip. kin. energy
+      - global mean precipitation flux
+      - global mean net radiative flux into atmosphere
+      - global mean toa net total radiation
+      - global mean toa outgoing longwave radiation
+      - global mean toa incident shortwave radiation
+      - global mean toa outgoing shortwave radiation
+      - global mean temperature at 2m
+      - mean vertically integrated moist internal energy after dynamics
+      - mean energy flux at surface from condensate
+      - mean energy flux at surface from thermal exchange
+      - mean energy flux at surface from vapor exchange
+      - mean energy balance in aes physics
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  mon_parquet_0:
+    kwargs:
+      args:
+      - '{data(412979a6fbfd5715)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

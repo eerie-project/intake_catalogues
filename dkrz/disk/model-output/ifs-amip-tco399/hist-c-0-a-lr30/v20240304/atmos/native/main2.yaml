@@ -1,0 +1,42 @@
+aliases: {}
+data:
+  20c41b601714e5b4:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/intake_catalogues//work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr30/v20240304/atmos/native/2D_6h.parq
+    metadata: {}
+    user_parameters: {}
+  7319e4abe56ee9f1:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/intake_catalogues//work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco399/hist-c-0-a-lr30/v20240304/atmos/native/2D_6h.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_6h:
+    kwargs:
+      args:
+      - '{data(20c41b601714e5b4)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_6h_parquet_0:
+    kwargs:
+      args:
+      - '{data(7319e4abe56ee9f1)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

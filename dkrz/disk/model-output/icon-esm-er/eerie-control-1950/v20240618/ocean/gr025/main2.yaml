@@ -1,0 +1,1126 @@
+aliases: {}
+data:
+  1757ed081bdf3c82:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  20da2c6dd3f83938:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_eddy_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  33e10411a1e77774:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  398b5eed42f4c7ed:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  3ba3a6d00ba81707:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_5lev_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  3d4c8f2c010d6956:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_eddy_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  499f76f3bf3eed1f:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  5c5b263dd82d38d6:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_ml_1mth_mean_w_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  7248fa7daf3d6185:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/v20240618/ocean/gr025/oce_2d_1d_mean_gr025_sst.parq
+    metadata: {}
+    user_parameters: {}
+  73b496c8a4c45898:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+  84d64e1cc7d33267:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_5lev_1d_mean_w_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  8e5ef7a9d69c05ec:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_5lev_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  8eae4d642ee2ff2a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_ml_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  948547c7b1254a98:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+  9bf2f008ebf10c68:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/v20240618/ocean/gr025/oce_2d_1d_mean_gr025_sst.parq
+    metadata: {}
+    user_parameters: {}
+  a94af02fc5eee568:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  a9e44964b3628205:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  c43682061aead50b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_ml_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  c5d6678d10ac22de:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+  e536f4c95dc95dea:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  e6f874e26b2416e7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1d_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+  e745fffab7619dd8:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_5lev_1d_mean_w_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  f03e6241dbceef3b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_ml_1mth_mean_w_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  fd76c953527f3f67:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/control_1950/v20240618/oce_2d_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_daily_mean:
+    kwargs:
+      args:
+      - '{data(e536f4c95dc95dea)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 10
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Tue Jun 10 20:35:13 2025: cdo -L -P 10 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,,atmos_fluxes_FrshFlux_Evaporation,atmos_fluxes_FrshFlux_Precipitation,atmos_fluxes_FrshFlux_Runoff,atmos_fluxes_FrshFlux_SnowFall,atmos_fluxes_HeatFlux_Latent,atmos_fluxes_HeatFlux_Sensible,atmos_fluxes_HeatFlux_LongWave,atmos_fluxes_HeatFlux_ShortWave,atmos_fluxes_HeatFlux_Total,atmos_fluxes_stress_x,atmos_fluxes_stress_y,atmos_fluxes_stress_xw,atmos_fluxes_stress_yw,conc,hi,hs,ice_u,ice_v,delhi,delhs,newice,snow_to_ice,FrshFlux_IceSalt,FrshFlux_TotalIce,mlotst,mlotst10,ssh,sea_level_pressure,Wind_Speed_10m,stretch_c,to,so,u,v
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_2d_1d_mean_19910101T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/control_all/oce_2d_1d_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_2d_1d_mean_remap025_19910101T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - Salt volume flux due to sea ice change
+      - Freshwater Flux due to Sea Ice Change
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - ice concentration in each ice class
+      - Change in ice mean thickness due to thermodynamic effects
+      - Change in mean snow thickness due to thermodynamic melting
+      - ice thickness
+      - snow thickness
+      - zonal velocity
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - new ice growth in open water
+      - Sea Level Pressure
+      - amount of snow that is transformed to ice
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(1757ed081bdf3c82)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_mean_sst_50year:
+    kwargs:
+      args:
+      - '{data(9bf2f008ebf10c68)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      variable-long_names:
+      - sea surface temperature
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_sst_50year_parquet_0:
+    kwargs:
+      args:
+      - '{data(7248fa7daf3d6185)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_mean_vertical:
+    kwargs:
+      args:
+      - '{data(c5d6678d10ac22de)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 5
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Fri Jun 06 18:07:44 2025: cdo -L -P 5 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm_edge.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc:2
+        -selname,verticallyTotal_mass_flux_e /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_2d_1d_mean_19910101T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm_edge.nc
+        ] /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/control_all/oce_2d_1d_mean_vertical-remap025/run_19910101T000000-19910131T235900/erc2002_oce_2d_1d_mean_remap025_19910101T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - vertically integrated mass flux at edges
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_vertical_parquet_0:
+    kwargs:
+      args:
+      - '{data(e6f874e26b2416e7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_square:
+    kwargs:
+      args:
+      - '{data(33e10411a1e77774)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 10
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Fri Jun 06 17:06:39 2025: cdo -L -P 10 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,,to /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_2d_1d_square_19910101T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/control_all/oce_2d_1d_square_remap025/run_19910101T000000-19910131T235900/erc2002_oce_2d_1d_square_remap025_19910101T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - sea water potential temperature
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_square_parquet_0:
+    kwargs:
+      args:
+      - '{data(398b5eed42f4c7ed)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_mean:
+    kwargs:
+      args:
+      - '{data(a94af02fc5eee568)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      cdo_openmp_thread_number: 10
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      history: 'Thu Jun 05 15:00:09 2025: cdo -L -P 10 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,,ssh,to,so,mlotst,mlotst10,atmos_fluxes_HeatFlux_Total,atmos_fluxes_stress_xw,atmos_fluxes_stress_yw,atmos_fluxes_FrshFlux_Evaporation,atmos_fluxes_FrshFlux_Precipitation,atmos_fluxes_FrshFlux_Runoff,atmos_fluxes_FrshFlux_SnowFall,atmos_fluxes_HeatFlux_Latent,atmos_fluxes_HeatFlux_Sensible,atmos_fluxes_HeatFlux_LongWave,atmos_fluxes_HeatFlux_ShortWave,atmos_fluxes_stress_x,atmos_fluxes_stress_y,Qtop,Qbot,heat_content_seaice,heat_content_snow,heat_content_total,conc,hi,hs,delhi,delhs,ice_u,ice_v,newice,snow_to_ice,heatOceW,heatOceI,FrshFlux_IceSalt,FrshFlux_TotalIce,sea_level_pressure,Wind_Speed_10m,stretch_c
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_2d_1mth_mean_19910201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/what/oce_2d_1mth_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_2d_1mth_mean_remap025_19910201T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      references: see MPIM/DWD publications
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@1ede179e570e3033b58d096d41585f72eb8e6821
+      title: ICON simulation
+      variable-long_names:
+      - Salt volume flux due to sea ice change
+      - Freshwater Flux due to Sea Ice Change
+      - Conductive heat flux at ice-ocean interface
+      - Energy flux available for surface melting
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - ice concentration in each ice class
+      - Change in ice mean thickness due to thermodynamic effects
+      - Change in mean snow thickness due to thermodynamic melting
+      - Heat flux to ocean from the ice growth
+      - Heat flux to ocean from the atmosphere
+      - heat_content_seaice
+      - heat_conten_snow
+      - heat_content_total
+      - ice thickness
+      - snow thickness
+      - zonal velocity
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - new ice growth in open water
+      - Sea Level Pressure
+      - amount of snow that is transformed to ice
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(fd76c953527f3f67)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_mean_vertical:
+    kwargs:
+      args:
+      - '{data(948547c7b1254a98)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 5
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Wed Jun 04 10:28:30 2025: cdo -L -P 5 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm_edge.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc:2
+        -selname,verticallyTotal_mass_flux_e /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_2d_1mth_mean_19910201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm_edge.nc
+        ] /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/control_1950/oce_2d_1mth_mean_vertical-remap025/run_19910101T000000-19910131T235900/erc2002_oce_2d_1mth_mean_remap025_19910201T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - vertically integrated mass flux at edges
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_mean_vertical_parquet_0:
+    kwargs:
+      args:
+      - '{data(73b496c8a4c45898)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_square:
+    kwargs:
+      args:
+      - '{data(a9e44964b3628205)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      cdo_openmp_thread_number: 10
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      history: 'Fri Jun 06 16:34:00 2025: cdo -L -P 10 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,,ssh,mlotst,mlotst10,to /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_2d_1mth_square_19910201T000000Z.nc
+        /work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_lsm.nc ]
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/what/oce_2d_1mth_square_remap025/run_19910101T000000-19910131T235900/erc2002_oce_2d_1mth_square_remap025_19910201T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      references: see MPIM/DWD publications
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@1ede179e570e3033b58d096d41585f72eb8e6821
+      title: ICON simulation
+      variable-long_names:
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - surface elevation at cell center
+      - sea water potential temperature
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_square_parquet_0:
+    kwargs:
+      args:
+      - '{data(499f76f3bf3eed1f)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  5lev_daily_mean:
+    kwargs:
+      args:
+      - '{data(3ba3a6d00ba81707)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Mon Jul 07 14:36:40 2025: cdo delvar,w /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/control_1950/oce_5lev_1d_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_5lev_1d_mean_remap025_19910102T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/test/no_w/oce_5lev_1d_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_5lev_1d_mean_remap025_19910102T000000Z.nc
+
+        Wed Jun 11 12:51:15 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm_3d.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,to,so,u,v /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_5lev_1d_mean_19910102T000000Z.nc
+        -sellevel,,1,50.55,201.8,617.1,997.9,1451.7 -selname,wet_c /pool/data/ICON/oes/input/r0005/OceanOnly_IcosSymmetric_4932m_rotatedZ37d_modified_srtm30_1min/L72/exp.ocean_era51h_zstar_r2b9_23075-ERA_fx_20100101T000200Z.nc
+        ] /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/control_all/oce_5lev_1d_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_5lev_1d_mean_remap025_19910102T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  5lev_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(8e5ef7a9d69c05ec)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  5lev_daily_mean_w:
+    kwargs:
+      args:
+      - '{data(84d64e1cc7d33267)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 20
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Tue Jul 15 09:14:12 2025: cdo -L -P 20 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/k202193/Regrid/ICON_hist/Vertical_V/weights_oce_w.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,w /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_5lev_1d_mean_19910102T000000Z.nc
+        -sellevel,,0,47,191.6,592.9,967.5,1401.6 -selname,wet_c_interface /work/bm1344/k202193/Regrid/ICON_erc2002_control/updated/wet_c_interface.nc
+        ] /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/w/again/oce_5lev_1d_mean_w_remap025/run_19910101T000000-19910131T235900/erc2002_oce_5lev_1d_mean_w_remap025_19910102T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - vertical velocity at cells
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  5lev_daily_mean_w_parquet_0:
+    kwargs:
+      args:
+      - '{data(e745fffab7619dd8)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  eddy_monthly_mean:
+    kwargs:
+      args:
+      - '{data(3d4c8f2c010d6956)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-07-08T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      variable-long_names:
+      - square of density
+      - square of salinity
+      - square of temperature
+      - product of fw flux and density
+      - product of net heatflux and density
+      - density anomaly
+      - product of x windstress and u-velocity
+      - product of y windstress and v-velocity
+      - product of zonal velocity and density
+      - product of zonal velocity and salinity
+      - product of zonal velocity and temperature
+      - square of zonal velocity
+      - product of zonal velocity and meridional velocity
+      - product of zonal velocity and vertical velocity
+      - product of meridional velocity and density
+      - product of meridional velocity and salinity
+      - product of meridional velocity and temperature
+      - square of meridional velocity
+      - product of meridional velocity and vertical velocity
+      - product of vertical velocity and density
+      - product of vertical velocity and salinity
+      - product of vertical velocity and temperature
+      - vertical velocity at prism center
+      - square of vertical velocity
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  eddy_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(20da2c6dd3f83938)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  ml_1mth_mean:
+    kwargs:
+      args:
+      - '{data(8eae4d642ee2ff2a)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Thu Jun 12 12:38:00 2025: cdo delvar,w /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/test/oce_ml_1mth_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_remap025_19910201T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/test/no_w/oce_ml_1mth_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_remap025_19910201T000000Z.nc
+
+        Wed Jun 04 13:43:00 2025: cdo -O merge /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/test/oce_ml_1mth_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_remap025_19910201T000000Z.nc_70_temp.nc
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/test/oce_ml_1mth_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_remap025_19910201T000000Z.nc_71_temp.nc
+        /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/test/oce_ml_1mth_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_remap025_19910201T000000Z.nc_temp.nc
+
+        Wed Jun 04 13:21:47 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b9O_IFS25invertlat_yconremapweights_lsm_3d.nc
+        -seltimestep,1 -div [ -selname,to,so,u,v,rsdoabsorb -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_19910201T000000Z.nc
+        -selname,wet_c /pool/data/ICON/oes/input/r0005/OceanOnly_IcosSymmetric_4932m_rotatedZ37d_modified_srtm30_1min/L72/exp.ocean_era51h_zstar_r2b9_23075-ERA_fx_20100101T000200Z.nc
+        ] /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/test/oce_ml_1mth_mean_remap025/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_remap025_19910201T000000Z.nc_70_temp.nc
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - Net Rate of Absorption of Shortwave Energy in Ocean Layer
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  ml_1mth_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(c43682061aead50b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  ml_1mth_mean_w:
+    kwargs:
+      args:
+      - '{data(5c5b263dd82d38d6)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40695 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-28T14:09:13'
+      data_specs_version: 01.00.32
+      experiment: coupled control with fixed 1950's forcing (HighResMIP equivalent
+        of pre-industrial control)
+      experiment_id: eerie-control-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Tue Jul 15 14:24:11 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/k202193/Regrid/ICON_hist/Vertical_V/weights_oce_w.nc
+        -div [ -setgrid,/pool/data/ICON/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+        -selname,w /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_19910201T000000Z.nc
+        -selname,wet_c_interface /work/bm1344/k202193/Regrid/ICON_erc2002_control/updated/wet_c_interface.nc
+        ] /work/bm1344/k202193/ICON/erc2002/postprocessing/interpolation/w/again/oce_ml_1mth_mean_w_remap025/run_19910101T000000-19910131T235900/erc2002_oce_ml_1mth_mean_w_remap025_19910201T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2002/run_19910101T000000-19910131T235900/./icon
+        at 20240528 122055'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: EERIE
+      parent_experiment_id: eerie-spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - Net Rate of Absorption of Shortwave Energy in Ocean Layer
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  ml_1mth_mean_w_parquet_0:
+    kwargs:
+      args:
+      - '{data(f03e6241dbceef3b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

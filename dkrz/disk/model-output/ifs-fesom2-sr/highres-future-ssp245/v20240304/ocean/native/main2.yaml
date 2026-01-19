@@ -1,0 +1,244 @@
+aliases: {}
+data:
+  584c7d381f0f642b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/native/2D_daily_avg.parquet
+    metadata: {}
+    user_parameters: {}
+  a76c60abcf402c6a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/native/3D_monthly_avg_native.parquet
+    metadata: {}
+    user_parameters: {}
+  b4c21c85c6d50421:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/native/3D_monthly_avg_native.parquet
+    metadata: {}
+    user_parameters: {}
+  ce9aaa76c4ff40ff:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/native/3D_daily_avg_native.parquet
+    metadata: {}
+    user_parameters: {}
+  e015bb792d792a92:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/native/2D_daily_avg.parquet
+    metadata: {}
+    user_parameters: {}
+  f0cdcff85336f0e2:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/native/3D_daily_avg_native.parquet
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_daily_avg:
+    kwargs:
+      args:
+      - '{data(584c7d381f0f642b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      grid_label: gn
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      number_of_grid_used: 9
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2070-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      uuidOfHGrid: 7a33ecae-be22-e7d5-ca4a-bbd819a43240
+      variable-long_names:
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.03 kg m-3
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.125 kg m-3
+      - Time-mean sea ice area fraction
+      - Time-mean sea ice growth
+      - Time-mean snow thickness over sea ice
+      - Time-mean sea ice thickness
+      - Time-mean eastward sea ice velocity
+      - Time-mean northward sea ice velocity
+      - Time-mean sea surface practical salinity
+      - Time-mean sea surface temperature
+      - Time-mean sea surface height
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_daily_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(e015bb792d792a92)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_daily_avg:
+    kwargs:
+      args:
+      - '{data(ce9aaa76c4ff40ff)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      NCO: netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      activity_id: EERIE
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      grid_label: gn
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      number_of_grid_used: 9
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean sea water practical salinity
+      - Time-mean sea water potential temperature
+      - Time-mean eastward sea water velocity
+      - Time-mean northward sea water velocity
+      - Time-mean upward sea water velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_daily_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(f0cdcff85336f0e2)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_monthly_avg:
+    kwargs:
+      args:
+      - '{data(b4c21c85c6d50421)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      NCO: netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      activity_id: EERIE
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      frequency: mon
+      grid_label: gn
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      number_of_grid_used: 9
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean sea water practical salinity
+      - Time-mean sea water potential temperature
+      - Time-mean eastward sea water velocity
+      - Time-mean northward sea water velocity
+      - Time-mean upward sea water velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_monthly_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(a76c60abcf402c6a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

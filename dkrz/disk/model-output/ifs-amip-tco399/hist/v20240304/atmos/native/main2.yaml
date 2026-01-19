@@ -1,0 +1,48 @@
+aliases: {}
+data:
+  b47d9255303ecd2d:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/2D_6h_native/json.dir/atm2d.json
+    metadata: {}
+    user_parameters: {}
+  fd40db4a4ce0054b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bk1377/b382473/IFS_AMIP/prepIFS/ESAv3/ESAv3_c_0_a_0/gribscan/2D_6h_native/json.dir/atm2d.json
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_6h:
+    kwargs:
+      args:
+      - '{data(fd40db4a4ce0054b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 1
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagician\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_6h_parquet_0:
+    kwargs:
+      args:
+      - '{data(b47d9255303ecd2d)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

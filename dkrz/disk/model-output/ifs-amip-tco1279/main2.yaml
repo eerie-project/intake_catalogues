@@ -1,0 +1,100 @@
+aliases: {}
+data:
+  171d147dffe28767:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist/v20240901/atmos/gr025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  1d571e2f724664a6:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist-c-0-a-lr20/v20240901/atmos/gr025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  2b8c3295b7ac6649:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist-c-0-a-lr20/v20240901/wave/gr025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  3e2be12f55d1ac58:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist-c-0-a-lr20/v20240901/atmos/native/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  66e2513c9f2dceaf:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist/v20240901/wave/gr025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  6daeec0dfb0712d7:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist/v20240901/atmos/native/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  hist-c-0-a-lr20.v20240901.atmos.gr025:
+    kwargs:
+      args:
+      - '{data(1d571e2f724664a6)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist-c-0-a-lr20.v20240901.atmos.native:
+    kwargs:
+      args:
+      - '{data(3e2be12f55d1ac58)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist-c-0-a-lr20.v20240901.wave.gr025:
+    kwargs:
+      args:
+      - '{data(2b8c3295b7ac6649)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist.v20240901.atmos.gr025:
+    kwargs:
+      args:
+      - '{data(171d147dffe28767)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist.v20240901.atmos.native:
+    kwargs:
+      args:
+      - '{data(6daeec0dfb0712d7)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist.v20240901.wave.gr025:
+    kwargs:
+      args:
+      - '{data(66e2513c9f2dceaf)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco1279/
+    description: ''
+    dtype: str
+version: 2

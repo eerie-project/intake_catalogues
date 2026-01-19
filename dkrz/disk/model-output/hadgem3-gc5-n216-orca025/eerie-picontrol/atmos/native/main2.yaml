@@ -1,0 +1,532 @@
+aliases: {}
+data:
+  070d5f49f291917e:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/HRday_gn_center/combined.parq
+    metadata: {}
+    user_parameters: {}
+  1ac2dc807a1b7d2d:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/AERmon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  25222a45f4bd70f9:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Emon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  4bf224c5f022485a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/AERmon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  538e971038c65440:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/CFday/combined.parq
+    metadata: {}
+    user_parameters: {}
+  5e3203278576f816:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/day_gn_edge/combined.parq
+    metadata: {}
+    user_parameters: {}
+  64225fb1f133a20b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Amon_gn_edge/combined.parq
+    metadata: {}
+    user_parameters: {}
+  6d62253ea64a235c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Emon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  6dc77dec2b19259f:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Amon_gn_edge/combined.parq
+    metadata: {}
+    user_parameters: {}
+  94273ce99a590ab7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/day_gn_center/combined.parq
+    metadata: {}
+    user_parameters: {}
+  a1be00d6c5b069bc:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Amon_gn_center/combined.parq
+    metadata: {}
+    user_parameters: {}
+  aca04a3ce3f3b62a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Amon_gn_center/combined.parq
+    metadata: {}
+    user_parameters: {}
+  b570e33aec57cd94:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/CFday/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/day_gn_center/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/HRday_gn_center/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c93284e8b2c180b7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/day_gn_edge/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  atmos_daily_center:
+    kwargs:
+      args:
+      - '{data(b570e33aec57cd94)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2 UGRID-1.0
+      activity_id: EERIE
+      branch_method: no parent
+      cmor_version: 3.7.2
+      creation_date: '2023-10-10T10:47:54Z'
+      cv_version: EERIE v0.1
+      data_specs_version: 01.00.00
+      experiment: pre-industrial control
+      experiment_id: eerie-piControl
+      external_variables: areacella
+      forcing_index: 1
+      frequency: day
+      further_info_url: none
+      grid: Native N216 grid; 432 x 324 longitude/latitude
+      grid_label: gn
+      history: '2023-10-10T10:47:54Z ; CMOR rewrote data to be consistent with EERIE,
+        CF-1.7 CMIP-6.2 UGRID-1.0 and CF standards.;
+
+        2023-10-10T10:47:51Z MIP Convert v2.6.0.dev0, Python v3.8.17, iris v3.4.1,
+        numpy v1.24.4, cftime v1.6.2, pyproj v3.5.0'
+      initialization_index: 1
+      institution: Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB,
+        UK
+      institution_id: MOHC
+      license: EERIE data produced by MOHC is licensed under the Open Government License
+        v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+      mip_era: EERIE
+      mo_runid: u-cy021
+      nominal_resolution: 100 km
+      parent_experiment_id: no parent
+      physics_index: 1
+      product: model-output
+      realization_index: 1
+      realm: atmos
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM AER
+      sub_experiment: none
+      sub_experiment_id: none
+      table_id: CFday
+      table_info: Creation Date:(08 May 2023) MD5:a078324f20dcc21781e5831d2ef3650c
+      title: HadGEM3-GC5-EERIE-N216-ORCA025 output prepared for EERIE
+      tracking_id: EERIE/53cbd801-c049-4153-9487-49b53e12a9d5
+      variable_id: ps
+      variable_name: ps
+      variant_label: r1i1p1f1
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  atmos_daily_center_parquet_0:
+    kwargs:
+      args:
+      - '{data(538e971038c65440)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atmos_daily_center_parquet_1:
+    kwargs:
+      args:
+      - '{data(94273ce99a590ab7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atmos_daily_center_parquet_2:
+    kwargs:
+      args:
+      - '{data(070d5f49f291917e)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atmos_daily_edge:
+    kwargs:
+      args:
+      - '{data(5e3203278576f816)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2 UGRID-1.0
+      activity_id: EERIE
+      branch_method: no parent
+      cmor_version: 3.7.2
+      creation_date: '2023-10-10T10:47:51Z'
+      cv_version: EERIE v0.1
+      data_specs_version: 01.00.00
+      experiment: pre-industrial control
+      experiment_id: eerie-piControl
+      external_variables: areacella
+      forcing_index: 1
+      frequency: day
+      further_info_url: none
+      grid: Native N216 grid (V points); 432 x 325 longitude/latitude
+      grid_label: gn
+      history: '2023-10-10T10:47:51Z ; CMOR rewrote data to be consistent with EERIE,
+        CF-1.7 CMIP-6.2 UGRID-1.0 and CF standards.;
+
+        2023-10-10T10:47:48Z MIP Convert v2.6.0.dev0, Python v3.8.17, iris v3.4.1,
+        numpy v1.24.4, cftime v1.6.2, pyproj v3.5.0'
+      initialization_index: 1
+      institution: Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB,
+        UK
+      institution_id: MOHC
+      license: EERIE data produced by MOHC is licensed under the Open Government License
+        v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+      mip_era: EERIE
+      mo_runid: u-cy021
+      nominal_resolution: 100 km
+      parent_experiment_id: no parent
+      physics_index: 1
+      product: model-output
+      realization_index: 1
+      realm: atmos
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM AER
+      sub_experiment: none
+      sub_experiment_id: none
+      table_id: day
+      table_info: Creation Date:(08 May 2023) MD5:a078324f20dcc21781e5831d2ef3650c
+      title: HadGEM3-GC5-EERIE-N216-ORCA025 output prepared for EERIE
+      tracking_id: EERIE/03692a5c-b500-44c8-9f73-fd7a3418c477
+      variable_id: vas
+      variable_name: vas
+      variant_label: r1i1p1f1
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  atmos_daily_edge_parquet_0:
+    kwargs:
+      args:
+      - '{data(c93284e8b2c180b7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atmos_monthly_aermon:
+    kwargs:
+      args:
+      - '{data(4bf224c5f022485a)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2 UGRID-1.0
+      activity_id: EERIE
+      branch_method: no parent
+      cmor_version: 3.7.2
+      creation_date: '2023-10-10T10:01:52Z'
+      cv_version: EERIE v0.1
+      data_specs_version: 01.00.00
+      experiment: pre-industrial control
+      experiment_id: eerie-piControl
+      external_variables: areacella
+      forcing_index: 1
+      frequency: mon
+      further_info_url: none
+      grid: Native N216 grid; 432 x 324 longitude/latitude
+      grid_label: gn
+      history: '2023-10-10T10:01:50Z ; CMOR rewrote data to be consistent with EERIE,
+        CF-1.7 CMIP-6.2 UGRID-1.0 and CF standards.;
+
+        2023-10-10T10:01:49Z MIP Convert v2.6.0.dev0, Python v3.8.17, iris v3.4.1,
+        numpy v1.24.4, cftime v1.6.2, pyproj v3.5.0'
+      initialization_index: 1
+      institution: Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB,
+        UK
+      institution_id: MOHC
+      license: EERIE data produced by MOHC is licensed under the Open Government License
+        v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+      mip_era: EERIE
+      mo_runid: u-cy021
+      nominal_resolution: 100 km
+      parent_experiment_id: no parent
+      physics_index: 1
+      product: model-output
+      realization_index: 1
+      realm: aerosol
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM AER
+      sub_experiment: none
+      sub_experiment_id: none
+      table_id: AERmon
+      table_info: Creation Date:(08 May 2023) MD5:a078324f20dcc21781e5831d2ef3650c
+      title: HadGEM3-GC5-EERIE-N216-ORCA025 output prepared for EERIE
+      tracking_id: EERIE/10f14016-a9eb-4e7a-85b2-41d12230d58d
+      variable_id: drydust
+      variable_name: drydust
+      variant_label: r1i1p1f1
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  atmos_monthly_aermon_parquet_0:
+    kwargs:
+      args:
+      - '{data(1ac2dc807a1b7d2d)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atmos_monthly_amon_center:
+    kwargs:
+      args:
+      - '{data(a1be00d6c5b069bc)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2 UGRID-1.0
+      activity_id: EERIE
+      branch_method: no parent
+      cmor_version: 3.7.2
+      creation_date: '2023-10-10T10:05:48Z'
+      cv_version: EERIE v0.1
+      data_specs_version: 01.00.00
+      experiment: pre-industrial control
+      experiment_id: eerie-piControl
+      external_variables: areacella
+      forcing_index: 1
+      frequency: mon
+      further_info_url: none
+      grid: Native N216 grid (U points); 432 x 324 longitude/latitude
+      grid_label: gn
+      history: '2023-10-10T10:05:48Z ; CMOR rewrote data to be consistent with EERIE,
+        CF-1.7 CMIP-6.2 UGRID-1.0 and CF standards.;
+
+        2023-10-10T10:05:48Z MIP Convert v2.6.0.dev0, Python v3.8.17, iris v3.4.1,
+        numpy v1.24.4, cftime v1.6.2, pyproj v3.5.0'
+      initialization_index: 1
+      institution: Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB,
+        UK
+      institution_id: MOHC
+      license: EERIE data produced by MOHC is licensed under the Open Government License
+        v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+      mip_era: EERIE
+      mo_runid: u-cy021
+      nominal_resolution: 100 km
+      parent_experiment_id: no parent
+      physics_index: 1
+      product: model-output
+      realization_index: 1
+      realm: atmos
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM AER
+      sub_experiment: none
+      sub_experiment_id: none
+      table_id: Amon
+      table_info: Creation Date:(08 May 2023) MD5:a078324f20dcc21781e5831d2ef3650c
+      title: HadGEM3-GC5-EERIE-N216-ORCA025 output prepared for EERIE
+      tracking_id: EERIE/58a33d60-3581-4e05-9424-3f751a78f266
+      variable_id: tauu
+      variable_name: tauu
+      variant_label: r1i1p1f1
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  atmos_monthly_amon_center_parquet_0:
+    kwargs:
+      args:
+      - '{data(aca04a3ce3f3b62a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atmos_monthly_amon_edge:
+    kwargs:
+      args:
+      - '{data(6dc77dec2b19259f)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2 UGRID-1.0
+      activity_id: EERIE
+      branch_method: no parent
+      cmor_version: 3.7.2
+      creation_date: '2023-10-10T10:05:48Z'
+      cv_version: EERIE v0.1
+      data_specs_version: 01.00.00
+      experiment: pre-industrial control
+      experiment_id: eerie-piControl
+      external_variables: areacella
+      forcing_index: 1
+      frequency: mon
+      further_info_url: none
+      grid: Native N216 grid (V points); 432 x 325 longitude/latitude
+      grid_label: gn
+      history: '2023-10-10T10:05:48Z ; CMOR rewrote data to be consistent with EERIE,
+        CF-1.7 CMIP-6.2 UGRID-1.0 and CF standards.;
+
+        2023-10-10T10:05:47Z MIP Convert v2.6.0.dev0, Python v3.8.17, iris v3.4.1,
+        numpy v1.24.4, cftime v1.6.2, pyproj v3.5.0'
+      initialization_index: 1
+      institution: Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB,
+        UK
+      institution_id: MOHC
+      license: EERIE data produced by MOHC is licensed under the Open Government License
+        v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+      mip_era: EERIE
+      mo_runid: u-cy021
+      nominal_resolution: 100 km
+      parent_experiment_id: no parent
+      physics_index: 1
+      product: model-output
+      realization_index: 1
+      realm: atmos
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM AER
+      sub_experiment: none
+      sub_experiment_id: none
+      table_id: Amon
+      table_info: Creation Date:(08 May 2023) MD5:a078324f20dcc21781e5831d2ef3650c
+      title: HadGEM3-GC5-EERIE-N216-ORCA025 output prepared for EERIE
+      tracking_id: EERIE/7c2b81bf-125d-4083-a29e-7150bc9fad0b
+      variable_id: tauv
+      variable_name: tauv
+      variant_label: r1i1p1f1
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  atmos_monthly_amon_edge_parquet_0:
+    kwargs:
+      args:
+      - '{data(64225fb1f133a20b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atmos_monthly_emon:
+    kwargs:
+      args:
+      - '{data(6d62253ea64a235c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2 UGRID-1.0
+      activity_id: EERIE
+      branch_method: no parent
+      cmor_version: 3.7.2
+      creation_date: '2023-10-10T10:05:52Z'
+      cv_version: EERIE v0.1
+      data_specs_version: 01.00.00
+      experiment: pre-industrial control
+      experiment_id: eerie-piControl
+      external_variables: areacella
+      forcing_index: 1
+      frequency: mon
+      further_info_url: none
+      grid: Native N216 grid; 432 x 324 longitude/latitude
+      grid_label: gn
+      history: '2023-10-10T10:05:48Z ; CMOR rewrote data to be consistent with EERIE,
+        CF-1.7 CMIP-6.2 UGRID-1.0 and CF standards.;
+
+        2023-10-10T10:05:47Z MIP Convert v2.6.0.dev0, Python v3.8.17, iris v3.4.1,
+        numpy v1.24.4, cftime v1.6.2, pyproj v3.5.0'
+      initialization_index: 1
+      institution: Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB,
+        UK
+      institution_id: MOHC
+      license: EERIE data produced by MOHC is licensed under the Open Government License
+        v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+      mip_era: EERIE
+      mo_runid: u-cy021
+      nominal_resolution: 100 km
+      parent_experiment_id: no parent
+      physics_index: 1
+      product: model-output
+      realization_index: 1
+      realm: atmos
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM AER
+      sub_experiment: none
+      sub_experiment_id: none
+      table_id: Emon
+      table_info: Creation Date:(08 May 2023) MD5:a078324f20dcc21781e5831d2ef3650c
+      title: HadGEM3-GC5-EERIE-N216-ORCA025 output prepared for EERIE
+      tracking_id: EERIE/8ddd17c2-6807-407e-80ee-177db8a5bf45
+      variable_id: ua
+      variable_name: ua
+      variant_label: r1i1p1f1
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  atmos_monthly_emon_parquet_0:
+    kwargs:
+      args:
+      - '{data(25222a45f4bd70f9)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

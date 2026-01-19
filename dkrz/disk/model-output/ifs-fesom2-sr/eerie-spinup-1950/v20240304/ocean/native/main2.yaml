@@ -1,0 +1,419 @@
+aliases: {}
+data:
+  02cc6f844f9a0e43:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options: {}
+      url:
+      - /work/bm1235/a270046/meshes/NG5_griddes_elems_IFS.nc
+    metadata: {}
+    user_parameters: {}
+  1db59db2ccedb8ab:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_daily_eddy-diagnostics_node/combined.parq
+    metadata: {}
+    user_parameters: {}
+  2bc2ae05adda9786:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_monthly_node/combined.parq
+    metadata: {}
+    user_parameters: {}
+  3701497732bfc36b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_daily_eddy-diagnostics_elem/combined.parq
+    metadata: {}
+    user_parameters: {}
+  63ff6c954718c6e3:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_daily_eddy-diagnostics_node/combined.parq
+    metadata: {}
+    user_parameters: {}
+  74d2d8b588048494:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_daily/combined.parq
+    metadata: {}
+    user_parameters: {}
+  79115df55c5e2fa4:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_monthly_elem/combined.parq
+    metadata: {}
+    user_parameters: {}
+  8b55ecc7a67d6ee9:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_daily/combined.parq
+    metadata: {}
+    user_parameters: {}
+  9942a5496ae5613b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_monthly_elem/combined.parq
+    metadata: {}
+    user_parameters: {}
+  b0990b6c2446ec8e:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_daily_eddy-diagnostics_elem/combined.parq
+    metadata: {}
+    user_parameters: {}
+  ecde8d9e1edf92b5:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options: {}
+      url:
+      - /work/bm1235/a270046/meshes/NG5_griddes_nodes_IFS.nc
+    metadata: {}
+    user_parameters: {}
+  fb86dc7cdcbeef5b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_native_monthly_node/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  daily:
+    kwargs:
+      args:
+      - '{data(8b55ecc7a67d6ee9)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_autorotate_back_to_geo: 1
+      FESOM_evp_rheol_steps: 120
+      FESOM_force_rotation: 1
+      FESOM_git_SHA: d6a683a9
+      FESOM_include_fleapyear: 1
+      FESOM_mix_scheme: cvmix_TKE
+      FESOM_model: FESOM2
+      FESOM_opt_visc: 7
+      FESOM_use_floatice: 0
+      FESOM_use_partial_cell: 0
+      FESOM_use_wsplit: 1
+      FESOM_website: fesom.de
+      FESOM_whichEVP: 1
+      FESOM_which_ALE: zstar
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: native
+      history: deleted for convenience
+      member_id: r1i1p1f1
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: 631151400
+      time_min: 85800
+      variable-long_names:
+      - Mixed Layer Depth
+      - Mixed Layer Depth
+      - ice concentration
+      - 'Indicates coastal nodes: coast=1, internal=0'
+      - ice height
+      - sea surface elevation
+      - sea surface salinity
+      - sea surface temperature
+      - ice velocity x
+      - ice velocity y
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_eddy-diagnostics_elem:
+    kwargs:
+      args:
+      - '{data(3701497732bfc36b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-spinup-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-spinup-1950 run
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_autorotate_back_to_geo: 1
+      FESOM_evp_rheol_steps: 120
+      FESOM_force_rotation: 1
+      FESOM_git_SHA: d6a683a9
+      FESOM_include_fleapyear: 1
+      FESOM_mix_scheme: cvmix_TKE
+      FESOM_model: FESOM2
+      FESOM_opt_visc: 7
+      FESOM_use_floatice: 0
+      FESOM_use_partial_cell: 0
+      FESOM_use_wsplit: 1
+      FESOM_website: fesom.de
+      FESOM_whichEVP: 1
+      FESOM_which_ALE: zstar
+      activity_id: EERIE
+      experiment_id: eerie-spinup-1950
+      grid_label: native
+      history: deleted for convenience
+      member_id: r1i1p1f1
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: 284082600
+      time_min: 85800
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_eddy-diagnostics_elem_parquet_0:
+    kwargs:
+      args:
+      - '{data(b0990b6c2446ec8e)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  daily_eddy-diagnostics_node:
+    kwargs:
+      args:
+      - '{data(1db59db2ccedb8ab)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_eddy-diagnostics_node_parquet_0:
+    kwargs:
+      args:
+      - '{data(63ff6c954718c6e3)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(74d2d8b588048494)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  elem_grid:
+    kwargs:
+      args:
+      - '{data(02cc6f844f9a0e43)}'
+      chunks: auto
+      zarr_format: null
+    metadata:
+      variable-long_names:
+      - grid dimensions
+      - land sea mask
+      - area of grid cell
+      - Indicates which other nodes neighbour each node.
+      - Maps every triangular face to its three corner nodes.
+      - 'Indicates coastal triangles: coast=1, internal=0'
+      variables:
+      - grid_dims
+      - grid_imask
+      - cell_area
+      - node_node_links
+      - triag_nodes
+      - coast
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monthly_elem:
+    kwargs:
+      args:
+      - '{data(9942a5496ae5613b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_autorotate_back_to_geo: 1
+      FESOM_evp_rheol_steps: 120
+      FESOM_force_rotation: 1
+      FESOM_git_SHA: d6a683a9
+      FESOM_include_fleapyear: 1
+      FESOM_mix_scheme: cvmix_TKE
+      FESOM_model: FESOM2
+      FESOM_opt_visc: 7
+      FESOM_use_floatice: 0
+      FESOM_use_partial_cell: 0
+      FESOM_use_wsplit: 1
+      FESOM_website: fesom.de
+      FESOM_whichEVP: 1
+      FESOM_which_ALE: zstar
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: native
+      history: deleted for convenience
+      member_id: r1i1p1f1
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: 631151400
+      time_min: 2677800
+      variable-long_names:
+      - 'Indicates coastal triangles: coast=1, internal=0'
+      - zonal wind str. to ocean
+      - meridional wind str. to ocean
+      - zonal velocity
+      - meridional velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monthly_elem_parquet_0:
+    kwargs:
+      args:
+      - '{data(79115df55c5e2fa4)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  monthly_node:
+    kwargs:
+      args:
+      - '{data(fb86dc7cdcbeef5b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_autorotate_back_to_geo: 1
+      FESOM_evp_rheol_steps: 120
+      FESOM_force_rotation: 1
+      FESOM_git_SHA: d6a683a9
+      FESOM_include_fleapyear: 1
+      FESOM_mix_scheme: cvmix_TKE
+      FESOM_model: FESOM2
+      FESOM_opt_visc: 7
+      FESOM_use_floatice: 0
+      FESOM_use_partial_cell: 0
+      FESOM_use_wsplit: 1
+      FESOM_website: fesom.de
+      FESOM_whichEVP: 1
+      FESOM_which_ALE: zstar
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: native
+      history: deleted for convenience
+      member_id: r1i1p1f1
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: 631151400
+      time_min: 2677800
+      variable-long_names:
+      - 'Indicates coastal nodes: coast=1, internal=0'
+      - salinity
+      - temperature
+      - vertical velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monthly_node_parquet_0:
+    kwargs:
+      args:
+      - '{data(2bc2ae05adda9786)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  node_grid:
+    kwargs:
+      args:
+      - '{data(ecde8d9e1edf92b5)}'
+      chunks: auto
+      zarr_format: null
+    metadata:
+      variable-long_names:
+      - grid dimensions
+      - land sea mask
+      - area of grid cell
+      - Indicates which other nodes neighbour each node.
+      - Maps every triangular face to its three corner nodes.
+      - 'Indicates coastal nodes: coast=1, internal=0'
+      - depth of model levels in metres (positive downwards)
+      - depth of model level bounds in metres (positive downwards)
+      - depth in terms of number of active levels beneath each ocean surface grid
+        point
+      variables:
+      - grid_dims
+      - grid_imask
+      - cell_area
+      - node_node_links
+      - triag_nodes
+      - coast
+      - depth
+      - depth_bnds
+      - depth_lev
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

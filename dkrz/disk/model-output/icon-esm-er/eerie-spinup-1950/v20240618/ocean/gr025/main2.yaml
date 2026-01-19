@@ -1,0 +1,679 @@
+aliases: {}
+data:
+  006945269c48bd95:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1mth_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  11a3e72c14a80709:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1mth_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+  2a413077cfbb2093:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/oce_5lev_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  2e869c8274227bc0:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1mth_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  447180a425b2312e:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/v20240618/ocean/gr025/spinup_1950_oce_2d_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  472423e0fcc4a42e:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  805838a03c0bd32b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/v20240618/ocean/gr025/spinup_1950_oce_2d_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  867f6547a164c588:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/oce_5lev_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  8880c783c064f14c:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1d_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+  af55af538d16067a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1d_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  b80986748419b1d4:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1d_square_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  e267536353b54439:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  e2cf301104dc8e54:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1mth_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+  ecb68cc0d5fd8284:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/erc2002/oce_2d_1d_mean_vertical-remap025.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_daily_mean:
+    kwargs:
+      args:
+      - '{data(e267536353b54439)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40340 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 21564000
+      time_min: 15778080
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - Salt volume flux due to sea ice change
+      - Freshwater Flux due to Sea Ice Change
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - ice concentration in each ice class
+      - Change in ice mean thickness due to thermodynamic effects
+      - Change in mean snow thickness due to thermodynamic melting
+      - ice thickness
+      - snow thickness
+      - zonal velocity
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - ew ice growth in open water
+      - Sea Level Pressure
+      - amount of snow that is transformed to ice
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(472423e0fcc4a42e)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_mean_vertical-remap025:
+    kwargs:
+      args:
+      - '{data(ecb68cc0d5fd8284)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40340 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 21564000
+      time_min: 15778080
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - vertically integrated mass flux at edges
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_vertical-remap025_parquet_0:
+    kwargs:
+      args:
+      - '{data(8880c783c064f14c)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_square:
+    kwargs:
+      args:
+      - '{data(b80986748419b1d4)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40341 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 21564000
+      time_min: 15778080
+      time_reduction: square
+      title: ICON simulation
+      variable-long_names:
+      - sea water potential temperature
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_square_parquet_0:
+    kwargs:
+      args:
+      - '{data(af55af538d16067a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_mean:
+    kwargs:
+      args:
+      - '{data(805838a03c0bd32b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40344 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1month
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '1990-12-31T23:59:59.000000000'
+      time_min: '1950-01-31T23:59:59.000000000'
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - Salt volume flux due to sea ice change
+      - Freshwater Flux due to Sea Ice Change
+      - Conductive heat flux at ice-ocean interface
+      - Energy flux available for surface melting
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - Heat flux to ocean from the ice growth
+      - Heat flux to ocean from the atmosphere
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - new ice growth in open water
+      - Sea Level Pressure
+      - amount of snow that is transformed to ice
+      - sea water salinity
+      - surface elevation at cell center
+      - zstar surface stretch at cell center
+      - sea water potential temperature
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(447180a425b2312e)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_mean_vertical-remap025:
+    kwargs:
+      args:
+      - '{data(11a3e72c14a80709)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40344 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1month
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 21564000
+      time_min: 15778080
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - vertically integrated mass flux at edges
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_mean_vertical-remap025_parquet_0:
+    kwargs:
+      args:
+      - '{data(e2cf301104dc8e54)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_square:
+    kwargs:
+      args:
+      - '{data(006945269c48bd95)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l40345 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1month
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 21564000
+      time_min: 15778080
+      time_reduction: square
+      title: ICON simulation
+      variable-long_names:
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - ocean_mixed_layer_thickness_defined_by_sigma_t_10m
+      - surface elevation at cell center
+      - sea water potential temperature
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_square_parquet_0:
+    kwargs:
+      args:
+      - '{data(2e869c8274227bc0)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  5lev_daily_mean:
+    kwargs:
+      args:
+      - '{data(867f6547a164c588)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      cdo_openmp_thread_number: 32
+      comment: Sapphire Dyamond (k203123) on l40343 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950spinup
+      format: netcdf
+      frequency: 1day
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby:
+          - time
+          - depth
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@450227788f06e837f1238ebed27af6e2365fa673
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 21564000
+      time_min: 15778080
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - sea water salinity
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      - vertical velocity at cells
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  5lev_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(2a413077cfbb2093)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

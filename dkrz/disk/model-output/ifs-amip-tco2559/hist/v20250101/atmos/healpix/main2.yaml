@@ -1,0 +1,424 @@
+aliases: {}
+data:
+  0067aa77dcd4fbfe:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h_acc.parq
+    metadata: {}
+    user_parameters: {}
+  0fe2598744b0dc63:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h_extra.parq
+    metadata: {}
+    user_parameters: {}
+  1a4769b11f8b6811:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/3D_24h.parq
+    metadata: {}
+    user_parameters: {}
+  3085eaea838cae4a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+  32ee34c354e09a53:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+  33c09ab7906b1c97:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_monthly_extra.parq
+    metadata: {}
+    user_parameters: {}
+  343659348b1d6ae8:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h_acc.parq
+    metadata: {}
+    user_parameters: {}
+  3637a13ace70ac67:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_24h_extra.parq
+    metadata: {}
+    user_parameters: {}
+  4be91f382ab66c16:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/3D_1h.parq
+    metadata: {}
+    user_parameters: {}
+  4c895bfbe31310cc:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_24h_extra.parq
+    metadata: {}
+    user_parameters: {}
+  7280c9bae7889d60:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/3D_1h.parq
+    metadata: {}
+    user_parameters: {}
+  80c0c2a39ff5c6c7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_24h.parq
+    metadata: {}
+    user_parameters: {}
+  8c1892a817ab4560:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h_extra.parq
+    metadata: {}
+    user_parameters: {}
+  9af86e382e2b7f58:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/3D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+  9b6b26fb2753f962:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h.parq
+    metadata: {}
+    user_parameters: {}
+  a2cbc4f33ed48c71:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/3D_24h.parq
+    metadata: {}
+    user_parameters: {}
+  be81b0c3f7215b0b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h.parq
+    metadata: {}
+    user_parameters: {}
+  c1c37c9ef3e97ff7:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/3D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+  c388f6b9b150fa7a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h_acc_extra.parq
+    metadata: {}
+    user_parameters: {}
+  e54f6c12399337b0:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_monthly_extra.parq
+    metadata: {}
+    user_parameters: {}
+  ea268fee8547deb4:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_24h.parq
+    metadata: {}
+    user_parameters: {}
+  ead2724ba00b1a49:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1235/b382473/IFS_AMIP/production/parquets/ifs-amip-tco2559/hist/v20250101/atmos/healpix_z{
+        zoom }/2D_1h_acc_extra.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_1h:
+    kwargs:
+      args:
+      - '{data(9b6b26fb2753f962)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_1h_acc:
+    kwargs:
+      args:
+      - '{data(343659348b1d6ae8)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_1h_acc_extra:
+    kwargs:
+      args:
+      - '{data(ead2724ba00b1a49)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_1h_acc_extra_parquet_0:
+    kwargs:
+      args:
+      - '{data(c388f6b9b150fa7a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_1h_acc_parquet_0:
+    kwargs:
+      args:
+      - '{data(0067aa77dcd4fbfe)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_1h_extra:
+    kwargs:
+      args:
+      - '{data(8c1892a817ab4560)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_1h_extra_parquet_0:
+    kwargs:
+      args:
+      - '{data(0fe2598744b0dc63)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_1h_parquet_0:
+    kwargs:
+      args:
+      - '{data(be81b0c3f7215b0b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_24h:
+    kwargs:
+      args:
+      - '{data(ea268fee8547deb4)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_24h_extra:
+    kwargs:
+      args:
+      - '{data(3637a13ace70ac67)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_24h_extra_parquet_0:
+    kwargs:
+      args:
+      - '{data(4c895bfbe31310cc)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_24h_parquet_0:
+    kwargs:
+      args:
+      - '{data(80c0c2a39ff5c6c7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_monthly:
+    kwargs:
+      args:
+      - '{data(32ee34c354e09a53)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_extra:
+    kwargs:
+      args:
+      - '{data(33c09ab7906b1c97)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_extra_parquet_0:
+    kwargs:
+      args:
+      - '{data(e54f6c12399337b0)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_monthly_parquet_0:
+    kwargs:
+      args:
+      - '{data(3085eaea838cae4a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_1h:
+    kwargs:
+      args:
+      - '{data(7280c9bae7889d60)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_1h_parquet_0:
+    kwargs:
+      args:
+      - '{data(4be91f382ab66c16)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_24h:
+    kwargs:
+      args:
+      - '{data(a2cbc4f33ed48c71)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_24h_parquet_0:
+    kwargs:
+      args:
+      - '{data(1a4769b11f8b6811)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_monthly:
+    kwargs:
+      args:
+      - '{data(c1c37c9ef3e97ff7)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_monthly_parquet_0:
+    kwargs:
+      args:
+      - '{data(9af86e382e2b7f58)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

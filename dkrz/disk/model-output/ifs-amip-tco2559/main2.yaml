@@ -1,0 +1,70 @@
+aliases: {}
+data:
+  0f90ef6f3a02bb4c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist/v20250101/atmos/native/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  171d147dffe28767:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist/v20240901/atmos/gr025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  6893d35ee4fd3429:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist/v20250101/atmos/healpix_ng/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  bcf2a0315dd5c33c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist/v20250101/atmos/gr025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  hist.v20240901.atmos.gr025:
+    kwargs:
+      args:
+      - '{data(171d147dffe28767)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist.v20250101.atmos.gr025:
+    kwargs:
+      args:
+      - '{data(bcf2a0315dd5c33c)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+#  hist.v20250101.atmos.healpix_ng:
+    #kwargs:
+    #  args:
+    #  - '{data(6893d35ee4fd3429)}'
+    #metadata: {}
+    #output_instance: intake.readers.entry:Catalog
+    #reader: intake.readers.readers:YAMLCatalogReader
+    #user_parameters: {}
+  hist.v20250101.atmos.native:
+    kwargs:
+      args:
+      - '{data(0f90ef6f3a02bb4c)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-amip-tco2559/
+    description: ''
+    dtype: str
+version: 2

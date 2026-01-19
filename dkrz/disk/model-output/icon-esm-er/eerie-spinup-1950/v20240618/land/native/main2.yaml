@@ -1,0 +1,87 @@
+aliases: {}
+data:
+  372987568e78540f:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_lnd_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  68a5aaff91cc778d:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_lnd_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  mon:
+    kwargs:
+      args:
+      - '{data(372987568e78540f)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40677 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2148479'
+      time_min: '-1'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500101T000000-19500131T235900/erc2002_lnd_mon_19500201T000000Z.nc
+      variable-long_names:
+      - Total HD water imbalance during time step
+      - Global water discharge to the oceans
+      - Global land evapotranspiration
+      - Global snow area (including glaciers)
+      - Global mean transpiration
+      - Global land water balance error
+      - Global amount of land water and ice
+      - Global snow amount on non-glacier land
+      - Global mean relative rootzone moisture
+      - Global land mean foilage projected cover
+      - Global land mean leaf_area_index
+      - Global land mean surface temperature
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  mon_parquet_0:
+    kwargs:
+      args:
+      - '{data(68a5aaff91cc778d)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

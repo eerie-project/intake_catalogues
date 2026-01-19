@@ -1,0 +1,429 @@
+aliases: {}
+data:
+  0af9db477e06d295:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1007/atm_2d_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  10cf61610cc4b7f9:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1007/atm_ml_1mth_mean/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1008/atm_ml_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  21747aaa0e361a04:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1007/erc1007_atm_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  2f0af436114b2b6b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1007/atm_ml_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  74054228a1b6cfad:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1008/atm_quickplot/combined.parq
+    metadata: {}
+    user_parameters: {}
+  959904bcdbf420ef:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1008/atm_2d_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  ae6c3db63cb9d69b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1007/atm_quickplot/combined.parq
+    metadata: {}
+    user_parameters: {}
+  b7a677cb23ca5607:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1008/erc1008_atm_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  bff29db13968fa9c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1007/erc1007_atm_mon/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1008/erc1008_atm_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c699d3c7522b1b5e:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1007/atm_quickplot/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1008/atm_quickplot/combined.parq
+    metadata: {}
+    user_parameters: {}
+  cb8fe8d4acee0683:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc1008/atm_ml_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  cd6033656683523b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1007/atm_2d_1mth_mean/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc1008/atm_2d_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_monthly_mean:
+    kwargs:
+      args:
+      - '{data(cd6033656683523b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40593 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 2148479
+      time_min: -1
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500101T000000-19500131T235845/erc1007_atm_2d_1mth_mean_19500201T000000Z.nc
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - vertically integrated cloud ice
+      - vertically integrated cloud water
+      - total cloud cover
+      - vert_int_dry_static_energy
+      - dew point temperature in 2m
+      - evaporation
+      - latent heat flux
+      - sensible heat flux
+      - precipitation flux
+      - large-scale precipitation flux (water)
+      - vertically integrated water vapour
+      - surface pressure
+      - mean sea level pressure
+      - vertically integrated graupel
+      - vertically integrated rain
+      - vertically integrated snow
+      - surface downwelling longwave radiation
+      - surface upwelling longwave radiation
+      - toa outgoing longwave radiation
+      - surface downwelling diffuse near infrared radiation
+      - surface downwelling diffuse photosynthetically active radiation
+      - surface downwelling direct photosynthetically active radiation
+      - surface downwelling shortwave radiation
+      - toa incident shortwave radiation
+      - surface upwelling shortwave radiation
+      - toa outgoing shortwave radiation
+      - surface downwelling diffuse visible radiation
+      - 10m windspeed
+      - fraction of ocean covered by sea ice
+      - sea ice thickness
+      - temperature in 2m
+      - u-momentum flux at the surface
+      - v-momentum flux at the surface
+      - surface temperature
+      - zonal wind in 10m
+      - meridional wind in 10m
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(0af9db477e06d295)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_mean_parquet_1:
+    kwargs:
+      args:
+      - '{data(959904bcdbf420ef)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atm_mon:
+    kwargs:
+      args:
+      - '{data(bff29db13968fa9c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40591 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 2148479
+      time_min: -1
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500101T000000-19500131T235845/erc1007_atm_mon_19500201T000000Z.nc
+      variable-long_names:
+      - global mean evaporation flux
+      - mean surface freshwater flux over ocean surface
+      - global mean precipitation flux
+      - global mean toa total radiation
+      - global mean toa outgoing longwave radiation
+      - global mean toa incident shortwave radiation
+      - global mean toa outgoing shortwave radiation
+      - global mean temperature at 2m
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  atm_mon_parquet_0:
+    kwargs:
+      args:
+      - '{data(21747aaa0e361a04)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  atm_mon_parquet_1:
+    kwargs:
+      args:
+      - '{data(b7a677cb23ca5607)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level_monthly_mean:
+    kwargs:
+      args:
+      - '{data(10cf61610cc4b7f9)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40592 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 2148479
+      time_min: -1
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500101T000000-19500131T235845/erc1007_atm_ml_1mth_mean_19500201T000000Z.nc
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - specific cloud ice content
+      - specific cloud water content
+      - Specific humidity
+      - Pressure
+      - density
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  model-level_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(2f0af436114b2b6b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level_monthly_mean_parquet_1:
+    kwargs:
+      args:
+      - '{data(cb8fe8d4acee0683)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  quickplot:
+    kwargs:
+      args:
+      - '{data(c699d3c7522b1b5e)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-control-1950 run
+      DOKU_authors: "Putrasahan, D.; Kr\xF6ger, J.; Wachsmann, F."
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE ICON-ESM-ER eerie-control-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l40594 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-1950control
+      format: netcdf
+      frequency: 1month
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/icon_grid_0033_R02B08_G.nc
+      grid_id: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 33
+      project: EERIE
+      project_id: EERIE
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: erc1007
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@3be3b825caa87c7c78e9791bbd84f900ca82743d
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 2148479
+      time_min: -1
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc1007/run_19500101T000000-19500131T235845/erc1007_atm_quickplot_19500201T000000Z.nc
+      uuidOfHGrid: 5aff0578-9bd9-11e8-8e4a-af3d880818e6
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - surface downwelling clear-sky longwave radiation
+      - toa outgoing clear-sky longwave radiation
+      - surface downwelling clear-sky shortwave radiation
+      - surface upwelling clear-sky shortwave radiation
+      - toa outgoing clear-sky shortwave radiation
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  quickplot_parquet_0:
+    kwargs:
+      args:
+      - '{data(ae6c3db63cb9d69b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  quickplot_parquet_1:
+    kwargs:
+      args:
+      - '{data(74054228a1b6cfad)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

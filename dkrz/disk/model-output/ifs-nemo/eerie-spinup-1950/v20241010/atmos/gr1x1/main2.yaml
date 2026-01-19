@@ -1,0 +1,42 @@
+aliases: {}
+data:
+  4e43025ad7ca8957:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ifs-nemo/eerie-spinup-1950/v20241010/atmos/gr1x1/monthly.parq
+    metadata: {}
+    user_parameters: {}
+  6a566bc20325a556:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ifs-nemo/eerie-spinup-1950/v20241010/atmos/gr1x1/monthly.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  monthly:
+    kwargs:
+      args:
+      - '{data(6a566bc20325a556)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monthly_parquet_0:
+    kwargs:
+      args:
+      - '{data(4e43025ad7ca8957)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

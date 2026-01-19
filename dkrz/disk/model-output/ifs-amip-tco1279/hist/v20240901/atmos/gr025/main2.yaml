@@ -1,0 +1,323 @@
+aliases:
+  2D_24h: 2D_24h
+  2D_24h_parquet_0: 2D_24h_parquet_0
+  2D_6h: 2D_6h
+  2D_6h_acc: 2D_6h_acc
+  2D_6h_acc_parquet_0: 2D_6h_acc_parquet_0
+  2D_6h_parquet_0: 2D_6h_parquet_0
+  2D_const: 2D_const
+  2D_const_parquet_0: 2D_const_parquet_0
+  2D_monthly: 2D_monthly
+  2D_monthly_parquet_0: 2D_monthly_parquet_0
+  3D_24h: 3D_24h
+  3D_24h_parquet_0: 3D_24h_parquet_0
+  3D_6h: 3D_6h
+  3D_6h_parquet_0: 3D_6h_parquet_0
+  3D_monthly: 3D_monthly
+  3D_monthly_parquet_0: 3D_monthly_parquet_0
+data:
+  2a06a180a2a9f962:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+        remote_options:
+          asynchronous: true
+        remote_protocol: https
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+  36f1f7f598397511:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+        remote_options:
+          asynchronous: true
+        remote_protocol: https
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/3D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+  728f2801af35776c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+        remote_options:
+          asynchronous: true
+        remote_protocol: https
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_6h.parq
+    metadata: {}
+    user_parameters: {}
+  97bc22f8c640ac48:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+        remote_options:
+          asynchronous: true
+        remote_protocol: https
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_6h_acc.parq
+    metadata: {}
+    user_parameters: {}
+  b1774779a45f61f2:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+        remote_options:
+          asynchronous: true
+        remote_protocol: https
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_24h.parq
+    metadata: {}
+    user_parameters: {}
+  b4539c51e40e60bb:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+        remote_options:
+          asynchronous: true
+        remote_protocol: https
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/3D_6h.parq
+    metadata: {}
+    user_parameters: {}
+  c22136513545291e:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202407/latlon/clte/jsons.1980/atm2d_const.json
+    metadata: {}
+    user_parameters: {}
+  fd6a8f788ed1181b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+        remote_options:
+          asynchronous: true
+        remote_protocol: https
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/3D_24h.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_24h:
+    kwargs:
+      args:
+      - '{data(b1774779a45f61f2)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2025-01-31\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_24h_parquet_0:
+    kwargs:
+      args:
+      - /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_24h.parq
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_6h:
+    kwargs:
+      args:
+      - '{data(728f2801af35776c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2025-01-31\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_6h_acc:
+    kwargs:
+      args:
+      - '{data(97bc22f8c640ac48)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2025-01-31\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_6h_acc_parquet_0:
+    kwargs:
+      args:
+      - /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_6h_acc.parq
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_6h_parquet_0:
+    kwargs:
+      args:
+      - /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_6h.parq
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_const:
+    kwargs:
+      args:
+      - '{data(c22136513545291e)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2024-08-30\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_const_parquet_0:
+    kwargs:
+      args:
+      - /work/bk1377/b382473/IFS_AMIP/production/indices/tco1279-eerie_production_202407/latlon/clte/jsons.1980/atm2d_const.json
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_monthly:
+    kwargs:
+      args:
+      - '{data(2a06a180a2a9f962)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2024-08-30\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_parquet_0:
+    kwargs:
+      args:
+      - /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/2D_monthly.parq
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_24h:
+    kwargs:
+      args:
+      - '{data(fd6a8f788ed1181b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2025-01-31\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_24h_parquet_0:
+    kwargs:
+      args:
+      - /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/3D_24h.parq
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_6h:
+    kwargs:
+      args:
+      - '{data(b4539c51e40e60bb)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2025-01-31\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_6h_parquet_0:
+    kwargs:
+      args:
+      - /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/3D_6h.parq
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_monthly:
+    kwargs:
+      args:
+      - '{data(36f1f7f598397511)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2024-08-30\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_monthly_parquet_0:
+    kwargs:
+      args:
+      - /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/atmos/gr025/3D_monthly.parq
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

@@ -1,0 +1,183 @@
+aliases: {}
+data:
+  10e3c5de624a37fe:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ifs-fesom2-sr/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  1277e609ed390c6b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ifs-amip-tco3999/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  351e179986cade1c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ifs-amip-tco399/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  36abec9a9d31574d:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ifs-amip-tco2559/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  4c8eebe9c94c9e63:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ifs-amip-tco1279/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  5fe453b8ff8dad9b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/icon-esm-er/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  694684dbb8a06242:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hadgem3-gc5-n640-orca12/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  7f96cfaf5f2330e8:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options: {}
+      url:
+      - '{CATALOG_DIR}/dkrz_eerie_disk.csv.gz'
+    metadata: {}
+    user_parameters: {}
+  89d48afecf1712cd:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ifs-nemo-er/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  c851b1443b51d9f4:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options: {}
+      url:
+      - '{CATALOG_DIR}/esm.json'
+    metadata: {}
+    user_parameters: {}
+  e0405e8987bbb8a0:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hadgem3-gc5-n216-orca025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  csv:
+    kwargs:
+      args:
+      - '{data(7f96cfaf5f2330e8)}'
+      chunks: auto
+      zarr_format: null
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  esm-json:
+    kwargs:
+      args:
+      - '{data(c851b1443b51d9f4)}'
+      chunks: auto
+      zarr_format: null
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  hadgem3-gc5-n216-orca025:
+    kwargs:
+      args:
+      - '{data(e0405e8987bbb8a0)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hadgem3-gc5-n640-orca12:
+    kwargs:
+      args:
+      - '{data(694684dbb8a06242)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  icon-esm-er:
+    kwargs:
+      args:
+      - '{data(5fe453b8ff8dad9b)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ifs-amip-tco1279:
+    kwargs:
+      args:
+      - '{data(4c8eebe9c94c9e63)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ifs-amip-tco2559:
+    kwargs:
+      args:
+      - '{data(36abec9a9d31574d)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ifs-amip-tco399:
+    kwargs:
+      args:
+      - '{data(351e179986cade1c)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ifs-amip-tco3999:
+    kwargs:
+      args:
+      - '{data(1277e609ed390c6b)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ifs-fesom2-sr:
+    kwargs:
+      args:
+      - '{data(10e3c5de624a37fe)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ifs-nemo-er:
+    kwargs:
+      args:
+      - '{data(89d48afecf1712cd)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/
+    description: ''
+    dtype: str
+version: 2

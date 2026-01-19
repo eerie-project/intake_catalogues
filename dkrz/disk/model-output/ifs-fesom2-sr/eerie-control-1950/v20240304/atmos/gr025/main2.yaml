@@ -1,0 +1,977 @@
+aliases: {}
+data:
+  02f2d4d3af1d030f:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_monthly_max.parq
+    metadata: {}
+    user_parameters: {}
+  0a36f5ad590ba56a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_6hourly_accumulated.parq
+    metadata: {}
+    user_parameters: {}
+  30bf8de49c974c64:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  50e6e00cbcbb1950:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/3D_monthly_avg.parq
+    metadata: {}
+    user_parameters: {}
+  534f4d9bbba0c267:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/3D_monthly_avg.parq
+    metadata: {}
+    user_parameters: {}
+  6aaa26222d477f79:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_monthly_avg.parq
+    metadata: {}
+    user_parameters: {}
+  6dfbb6ba71fbe470:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_6hourly_instant.parq
+    metadata: {}
+    user_parameters: {}
+  74a66e4b026b824c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_daily_max.parq
+    metadata: {}
+    user_parameters: {}
+  81b9da17ec360c80:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_6hourly_instant.parq
+    metadata: {}
+    user_parameters: {}
+  8219c1069fd8adbc:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_monthly_min.parq
+    metadata: {}
+    user_parameters: {}
+  8dd7d2e4c61acba4:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_daily_max.parq
+    metadata: {}
+    user_parameters: {}
+  932c9b3e5087355a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_daily_min.parq
+    metadata: {}
+    user_parameters: {}
+  9365c1c2a21a259e:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_monthly_min.parq
+    metadata: {}
+    user_parameters: {}
+  9fa727efbfbdcf59:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_daily_min.parq
+    metadata: {}
+    user_parameters: {}
+  caf7e5e43f77fc2c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/3D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  cc00e9eb78952572:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_monthly_avg.parq
+    metadata: {}
+    user_parameters: {}
+  d506f607e7e25a53:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/3D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  d572bd2dca4109d9:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_6hourly_accumulated.parq
+    metadata: {}
+    user_parameters: {}
+  d89f0a5fc8b8324d:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/3D_6hourly.parq
+    metadata: {}
+    user_parameters: {}
+  e77dda90bf3fe207:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  e9a97b97ebeab32a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/3D_6hourly.parq
+    metadata: {}
+    user_parameters: {}
+  ef59d3348540ae5c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/atmos/gr025/2D_monthly_max.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_6hourly_accumulated:
+    kwargs:
+      args:
+      - '{data(0a36f5ad590ba56a)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T18:00:00.000000000'
+      time_min: '1971-01-01T06:00:00.000000000'
+      variable-long_names:
+      - Convective precipitation
+      - Evaporation
+      - Time-integrated eastward turbulent surface stress
+      - Time-integrated northward turbulent surface stress
+      - Runoff
+      - Snowfall
+      - Surface latent heat flux
+      - Surface runoff
+      - Surface sensible heat flux
+      - Surface net short-wave (solar) radiation
+      - Surface net short-wave (solar) radiation, clear sky
+      - Surface short-wave (solar) radiation downwards
+      - Sub-surface runoff
+      - Surface net long-wave (thermal) radiation
+      - Surface net long-wave (thermal) radiation, clear sky
+      - Surface long-wave (thermal) radiation downwards
+      - TOA incident short-wave (solar) radiation
+      - Total precipitation
+      - Top net short-wave (solar) radiation
+      - Top net short-wave (solar) radiation, clear sky
+      - Top net long-wave (thermal) radiation
+      - Top net long-wave (thermal) radiation, clear sky
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_6hourly_accumulated_parquet_0:
+    kwargs:
+      args:
+      - '{data(d572bd2dca4109d9)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_6hourly_instant:
+    kwargs:
+      args:
+      - '{data(81b9da17ec360c80)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T18:00:00.000000000'
+      time_min: '1971-01-01T12:00:00.000000000'
+      variable-long_names:
+      - 10 metre wind speed
+      - 10 metre U wind component
+      - 10 metre V wind component
+      - 2 metre dewpoint temperature
+      - 2 metre specific humidity
+      - 2 metre temperature
+      - Boundary layer height
+      - Sea ice area fraction
+      - High cloud cover
+      - Instantaneous 10 metre wind gust
+      - Low cloud cover
+      - Medium cloud cover
+      - Mean sea level pressure
+      - Snow depth
+      - Skin temperature
+      - Surface pressure
+      - Sea surface temperature
+      - Total cloud cover
+      - Total column cloud ice water
+      - Total column cloud liquid water
+      - Total column water
+      - Total column vertically-integrated water vapour
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_6hourly_instant_parquet_0:
+    kwargs:
+      args:
+      - '{data(6dfbb6ba71fbe470)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_daily_avg:
+    kwargs:
+      args:
+      - '{data(e77dda90bf3fe207)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Mean convective precipitation rate
+      - Evaporation
+      - Time-mean 10 metre U wind component
+      - Time-mean 10 metre V wind component
+      - Time-mean 2 metre dewpoint temperature
+      - Time-mean 2 metre specific humidity
+      - Time-mean boundary layer height
+      - Time-mean sea ice area fraction
+      - Mean of 10 metre wind speed
+      - Mean 2 metre temperature
+      - Mean total cloud cover
+      - Mean eastward turbulent surface stress
+      - Time-mean high cloud cover
+      - Time-mean low cloud cover
+      - Time-mean medium cloud cover
+      - Time-mean mean sea level pressure
+      - Mean northward turbulent surface stress
+      - Mean runoff rate
+      - Time-mean snow depth
+      - Mean surface downward long-wave radiation flux
+      - Mean surface downward short-wave radiation flux
+      - Time-mean skin temperature
+      - Mean surface latent heat flux
+      - Mean surface net long-wave radiation flux
+      - Mean surface net long-wave radiation flux, clear sky
+      - Mean surface net short-wave radiation flux
+      - Mean surface net short-wave radiation flux, clear sky
+      - Time-mean surface pressure
+      - Mean surface runoff rate
+      - Mean surface sensible heat flux
+      - Mean sub-surface runoff rate
+      - Time-mean sea surface temperature
+      - Time-mean total column cloud ice water
+      - Time-mean total column liquid water
+      - Time-mean total column water
+      - Time-mean total column vertically-integrated water vapour
+      - Mean top downward short-wave radiation flux
+      - Mean top net long-wave radiation flux
+      - Mean top net long-wave radiation flux, clear sky
+      - Mean top net short-wave radiation flux
+      - Mean top net short-wave radiation flux, clear sky
+      - Mean total snowfall rate
+      - Mean total precipitation rate
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_daily_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(30bf8de49c974c64)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_daily_max:
+    kwargs:
+      args:
+      - '{data(74a66e4b026b824c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Maximum 10 metre wind gust since previous post-processing
+      - Maximum temperature at 2 metres in the last 24 hours
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_daily_max_parquet_0:
+    kwargs:
+      args:
+      - '{data(8dd7d2e4c61acba4)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_daily_min:
+    kwargs:
+      args:
+      - '{data(9fa727efbfbdcf59)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Minimum temperature at 2 metres in the last 24 hours
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_daily_min_parquet_0:
+    kwargs:
+      args:
+      - '{data(932c9b3e5087355a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_monthly_avg:
+    kwargs:
+      args:
+      - '{data(cc00e9eb78952572)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Mean convective precipitation rate
+      - Evaporation
+      - Time-mean 10 metre U wind component
+      - Time-mean 10 metre V wind component
+      - Time-mean 2 metre dewpoint temperature
+      - Time-mean 2 metre specific humidity
+      - Time-mean boundary layer height
+      - Time-mean sea ice area fraction
+      - Mean of 10 metre wind speed
+      - Mean 2 metre temperature
+      - Mean total cloud cover
+      - Mean eastward turbulent surface stress
+      - Time-mean high cloud cover
+      - Time-mean low cloud cover
+      - Time-mean medium cloud cover
+      - Time-mean mean sea level pressure
+      - Mean northward turbulent surface stress
+      - Mean runoff rate
+      - Time-mean snow depth
+      - Mean surface downward long-wave radiation flux
+      - Mean surface downward short-wave radiation flux
+      - Time-mean skin temperature
+      - Mean surface latent heat flux
+      - Mean surface net long-wave radiation flux
+      - Mean surface net long-wave radiation flux, clear sky
+      - Mean surface net short-wave radiation flux
+      - Mean surface net short-wave radiation flux, clear sky
+      - Time-mean surface pressure
+      - Mean surface runoff rate
+      - Mean surface sensible heat flux
+      - Mean sub-surface runoff rate
+      - Time-mean sea surface temperature
+      - Time-mean total column cloud ice water
+      - Time-mean total column liquid water
+      - Time-mean total column water
+      - Time-mean total column vertically-integrated water vapour
+      - Mean top downward short-wave radiation flux
+      - Mean top net long-wave radiation flux
+      - Mean top net long-wave radiation flux, clear sky
+      - Mean top net short-wave radiation flux
+      - Mean top net short-wave radiation flux, clear sky
+      - Mean total snowfall rate
+      - Mean total precipitation rate
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(6aaa26222d477f79)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_monthly_max:
+    kwargs:
+      args:
+      - '{data(ef59d3348540ae5c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Maximum 10 metre wind gust since previous post-processing
+      - Maximum temperature at 2 metres in the last 24 hours
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_max_parquet_0:
+    kwargs:
+      args:
+      - '{data(02f2d4d3af1d030f)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_monthly_min:
+    kwargs:
+      args:
+      - '{data(8219c1069fd8adbc)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Minimum temperature at 2 metres in the last 24 hours
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_min_parquet_0:
+    kwargs:
+      args:
+      - '{data(9365c1c2a21a259e)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_6hourly:
+    kwargs:
+      args:
+      - '{data(e9a97b97ebeab32a)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T18:00:00.000000000'
+      time_min: '1971-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Specific humidity
+      - Relative humidity
+      - Temperature
+      - U component of wind
+      - V component of wind
+      - Vertical velocity
+      - Geopotential
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_6hourly_parquet_0:
+    kwargs:
+      args:
+      - '{data(d89f0a5fc8b8324d)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_daily_avg:
+    kwargs:
+      args:
+      - '{data(caf7e5e43f77fc2c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean specific humidity
+      - Time-mean relative humidity
+      - Time-mean temperature
+      - Time-mean U component of wind
+      - Time-mean V component of wind
+      - Time-mean vertical velocity
+      - Time-mean geopotential
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_daily_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(d506f607e7e25a53)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_monthly_avg:
+    kwargs:
+      args:
+      - '{data(534f4d9bbba0c267)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1950-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean specific humidity
+      - Time-mean relative humidity
+      - Time-mean temperature
+      - Time-mean U component of wind
+      - Time-mean V component of wind
+      - Time-mean vertical velocity
+      - Time-mean geopotential
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_monthly_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(50e6e00cbcbb1950)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

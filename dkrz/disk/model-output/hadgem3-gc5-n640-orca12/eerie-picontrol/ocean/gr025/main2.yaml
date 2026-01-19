@@ -1,0 +1,164 @@
+aliases: {}
+data:
+  6f10a812c758f0eb:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/SIday/combined.parq
+    metadata: {}
+    user_parameters: {}
+  a391e469b21d06af:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Omon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  dc9ef8e4430001b0:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Oday/combined.parq
+    metadata: {}
+    user_parameters: {}
+  ddb3d8e0c41f9f47:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Omon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  e802da89607b2928:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/SIday/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/Oday/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  daily:
+    kwargs:
+      args:
+      - '{data(e802da89607b2928)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.6
+      NCO: netCDF Operators version 4.7.5 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      branch_method: fixed pre-industrial forcing at 1850 was applied for 240 years
+        of spin-up, after which fixed pre-industrial forcing at 1850 continues
+      description: ocean T grid variables
+      experiment: coupled pre-industrial control
+      experiment_id: eerie-piControl
+      grid: Regular 0.25x0.25
+      grid_label: gr1
+      history: 'Mon Oct  2 16:36:56 2023: ncatted -O -a bounds,time,o,c,time_bounds
+        /scratch/hadom/u-cx993/Oday/zos/regrid/zos_nemo_u-cx993_1d_18510101-18510201_grid-025.nc
+
+        Mon Oct  2 16:36:56 2023: ncrename -d time_counter,time -v time_counter,time
+        -v time_counter_bounds,time_bounds /scratch/hadom/u-cx993/Oday/zos/regrid/zos_nemo_u-cx993_1d_18510101-18510201_grid-025.nc
+        /scratch/hadom/u-cx993/Oday/zos/regrid/zos_nemo_u-cx993_1d_18510101-18510201_grid-025_time.nc'
+      mo_runid: u-cx993_N640e_eORCA12
+      name: cx993o_1d_18510101_18510131_grid_T
+      realm: ocean
+      remap_method: Bilinear and Nearest source to destination for unmapped points
+      remap_title: ESMF Offline Regridding Weight Generator
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N640-ORCA12
+      source_type: AOGCM
+      start_year: '1850'
+      timeStamp: 2023-Jun-30 19:21:21 GMT
+      title: ocean T grid variables
+      uuid: 77cfb349-42db-42b5-a11b-91154fec0443
+      variable-long_names:
+      - Ocean Mixed Layer Thickness Defined by Sigma T
+      - sea surface absolute salinity
+      - sea surface conservative temperature
+      - dynamic sea surface height
+      - Sea-ice area fraction
+      - X-component of sea ice velocity
+      - Y-component of sea ice velocity
+      variable_id: 'area: area'
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(6f10a812c758f0eb)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  daily_parquet_1:
+    kwargs:
+      args:
+      - '{data(dc9ef8e4430001b0)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  monthly:
+    kwargs:
+      args:
+      - '{data(a391e469b21d06af)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.6
+      NCO: netCDF Operators version 4.7.5 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      branch_method: fixed pre-industrial forcing at 1850 was applied for 240 years
+        of spin-up, after which fixed pre-industrial forcing at 1850 continues
+      description: ocean T grid variables
+      experiment: coupled pre-industrial control
+      experiment_id: eerie-piControl
+      grid: Regular 0.25x0.25
+      grid_label: gr1
+      history: 'Thu Oct 26 11:45:21 2023: ncatted -O -a bounds,time,o,c,time_bounds
+        /scratch/hadom/u-cx993/Omon/zos/regrid/zos_nemo_u-cx993_1m_18510101-18510201_grid-025.nc
+
+        Thu Oct 26 11:45:20 2023: ncrename -d time_counter,time -v time_counter,time
+        -v time_counter_bounds,time_bounds /scratch/hadom/u-cx993/Omon/zos/regrid/zos_nemo_u-cx993_1m_18510101-18510201_grid-025.nc
+        /scratch/hadom/u-cx993/Omon/zos/regrid/zos_nemo_u-cx993_1m_18510101-18510201_grid-025_time.nc'
+      mo_runid: u-cx993_N640e_eORCA12
+      name: cx993o_1m_18510101_18510131_grid_T
+      realm: ocean
+      remap_method: Bilinear and Nearest source to destination for unmapped points
+      remap_title: ESMF Offline Regridding Weight Generator
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N640-ORCA12
+      source_type: AOGCM
+      start_year: '1850'
+      timeStamp: 2023-Jun-30 21:46:13 GMT
+      title: ocean T grid variables
+      uuid: 9bae2957-6a41-49a6-9bb8-36d6fb7630d9
+      variable-long_names:
+      - Ocean Mixed Layer Thickness Defined by Sigma T
+      - sea surface absolute salinity
+      - sea surface conservative temperature
+      - dynamic sea surface height
+      variable_id: 'area: area'
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monthly_parquet_0:
+    kwargs:
+      args:
+      - '{data(ddb3d8e0c41f9f47)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

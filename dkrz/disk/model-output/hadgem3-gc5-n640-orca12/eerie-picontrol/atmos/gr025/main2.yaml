@@ -1,0 +1,104 @@
+aliases: {}
+data:
+  429233e394916c75:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/HRday_gr/combined.parq
+    metadata: {}
+    user_parameters: {}
+  5b95c3d89450bd39:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/day_gr/combined.parq
+    metadata: {}
+    user_parameters: {}
+  b50e904322911502:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/day_gr/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-piControl/r1i1p1f1/HRday_gr/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  daily:
+    kwargs:
+      args:
+      - '{data(b50e904322911502)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2 UGRID-1.0
+      activity_id: EERIE
+      branch_method: no parent
+      cmor_version: 3.7.2
+      creation_date: '2023-10-11T10:22:39Z'
+      cv_version: EERIE v0.1
+      data_specs_version: 01.00.00
+      experiment: pre-industrial control
+      experiment_id: eerie-piControl
+      external_variables: areacella
+      forcing_index: 1
+      frequency: day
+      further_info_url: none
+      grid: Regular 0.25x0.25
+      grid_label: gr1
+      initialization_index: 1
+      institution: Met Office Hadley Centre, Fitzroy Road, Exeter, Devon, EX1 3PB,
+        UK
+      institution_id: MOHC
+      license: EERIE data produced by MOHC is licensed under the Open Government License
+        v3 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
+      mip_era: EERIE
+      mo_runid: u-cx993
+      nominal_resolution: 25 km
+      parent_experiment_id: no parent
+      physics_index: 1
+      product: model-output
+      realization_index: 1
+      realm: atmos
+      remap_method: Bilinear and Nearest source to destination for unmapped points
+      remap_title: ESMF Offline Regridding Weight Generator
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N640-ORCA12
+      source_type: AOGCM AER
+      sub_experiment: none
+      sub_experiment_id: none
+      table_id: day
+      table_info: Creation Date:(08 May 2023) MD5:a078324f20dcc21781e5831d2ef3650c
+      title: HadGEM3-GC5-EERIE-N640-ORCA12 output prepared for EERIE
+      tracking_id: EERIE/b834bcd3-b83f-46f7-8862-fe598cf92d78
+      variable-long_names:
+      - height
+      variable_id: uas
+      variable_name: uas
+      variant_label: r1i1p1f1
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(5b95c3d89450bd39)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  daily_parquet_1:
+    kwargs:
+      args:
+      - '{data(429233e394916c75)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

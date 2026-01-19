@@ -1,0 +1,248 @@
+aliases: {}
+data:
+  49bcf06bade0bb41:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/ngc_72lev_HAM_prod_atm_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  84bdb45f7fa51c92:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/ngc_72lev_HAM_prod_atm_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  ab42eb58770054f5:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/atm_2d_1h_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  bcc3fd696137aaa2:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/atm_2d_1h_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  bd55109e498e4b1e:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/atm_2d_1h_inst/combined.parq
+    metadata: {}
+    user_parameters: {}
+  f67bb9835825e68a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/atm_2d_1h_inst/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_1h_inst:
+    kwargs:
+      args:
+      - '{data(bd55109e498e4b1e)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l30735 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1hour
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0015/icon_grid_0015_R02B09_G.nc
+      grid_id: 0f1e7d66-637e-11e8-913b-51232bb4d8f9
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 15
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 125219
+      time_min: -1
+      time_reduction: inst
+      title: ICON simulation
+      uuidOfHGrid: 0f1e7d66-637e-11e8-913b-51232bb4d8f9
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - dew point temperature in 2m
+      - surface pressure
+      - mean sea level pressure
+      - 10m windspeed
+      - fraction of ocean covered by sea ice
+      - sea ice thickness
+      - temperature in 2m
+      - surface temperature
+      - zonal wind in 10m
+      - meridional wind in 10m
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_1h_inst_parquet_0:
+    kwargs:
+      args:
+      - '{data(f67bb9835825e68a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_1h_mean:
+    kwargs:
+      args:
+      - '{data(bcc3fd696137aaa2)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l30735 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1hour
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0015/icon_grid_0015_R02B09_G.nc
+      grid_id: 0f1e7d66-637e-11e8-913b-51232bb4d8f9
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 15
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 125219
+      time_min: -1
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 0f1e7d66-637e-11e8-913b-51232bb4d8f9
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - vertically integrated cloud ice
+      - vertically integrated cloud water
+      - latent heat flux
+      - sensible heat flux
+      - precipitation flux
+      - large-scale precipitation flux (snow)
+      - vertically integrated water vapour
+      - vertically integrated graupel
+      - vertically integrated rain
+      - vertically integrated snow
+      - surface downwelling longwave radiation
+      - surface upwelling longwave radiation
+      - toa outgoing longwave radiation
+      - surface downwelling direct near infrared radiation
+      - surface downwelling shortwave radiation
+      - toa incident shortwave radiation
+      - surface upwelling shortwave radiation
+      - toa outgoing shortwave radiation
+      - surface downwelling direct visible radiation
+      - u-momentum flux at the surface
+      - v-momentum flux at the surface
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_1h_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(ab42eb58770054f5)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  monitor_atm_mon:
+    kwargs:
+      args:
+      - '{data(49bcf06bade0bb41)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l30735 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: atm
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 128159
+      time_min: -1
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - global mean evaporation flux
+      - mean surface freshwater flux over ocean surface
+      - global mean precipitation flux
+      - global mean toa total radiation
+      - global mean toa outgoing longwave radiation
+      - global mean toa incident shortwave radiation
+      - global mean toa outgoing shortwave radiation
+      - global mean temperature at 2m
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monitor_atm_mon_parquet_0:
+    kwargs:
+      args:
+      - '{data(84bdb45f7fa51c92)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

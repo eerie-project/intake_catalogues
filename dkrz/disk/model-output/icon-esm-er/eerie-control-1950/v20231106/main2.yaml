@@ -1,0 +1,55 @@
+aliases: {}
+data:
+  27853562d8c7381b:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/atmos/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  9e1542e70f132bc6:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/land/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  e4429cbb5a07e96e:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ocean/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  atmos:
+    kwargs:
+      args:
+      - '{data(27853562d8c7381b)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  land:
+    kwargs:
+      args:
+      - '{data(9e1542e70f132bc6)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ocean:
+    kwargs:
+      args:
+      - '{data(e4429cbb5a07e96e)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20231106/
+    description: ''
+    dtype: str
+version: 2

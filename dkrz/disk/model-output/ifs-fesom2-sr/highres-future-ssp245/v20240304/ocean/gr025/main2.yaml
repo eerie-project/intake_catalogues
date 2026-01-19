@@ -1,0 +1,717 @@
+aliases: {}
+data:
+  00d068367d17421d:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/2D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  19b572c4101f3639:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/2D_monthly_avg_gr025.parquet
+    metadata: {}
+    user_parameters: {}
+  395201aa26f79869:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/3D_monthly_avg.parquet
+    metadata: {}
+    user_parameters: {}
+  481a40a43e4c7a6a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/2D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  51283a84c27459f7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/3D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  64fb3948d273f1bc:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/3D_daily_avg_W.parq
+    metadata: {}
+    user_parameters: {}
+  74f19a39fb8b7c14:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/3D_daily_avg.parq
+    metadata: {}
+    user_parameters: {}
+  8a89c50ce6c22728:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/amoc_phase1-ssp245-fesom.parquet
+    metadata: {}
+    user_parameters: {}
+  a1cef0056055d8f5:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/2D_monthly_avg_gr025.parquet
+    metadata: {}
+    user_parameters: {}
+  c3110e1825f54680:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/3D_daily_avg_W.parq
+    metadata: {}
+    user_parameters: {}
+  db9c55db559f06b8:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/3D_monthly_avg.parquet
+    metadata: {}
+    user_parameters: {}
+  f3df6a4d423f6cf8:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/gr025/amoc_phase1-ssp245-fesom.parquet
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_daily_avg:
+    kwargs:
+      args:
+      - '{data(00d068367d17421d)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR highres-future-ssp245 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      contact: rohit.ghosh@awi.de
+      creation_date: '2025-11-11T16:03:11'
+      data_specs_version: 01.00.32
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr025
+      history: deleted for convenience
+      initialization_index: 1
+      institution: European Centre for Medium-Range Weather Forecasts
+      institution_id: AWI
+      license: 'EERIE model data produced by AWI is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      member_id: r1i1p1f1
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: 'Ghosh, Rohit; Cheedela, Suvarchal Kumar; Wachsmann, Fabian; Wickramage,
+        Chathurika; Beyer, Sebastian; John, Amal; Koldunov, Nikolay; Sidorenko, Dmitry;
+        Jung, Thomas (2024). EERIE: IFS-FESOM TC01279/NG5 (9km, 5km): spinup-1950.
+        DOKU at DKRZ. https://www.wdc-climate.de/ui/entry?acronym=DKRZ_LTA_1344_dsg0001'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source: "IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos:\
+        \ IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\n\
+        atmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM;\
+        \ 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.125 kg m-3
+      - Time-mean sea ice area fraction
+      - Time-mean snow thickness over sea ice
+      - Time-mean sea ice thickness
+      - Time-mean eastward sea ice velocity
+      - Time-mean northward sea ice velocity
+      - Time-mean sea surface practical salinity
+      - Time-mean sea surface temperature
+      - Time-mean sea surface height
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.03 kg m-3
+      - Time-mean sea ice growth
+      variant_label: r1i1p1f1
+      version_id: v20240304
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_daily_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(481a40a43e4c7a6a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2D_monthly_avg:
+    kwargs:
+      args:
+      - '{data(19b572c4101f3639)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR highres-future-ssp245 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      contact: rohit.ghosh@awi.de
+      creation_date: '2025-11-11T16:03:11'
+      data_specs_version: 01.00.32
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      frequency: mon
+      grid: gr025
+      grid_label: gr025
+      history: deleted for convenience
+      initialization_index: 1
+      institution: European Centre for Medium-Range Weather Forecasts
+      institution_id: AWI
+      license: 'EERIE model data produced by AWI is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      member_id: r1i1p1f1
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: 'Ghosh, Rohit; Cheedela, Suvarchal Kumar; Wachsmann, Fabian; Wickramage,
+        Chathurika; Beyer, Sebastian; John, Amal; Koldunov, Nikolay; Sidorenko, Dmitry;
+        Jung, Thomas (2024). EERIE: IFS-FESOM TC01279/NG5 (9km, 5km): spinup-1950.
+        DOKU at DKRZ. https://www.wdc-climate.de/ui/entry?acronym=DKRZ_LTA_1344_dsg0001'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source: "IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos:\
+        \ IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\n\
+        atmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM;\
+        \ 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.03 kg m-3
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.125 kg m-3
+      - Time-mean sea ice area fraction
+      - Time-mean snow thickness over sea ice
+      - Time-mean sea ice thickness
+      - Time-mean eastward sea ice velocity
+      - Time-mean northward sea ice velocity
+      - Time-mean sea surface practical salinity
+      - Time-mean sea surface temperature
+      - Time-mean sea surface height
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.03 kg m-3
+      - Time-mean sea ice growth
+      variant_label: r1i1p1f1
+      version_id: v20240304
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(a1cef0056055d8f5)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_daily_avg:
+    kwargs:
+      args:
+      - '{data(74f19a39fb8b7c14)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR highres-future-ssp245 run
+      NCO: netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      activity_id: EERIE
+      cdo_openmp_thread_number: 2
+      contact: rohit.ghosh@awi.de
+      creation_date: '2025-11-11T16:03:11'
+      data_specs_version: 01.00.32
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr025
+      history: deleted for convenience
+      initialization_index: 1
+      institution: European Centre for Medium-Range Weather Forecasts
+      institution_id: AWI
+      license: 'EERIE model data produced by AWI is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      member_id: r1i1p1f1
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: 'Ghosh, Rohit; Cheedela, Suvarchal Kumar; Wachsmann, Fabian; Wickramage,
+        Chathurika; Beyer, Sebastian; John, Amal; Koldunov, Nikolay; Sidorenko, Dmitry;
+        Jung, Thomas (2024). EERIE: IFS-FESOM TC01279/NG5 (9km, 5km): spinup-1950.
+        DOKU at DKRZ. https://www.wdc-climate.de/ui/entry?acronym=DKRZ_LTA_1344_dsg0001'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source: "IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos:\
+        \ IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\n\
+        atmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM;\
+        \ 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean sea water practical salinity
+      - Time-mean sea water potential temperature
+      - Time-mean eastward sea water velocity
+      - Time-mean northward sea water velocity
+      variant_label: r1i1p1f1
+      version_id: v20240304
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_daily_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(51283a84c27459f7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_daily_avg_w:
+    kwargs:
+      args:
+      - '{data(c3110e1825f54680)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR highres-future-ssp245 run
+      NCO: netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      activity_id: EERIE
+      cdo_openmp_thread_number: 2
+      contact: rohit.ghosh@awi.de
+      creation_date: '2025-11-11T16:03:11'
+      data_specs_version: 01.00.32
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr025
+      history: deleted for convenience
+      initialization_index: 1
+      institution: European Centre for Medium-Range Weather Forecasts
+      institution_id: AWI
+      license: 'EERIE model data produced by AWI is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      member_id: r1i1p1f1
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: 'Ghosh, Rohit; Cheedela, Suvarchal Kumar; Wachsmann, Fabian; Wickramage,
+        Chathurika; Beyer, Sebastian; John, Amal; Koldunov, Nikolay; Sidorenko, Dmitry;
+        Jung, Thomas (2024). EERIE: IFS-FESOM TC01279/NG5 (9km, 5km): spinup-1950.
+        DOKU at DKRZ. https://www.wdc-climate.de/ui/entry?acronym=DKRZ_LTA_1344_dsg0001'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source: "IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos:\
+        \ IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\n\
+        atmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM;\
+        \ 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean upward sea water velocity
+      variant_label: r1i1p1f1
+      version_id: v20240304
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_daily_avg_w_parquet_0:
+    kwargs:
+      args:
+      - '{data(64fb3948d273f1bc)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_monthly_avg:
+    kwargs:
+      args:
+      - '{data(db9c55db559f06b8)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR highres-future-ssp245 run
+      NCO: netCDF Operators version 5.0.6 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      activity_id: EERIE
+      cdo_openmp_thread_number: 2
+      contact: rohit.ghosh@awi.de
+      creation_date: '2025-11-11T16:03:11'
+      data_specs_version: 01.00.32
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      frequency: mon
+      grid: gr025
+      grid_label: gr025
+      history: deleted for convenience
+      initialization_index: 1
+      institution: European Centre for Medium-Range Weather Forecasts
+      institution_id: AWI
+      license: 'EERIE model data produced by AWI is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      member_id: r1i1p1f1
+      mip_era: EERIE
+      nominal_resolution: 5 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      references: 'Ghosh, Rohit; Cheedela, Suvarchal Kumar; Wachsmann, Fabian; Wickramage,
+        Chathurika; Beyer, Sebastian; John, Amal; Koldunov, Nikolay; Sidorenko, Dmitry;
+        Jung, Thomas (2024). EERIE: IFS-FESOM TC01279/NG5 (9km, 5km): spinup-1950.
+        DOKU at DKRZ. https://www.wdc-climate.de/ui/entry?acronym=DKRZ_LTA_1344_dsg0001'
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source: "IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos:\
+        \ IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\n\
+        atmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM;\
+        \ 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean sea water practical salinity
+      - Time-mean sea water potential temperature
+      - Time-mean eastward sea water velocity
+      - Time-mean northward sea water velocity
+      - Time-mean upward sea water velocity
+      variant_label: r1i1p1f1
+      version_id: v20240304
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_monthly_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(395201aa26f79869)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  AMOC:
+    kwargs:
+      args:
+      - '{data(8a89c50ce6c22728)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR highres-future-ssp245 run
+      _FillValue: AAAAAAAA+H8=
+      activity_id: EERIE
+      cell_methods: 'time: mean'
+      contact: rohit.ghosh@awi.de
+      creation_date: '2025-11-11T16:03:11'
+      data_specs_version: 01.00.32
+      datapath: '[''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_01_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_02_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_03_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_04_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_05_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_06_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_07_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_08_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_09_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_10_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_11_monthly-NG5.nc'',
+        ''/work/bm1344/a270228/Phase1-SSP245-FESOM/2015/native/monthly/avg_wo/fesom_avg_wo_2015_12_monthly-NG5.nc'']'
+      day: None
+      descript: Phase1-SSP245-FESOM
+      description: 'Atlantic Meridional Overturning Circulation Streamfunction, positive:
+        clockwise, negative: counter-clockwise circulation'
+      do_compute: 'False'
+      do_file: run
+      do_filename: 'True'
+      do_tarithm: None
+      do_zarithm: ' '
+      experiment: ssp245
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr025
+      history: deleted for convenience
+      initialization_index: 1
+      institution: European Centre for Medium-Range Weather Forecasts
+      institution_id: AWI
+      is_data: scalar
+      is_ie2n: 'False'
+      license: 'EERIE model data produced by AWI is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      long_name: AMOC
+      member_id: r1i1p1f1
+      mip_era: EERIE
+      missing_value: NaN
+      mon: None
+      nominal_resolution: 5 km
+      number_of_grid_in_reference: 7
+      param: 27.4.10
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: ocean
+      record: None
+      references: 'Ghosh, Rohit; Cheedela, Suvarchal Kumar; Wachsmann, Fabian; Wickramage,
+        Chathurika; Beyer, Sebastian; John, Amal; Koldunov, Nikolay; Sidorenko, Dmitry;
+        Jung, Thomas (2024). EERIE: IFS-FESOM TC01279/NG5 (9km, 5km): spinup-1950.
+        DOKU at DKRZ. https://www.wdc-climate.de/ui/entry?acronym=DKRZ_LTA_1344_dsg0001'
+      runid: fesom
+      short_name: AMOC
+      simulation_id: IFS-FESOM2-SR_ssp245
+      source: "IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos:\
+        \ IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\n\
+        atmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM;\
+        \ 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      standard_name: Atlantic Meridional Overturning Circulation
+      str_ldep: ' '
+      str_lsave: y2015-2050
+      str_ltim: y:2015-2050
+      sub_experiment: none
+      sub_experiment_id: none
+      time_max: '2050-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T12:00:00.000000000'
+      units: Sv
+      variable-long_names:
+      - Atlantic Meridional Overturning Circulation
+      variant_label: r1i1p1f1
+      version_id: v20240304
+      year: '[2015, 2050]'
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  AMOC_parquet_0:
+    kwargs:
+      args:
+      - '{data(f3df6a4d423f6cf8)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

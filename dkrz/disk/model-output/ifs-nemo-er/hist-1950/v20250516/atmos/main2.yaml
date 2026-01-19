@@ -1,0 +1,25 @@
+aliases: {}
+data:
+  a0f69e489cb0c15c:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/gr025/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  gr025:
+    kwargs:
+      args:
+      - '{data(a0f69e489cb0c15c)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-nemo-er/hist-1950/v20250516/atmos/
+    description: ''
+    dtype: str
+version: 2

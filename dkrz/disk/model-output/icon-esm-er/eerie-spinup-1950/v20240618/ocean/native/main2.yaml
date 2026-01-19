@@ -1,0 +1,186 @@
+aliases: {}
+data:
+  3407ffa29c0f8ab9:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_moc_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  54aaa61ca2a0c314:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c0db62acdb3a14f9:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  dc18b0016abd7eed:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/erc2002/erc2002_oce_moc_1mth_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  moc_monthly_mean:
+    kwargs:
+      args:
+      - '{data(dc18b0016abd7eed)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_moc_1mth_mean_19500301T000000Z.nc
+      variable-long_names:
+      - atlantic northward ocean heat transport
+      - atlantic implied heat transport
+      - atlantic meridional overturning
+      - atlantic northward ocean salt transport
+      - atlantic implied freshwater transport
+      - global northward ocean heat transport
+      - global implied heat transport
+      - global meridional overturning
+      - global northward ocean salt transport
+      - global implied freshwater transport
+      - indopacific northward ocean heat transport
+      - indopacific implied heat transport
+      - indopacific meridional overturning
+      - indopacific northward ocean salt transport
+      - indopacific implied freshwater transport
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  moc_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(3407ffa29c0f8ab9)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  mon:
+    kwargs:
+      args:
+      - '{data(54aaa61ca2a0c314)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE ICON-ESM-ER eerie-spinup-1950 v20240618
+      DOKU_summary: EERIE ICON-ESM-ER eerie-spinup-1950 run
+      activity_id: EERIE
+      comment: Sapphire Dyamond (k203123) on l50286 (Linux 4.18.0-425.10.1.el8_7.x86_64
+        x86_64)
+      experiment: eerie-spinup-1950
+      experiment_id: eerie-spinup-1950
+      format: netcdf
+      frequency: 1month
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: EERIE
+      project_id: EERIE
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: erc2002
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@074a3fc461ccbff89d067c016aed6544f7b8a99a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: '2188799'
+      time_min: '44639'
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/bm1344/k203123/experiments/erc2002/run_19500201T000000-19500228T235900/erc2002_oce_mon_19500301T000000Z.nc
+      variable-long_names:
+      - FrshFlux_Evaporation_global
+      - FrshFlux_Precipitation
+      - FrshFlux_Runoff
+      - FrshFlux_SnowFall_global
+      - FrshFlux_TotalIce
+      - FrshFlux_TotalOcean
+      - FrshFlux_VolumeIce
+      - FrshFlux_VolumeTotal
+      - HeatFlux_Total
+      - amoc26n
+      - global_heat_content
+      - global_heat_content_solid
+      - ice_extent_nh
+      - ice_extent_sh
+      - ice_volume_nh
+      - ice_volume_sh
+      - kin_energy
+      - pot_energy
+      - potential_enstrophy
+      - ssh_global
+      - global mean sea surface salinity
+      - global mean sea surface temperature
+      - total_energy
+      - total_salt
+      - total_saltinliquidwater
+      - total_saltinseaice
+      - totalsnowfall
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  mon_parquet_0:
+    kwargs:
+      args:
+      - '{data(c0db62acdb3a14f9)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

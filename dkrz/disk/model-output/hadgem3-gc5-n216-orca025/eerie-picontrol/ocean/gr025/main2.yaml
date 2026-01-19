@@ -1,0 +1,134 @@
+aliases: {}
+data:
+  364380eed179e4cd:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/SIday/combined.parq
+    metadata: {}
+    user_parameters: {}
+  922e301b8b6d7c2e:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Omon_gr/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c5b83d06bd2abf9a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/Omon_gr/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c626b9cf9ebf9621:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HadGEM3-GC5-EERIE-N216-ORCA025/eerie-piControl/r1i1p1f1/SIday/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  daily:
+    kwargs:
+      args:
+      - '{data(364380eed179e4cd)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.6
+      NCO: netCDF Operators version 4.7.5 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      branch_method: fixed pre-industrial forcing at 1850 was applied for 240 years
+        of spin-up, after which fixed pre-industrial forcing at 1850 continues
+      description: ice variables
+      experiment: coupled pre-industrial control
+      experiment_id: eerie-piControl
+      grid: Regular 0.25x0.25
+      grid_label: gr1
+      history: 'Sun Oct  1 09:08:47 2023: ncatted -O -a bounds,time,o,c,time_bounds
+        /scratch/hadom/u-cy021/SIday/sivelu/regrid/siu_si3_u-cy021_1d_18510101-18510201_grid-025.nc
+
+        Sun Oct  1 09:08:47 2023: ncrename -d time_counter,time -v time_counter,time
+        -v time_counter_bounds,time_bounds /scratch/hadom/u-cy021/SIday/sivelu/regrid/siu_si3_u-cy021_1d_18510101-18510201_grid-025.nc
+        /scratch/hadom/u-cy021/SIday/sivelu/regrid/siu_si3_u-cy021_1d_18510101-18510201_grid-025_time.nc'
+      mo_runid: u-cy021_N216e_eORCA025
+      name: cy021o_1d_18510101_18510131_icemod
+      realm: seaIce
+      remap_method: Bilinear and Nearest source to destination for unmapped points
+      remap_title: ESMF Offline Regridding Weight Generator
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM
+      start_year: '1850'
+      timeStamp: 2023-Jun-29 18:27:17 GMT
+      title: ice variables
+      uuid: aa414eae-b119-4908-8600-9e94550d2bc7
+      variable_id: 'area: area'
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(c626b9cf9ebf9621)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  monthly:
+    kwargs:
+      args:
+      - '{data(922e301b8b6d7c2e)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.6
+      NCO: netCDF Operators version 4.7.5 (Homepage = http://nco.sf.net, Code = http://github.com/nco/nco)
+      branch_method: fixed pre-industrial forcing at 1850 was applied for 240 years
+        of spin-up, after which fixed pre-industrial forcing at 1850 continues
+      description: ocean T grid variables
+      experiment: coupled pre-industrial control
+      experiment_id: eerie-piControl
+      grid: Regular 0.25x0.25
+      grid_label: gr1
+      history: 'Thu Oct 26 04:24:29 2023: ncatted -O -a bounds,time,o,c,time_bounds
+        /scratch/hadom/u-cy021/Omon/zos/regrid/zos_nemo_u-cy021_1m_18610101-18610201_grid-025.nc
+
+        Thu Oct 26 04:24:29 2023: ncrename -d time_counter,time -v time_counter,time
+        -v time_counter_bounds,time_bounds /scratch/hadom/u-cy021/Omon/zos/regrid/zos_nemo_u-cy021_1m_18610101-18610201_grid-025.nc
+        /scratch/hadom/u-cy021/Omon/zos/regrid/zos_nemo_u-cy021_1m_18610101-18610201_grid-025_time.nc'
+      mo_runid: u-cy021_N216e_eORCA025
+      name: cy021o_1m_18610101_18610131_grid_T
+      realm: ocean
+      remap_method: Bilinear and Nearest source to destination for unmapped points
+      remap_title: ESMF Offline Regridding Weight Generator
+      source: jasmin
+      source_id: HadGEM3-GC5-EERIE-N216-ORCA025
+      source_type: AOGCM
+      start_year: '1850'
+      timeStamp: 2023-Jul-06 12:57:04 GMT
+      title: ocean T grid variables
+      uuid: df478dce-6363-4a01-bfb5-5a97d3b53821
+      variable_id: 'area: area'
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monthly_parquet_0:
+    kwargs:
+      args:
+      - '{data(c5b83d06bd2abf9a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

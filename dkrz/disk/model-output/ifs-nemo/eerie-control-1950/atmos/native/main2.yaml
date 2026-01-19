@@ -1,0 +1,42 @@
+aliases: {}
+data:
+  2b3b66099111034f:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/day/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c0845de2952cd221:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/HighResMIP/EC-Earth-Consortium/EC-Earth3P-VHR/control-1950/r1i1p1f1/day/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  daily:
+    kwargs:
+      args:
+      - '{data(2b3b66099111034f)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(c0845de2952cd221)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

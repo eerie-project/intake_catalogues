@@ -1,0 +1,1089 @@
+aliases: {}
+data:
+  02eca306a249e50c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_plev19_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  06d83cf98b458a19:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_pfull_1d_mean_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  0768fb21de810876:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  0c54c9f10b18352b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_pfull_phalf_1mth_mean_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  102144770fae0b46:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_plev19_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  33c18dd3a63096c5:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_plev19_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  4740c5facdc1542c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1d_min_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  73120fa83722af17:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/erc2020_atm_2d_6h_inst.parquet
+    metadata: {}
+    user_parameters: {}
+  746688058d25ec1b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_plev19_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  84899ec7ffc54e25:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1d_max_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  a4eac0aa7d035160:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1mth_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  b1f39b22bc76e60b:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1d_max_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  babd7cb8821f24f0:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_pl_6h_inst_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  bc760f1513e44e6c:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1d_min_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  c563e31f32a4fdef:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_pfull_phalf_1mth_mean_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  c691d6f31c5bde95:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/erc2020_atm_2d_6h_inst.parquet
+    metadata: {}
+    user_parameters: {}
+  dcb8e3ec2cd38ca5:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_pl_6h_inst_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  e5188536ebae07cd:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_6h_mean_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  e74c6129c4142052:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_pfull_1d_mean_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  eaa2534c2f5c43b7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_6h_mean_remap025.parquet
+    metadata: {}
+    user_parameters: {}
+  f5c9d970c9409f76:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+  fd4929865a97fa3f:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/k202193/Kerchunk/ssp245/v20240618/atmos/gr025/atm_2d_1d_mean_remap025.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_6hr_inst:
+    kwargs:
+      args:
+      - '{data(73120fa83722af17)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-09-19T11:25:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      variable-long_names:
+      - specific humidity in 2m
+      - mean sea level pressure
+      - surface temperature
+      - zonal wind in 10m
+      - meridional wind in 10m
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_6hr_inst_parquet_0:
+    kwargs:
+      args:
+      - '{data(c691d6f31c5bde95)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_6hr_mean:
+    kwargs:
+      args:
+      - '{data(e5188536ebae07cd)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-09-19T11:34:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      long_name: precipitation flux
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      param: 52.1.0
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      standard_name: pr
+      sub_experiment: none
+      sub_experiment_id: none
+      units: kg m-2 s-1
+      variable-long_names:
+      - precipitation flux
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_6hr_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(eaa2534c2f5c43b7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_max:
+    kwargs:
+      args:
+      - '{data(84899ec7ffc54e25)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30674 (Linux 4.18.0-513.24.1.el8_9.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-04T13:39:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Thu Jun 05 16:42:50 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/erc2020_atm_2d_1d_max_20150101T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2020/postprocessing/interpolation/SSP245//atm_2d_1d_max_remap025/run_20150101T000000-20150131T235900/erc2020_atm_2d_1d_max_remap025_20150101T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/./icon
+        at 20250508 003258'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - relative humidity
+      - 10m windspeed
+      - temperature in 2m
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_max_parquet_0:
+    kwargs:
+      args:
+      - '{data(b1f39b22bc76e60b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_mean:
+    kwargs:
+      args:
+      - '{data(f5c9d970c9409f76)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30674 (Linux 4.18.0-513.24.1.el8_9.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-04T14:03:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Thu Jun 05 16:40:03 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/erc2020_atm_2d_1d_mean_20150101T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2020/postprocessing/interpolation/SSP245//atm_2d_1d_mean_remap025/run_20150101T000000-20150131T235900/erc2020_atm_2d_1d_mean_remap025_20150101T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/./icon
+        at 20250508 003258'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - total cloud cover
+      - evaporation
+      - latent heat flux
+      - sensible heat flux
+      - relative humidity
+      - specific humidity in 2m
+      - precipitation flux
+      - water vapor path
+      - surface pressure
+      - mean sea level pressure
+      - rain path
+      - surface downwelling longwave radiation
+      - surface upwelling longwave radiation
+      - toa outgoing longwave radiation
+      - surface downwelling shortwave radiation
+      - surface upwelling shortwave radiation
+      - 10m windspeed
+      - temperature in 2m
+      - surface temperature
+      - zonal wind in 10m
+      - meridional wind in 10m
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(fd4929865a97fa3f)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_daily_min:
+    kwargs:
+      args:
+      - '{data(4740c5facdc1542c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30674 (Linux 4.18.0-513.24.1.el8_9.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-04T14:26:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Thu Jun 05 16:41:30 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/erc2020_atm_2d_1d_min_20150101T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2020/postprocessing/interpolation/SSP245//atm_2d_1d_min_remap025/run_20150101T000000-20150131T235900/erc2020_atm_2d_1d_min_remap025_20150101T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/./icon
+        at 20250508 003258'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - relative humidity
+      - temperature in 2m
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_min_parquet_0:
+    kwargs:
+      args:
+      - '{data(bc760f1513e44e6c)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_mean:
+    kwargs:
+      args:
+      - '{data(0768fb21de810876)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30674 (Linux 4.18.0-513.24.1.el8_9.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-04T14:37:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Thu Jun 05 16:40:03 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/erc2020_atm_2d_1mth_mean_20150201T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2020/postprocessing/interpolation/SSP245//atm_2d_1mth_mean_remap025/run_20150101T000000-20150131T235900/erc2020_atm_2d_1mth_mean_remap025_20150201T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/./icon
+        at 20250508 003258'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      uuidOfVGrid: bd44d42a-dfa5-e0a8-29e9-3b98afcb2d20
+      variable-long_names:
+      - cloud ice path
+      - cloud liquid water path
+      - total cloud cover
+      - evaporation
+      - latent heat flux
+      - sensible heat flux
+      - relative humidity
+      - specific humidity in 2m
+      - precipitation flux
+      - water vapor path
+      - surface pressure
+      - mean sea level pressure
+      - surface downwelling longwave radiation
+      - surface downwelling clear-sky longwave radiation
+      - surface upwelling longwave radiation
+      - toa outgoing longwave radiation
+      - toa outgoing clear-sky longwave radiation
+      - surface downwelling shortwave radiation
+      - surface downwelling clear-sky shortwave radiation
+      - toa incident shortwave radiation
+      - surface upwelling shortwave radiation
+      - surface upwelling clear-sky shortwave radiation
+      - toa outgoing shortwave radiation
+      - toa outgoing clear-sky shortwave radiation
+      - 10m windspeed
+      - temperature in 2m
+      - maximum 2m temperature
+      - minimum 2m temperature
+      - u-momentum flux at the surface
+      - v-momentum flux at the surface
+      - surface temperature
+      - zonal wind in 10m
+      - meridional wind in 10m
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(a4eac0aa7d035160)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  pfull_1d_mean:
+    kwargs:
+      args:
+      - '{data(06d83cf98b458a19)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-09-26T08:34:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      long_name: Pressure
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      param: 0.3.0
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      standard_name: air_pressure
+      sub_experiment: none
+      sub_experiment_id: none
+      units: Pa
+      variable-long_names:
+      - Pressure
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  pfull_1d_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(e74c6129c4142052)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  pfull_phalf_1mth_mean:
+    kwargs:
+      args:
+      - '{data(c563e31f32a4fdef)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-09-19T16:07:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      param: 0.3.0
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      standard_name: air_pressure
+      sub_experiment: none
+      sub_experiment_id: none
+      units: Pa
+      variable-long_names:
+      - Pressure
+      - pressure at half level
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  pfull_phalf_1mth_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(0c54c9f10b18352b)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  pl_6hr_inst:
+    kwargs:
+      args:
+      - '{data(dcb8e3ec2cd38ca5)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-09-19T13:39:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      variable-long_names:
+      - geopotential above surface
+      - Specific humidity
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  pl_6hr_inst_parquet_0:
+    kwargs:
+      args:
+      - '{data(babd7cb8821f24f0)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  plev19_1d_mean:
+    kwargs:
+      args:
+      - '{data(746688058d25ec1b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30674 (Linux 4.18.0-513.24.1.el8_9.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-05T12:21:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Tue Jun 10 10:52:54 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        /work/bm1344/k202193/plev/atm_plev19_1d_mean/erc2020_atm_plev19_1d_mean_20150102T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2020/postprocessing/interpolation/SSP245/atm_plev19_1d_mean_remap025/erc2020_atm_plev19_1d_mean_remap025_20150102T000000Z.nc_temp
+
+        Fri Jun 06 07:46:58 2025: cdo -L -P 16 -ap2pl,100000,92500,85000,70000,60000,50000,40000,30000,25000,20000,15000,10000,7000,5000,3000,2000,1000,500,100
+        -merge [ /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/erc2020_atm_ml_1d_mean_1_20150102T000000Z.nc
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/erc2020_atm_ml_1d_mean_2_20150102T000000Z.nc
+        ] /work/bm1344/k202193/plev/atm_plev19_1d_mean/erc2020_atm_plev19_1d_mean_20150102T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/./icon
+        at 20250508 003258'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - geopotential above surface
+      - relative humidity
+      - Specific humidity
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  plev19_1d_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(33c18dd3a63096c5)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  plev19_1mth_mean:
+    kwargs:
+      args:
+      - '{data(02eca306a249e50c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      cdo_openmp_thread_number: 16
+      comment: Sapphire Dyamond (k203123) on l30674 (Linux 4.18.0-513.24.1.el8_9.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2025-08-04T16:43:00'
+      data_specs_version: 01.00.32
+      experiment: coupled future 2015-2050 using a scenario as close to CMIP6 ssp245
+        as possible
+      experiment_id: highres-future-ssp245
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: 'Mon Jul 21 11:48:28 2025: cdo -L -P 16 -remap,/work/mh0256/m300466/DPP/grid/temp_IFS25invertlat_MR_gridexample.nc,/work/bm1344/DKRZ/ICON/erc1011/postprocessing/interpolation/r2b8G_IFS25invertlat_yconremapweights.nc
+        -setgrid,/pool/data/ICON/grids/public/mpim/0033/icon_grid_0033_R02B08_G.nc
+        /work/bm1344/k202193/plev_monthly/atm_plev19_1mth_mean/erc2020_atm_plev19_1mth_mean_20150201T000000Z.nc
+        /work/bm1344/k202193/ICON/erc2020/postprocessing/interpolation/SSP245/atm_plev19_1mth_mean_remap025/erc2020_atm_plev19_1mth_mean_remap025_20150201T000000Z.nc_temp
+
+        Thu Jun 19 17:12:11 2025: cdo -L -P 16 -ap2pl,100000,92500,85000,70000,60000,50000,40000,30000,25000,20000,15000,10000,7000,5000,3000,2000,1000,500,100
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/erc2020_atm_ml_1mth_mean_20150201T000000Z.nc
+        /work/bm1344/k202193/plev_monthly//atm_plev19_1mth_mean/erc2020_atm_plev19_1mth_mean_20150201T000000Z.nc_temp
+
+        /work/bm1344/k203123/experiments/erc2020/run_20150101T000000-20150131T235900/./icon
+        at 20250508 003258'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: hist-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: atmos
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - specific cloud ice content
+      - specific cloud water content
+      - geopotential above surface
+      - relative humidity
+      - Specific humidity
+      - Temperature
+      - Zonal wind
+      - Meridional wind
+      - Vertical velocity
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  plev19_1mth_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(102144770fae0b46)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

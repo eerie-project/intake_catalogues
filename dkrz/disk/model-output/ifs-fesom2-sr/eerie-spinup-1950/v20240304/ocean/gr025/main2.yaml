@@ -1,0 +1,191 @@
+aliases: {}
+data:
+  1dee8c80c5394a72:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched_new/IFS-FESOM2-SR_eerie-spinup-1950/FESOM_025_daily/combined.parq
+    metadata: {}
+    user_parameters: {}
+  3c25c8bdb2b6d4c7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched_new/IFS-FESOM2-SR_eerie-spinup-1950/FESOM_025_daily/combined.parq
+    metadata: {}
+    user_parameters: {}
+  8776a1ef59610cfa:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_025_monthly/combined.parq
+    metadata: {}
+    user_parameters: {}
+  a20d8379fea6f257:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/IFS-FESOM2-SR_eerie-control-1950/FESOM_025_monthly/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  daily:
+    kwargs:
+      args:
+      - '{data(1dee8c80c5394a72)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_autorotate_back_to_geo: 1
+      FESOM_evp_rheol_steps: 120
+      FESOM_force_rotation: 1
+      FESOM_git_SHA: d6a683a9
+      FESOM_include_fleapyear: 1
+      FESOM_mix_scheme: cvmix_TKE
+      FESOM_model: FESOM2
+      FESOM_opt_visc: 7
+      FESOM_use_floatice: 0
+      FESOM_use_partial_cell: 0
+      FESOM_use_wsplit: 1
+      FESOM_website: fesom.de
+      FESOM_whichEVP: 1
+      FESOM_which_ALE: zstar
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: 631151400
+      time_min: 85800
+      variable-long_names:
+      - Mixed Layer Depth
+      - ice concentration
+      - ice height
+      - sea surface elevation
+      - sea surface salinity
+      - sea surface temperature
+      - ice velocity x
+      - ice velocity y
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(3c25c8bdb2b6d4c7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  monthly:
+    kwargs:
+      args:
+      - '{data(8776a1ef59610cfa)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_autorotate_back_to_geo: 1
+      FESOM_evp_rheol_steps: 120
+      FESOM_force_rotation: 1
+      FESOM_git_SHA: d6a683a9
+      FESOM_include_fleapyear: 1
+      FESOM_mix_scheme: cvmix_TKE
+      FESOM_model: FESOM2
+      FESOM_opt_visc: 7
+      FESOM_use_floatice: 0
+      FESOM_use_partial_cell: 0
+      FESOM_use_wsplit: 1
+      FESOM_website: fesom.de
+      FESOM_whichEVP: 1
+      FESOM_which_ALE: zstar
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{variables}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: 175319.83333333334
+      time_min: 743.8333333333334
+      variable-long_names:
+      - salinity
+      - temperature
+      - zonal wind str. to ocean
+      - meridional wind str. to ocean
+      - zonal velocity
+      - meridional velocity
+      - vertical velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monthly_parquet_0:
+    kwargs:
+      args:
+      - '{data(a20d8379fea6f257)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

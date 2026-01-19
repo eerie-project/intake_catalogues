@@ -1,0 +1,70 @@
+aliases: {}
+data:
+  0ea3662407cffe33:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/eerie-control-1950/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  10e9daae318766fd:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist-1950/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  9206be050c886643:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/eerie-spinup-1950/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  b8162a55ff493ef8:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/highres-future-ssp245/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  eerie-control-1950:
+    kwargs:
+      args:
+      - '{data(0ea3662407cffe33)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  eerie-spinup-1950:
+    kwargs:
+      args:
+      - '{data(9206be050c886643)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  highres-future-ssp245:
+    kwargs:
+      args:
+      - '{data(b8162a55ff493ef8)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist-1950:
+    kwargs:
+      args:
+      - '{data(10e9daae318766fd)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/
+    description: ''
+    dtype: str
+version: 2

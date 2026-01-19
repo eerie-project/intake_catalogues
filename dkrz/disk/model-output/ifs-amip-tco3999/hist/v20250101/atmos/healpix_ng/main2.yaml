@@ -1,0 +1,80 @@
+aliases: {}
+data:
+  37209a4ade631e12:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options: {}
+      url:
+      - '{% with time_map = {''PT1H'': ''hourly'', ''P1M'': ''monthly''}, zoom_map
+        = {7: ''128'', 9: ''512'', 10: ''1024'', 11: ''2048''} -%} reference::/work/bm1235/b382473/IFS_AMIP/production/parquets_2d3d/tco3999-ng-rcbmf_end/{
+        time_map[time] }_healpix{ zoom_map[zoom] }.parq {%- endwith %}
+
+        '
+    metadata: {}
+    user_parameters: {}
+entries:
+  ifs_tco3999_rcbmf:
+    kwargs:
+      args:
+      - '{data(37209a4ade631e12)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      citation: "Rackow, T., Pedruzo-Bagazgoitia, X., Becker, T., Milinski, S., Sandu,\
+        \ I., Aguridan, R., Bechtold, P., Beyer, S., Bidlot, J., Boussetta, S., Deconinck,\
+        \ W., Diamantakis, M., Dueben, P., Dutra, E., Forbes, R., Ghosh, R., Goessling,\
+        \ H. F., Hadade, I., Hegewald, J., Jung, T., Keeley, S., Kluft, L., Koldunov,\
+        \ N., Koldunov, A., K\xF6lling, T., Kousal, J., K\xFChnlein, C., Maciel, P.,\
+        \ Mogensen, K., Quintino, T., Polichtchouk, I., Reuter, B., S\xE1rm\xE1ny,\
+        \ D., Scholz, P., Sidorenko, D., Streffing, J., S\xFCtzl, B., Takasuka, D.,\
+        \ Tietsche, S., Valentini, M., Vanni\xE8re, B., Wedi, N., Zampieri, L., and\
+        \ Ziemen, F. - Multi-year simulations at kilometre scale with the Integrated\
+        \ Forecasting System coupled to FESOM2.5 and NEMOv3.4, Geosci. Model Dev.,\
+        \ 18, 33\u201369, https://doi.org/10.5194/gmd-18-33-2025, 2025."
+      creator_email: matthias.aengenheyster@ecmwf.int, tobias.becker@ecmwf.int, thomas.rackow@ecmwf.int,
+        xabier.pedruzo@ecmwf.int
+      creator_name: Matthias Aengenheyster, Tobias Becker, Thomas Rackow, Xabier Pedruzo-Bagazgoitia
+      institution: European Centre for Medium-Range Weather Forecasts (ECMWF)
+      license: Creative Commons CC BY 4.0. https://creativecommons.org/licenses/by/4.0/
+      references: https://doi.org/10.5194/gmd-18-33-2025, https://www.ecmwf.int/en/forecasts/documentation-and-support/changes-ecmwf-model,
+      simulation_id: RCBMF
+      source_id: IFS
+      summary: "Atmosphere-only simulation at 2.8 km resolution, with reduced cloud\
+        \ base mass flux. Run for 1 year and 2 months, starting in 2020.\n\n**General**:\n\
+        \  * The Integrated Forecasting System (IFS), developed at ECMWF, is a spectral-transform\
+        \ atmospheric model with two-time-level semi-implicit, semi-Lagrangian time\
+        \ stepping (Temperton et al., 2001; Hortal, 2002; Diamantakis and V\xE1\u0148\
+        a, 2021). It is here running in atmosphere-only mode, that is without an ocean\
+        \ model. It is still coupled to the interactive land and ocean wave models.\n\
+        \  * This simulation is at 2.8km in atmosphere-only mode, with SST and sea\
+        \ ice concentration being provided by ESA CCI v3.0.1.\n\n**Simulation**:\n\
+        \  * This is one of two new atmosphere-only IFS simulations. This one is at\
+        \ 2.8 km resolution, with the other one (ifs_tco2559_rcbmf) is at 4.4 km.\
+        \ The simulations are started on 01.01.2020 and run for 14 months, ending\
+        \ on 01.03.2021. The two simulations differ only in their resolution. Both\
+        \ simulations use \"reduced cloud base mass flux\" (RCBMF) which has the shallow\
+        \ convection scheme fully active and the deep convection scheme weakly active\
+        \ (with a strongly reduced cloud base mass flux), in agreement with 9 km nextGEMS\
+        \ production simulations.\n  * This atmosphere-only simulation is complementary\
+        \ to the 2.8 km coupled IFS-FESOM simulations. It differs from ifs_tco3999-ng5_rcbmf\
+        \ only by the replacement of the ocean model with observed SST forcing.\n\n\
+        **Processing**:\n  * This dataset uses default IFS naming of variables. Please\
+        \ refer to the [parameter database](https://codes.ecmwf.int/grib/param-db/)\
+        \ for more information on the available variables.\n  * Output is written\
+        \ to HEALPix H2048 (zoom level 11, about 3 km resolution), and to H128 (level\
+        \ 7, about 50 km resolution). The remapping to zoom level 7 used conservative\
+        \ interpolation for the 2D variables and linear interpolation for the 3D variables.\
+        \ Remapping to the high-resolution H2048 (level 11) was also done with linear\
+        \ interpolation. Output is available hourly (PT1H). In addition, we also provide\
+        \ monthly means (P1M), but only for those variables that are accumulated in\
+        \ time (all fluxes, e.g. radiation, precipitation, etc.).\n"
+      time_end: 2021-03-01 00:00:00
+      time_start: 2020-01-01 00:00:00
+      title: IFS 2.8km simulation (RCBMF), original IFS variables
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

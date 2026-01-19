@@ -1,0 +1,25 @@
+aliases: {}
+data:
+  7817c5f11e7249a5:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/v20250516/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  v20250516:
+    kwargs:
+      args:
+      - '{data(7817c5f11e7249a5)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-nemo-er/hist-1950/
+    description: ''
+    dtype: str
+version: 2

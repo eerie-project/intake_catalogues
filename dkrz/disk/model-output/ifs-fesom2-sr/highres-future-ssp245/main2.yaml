@@ -1,0 +1,25 @@
+aliases: {}
+data:
+  514ce67f6963e187:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/v20240304/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  v20240304:
+    kwargs:
+      args:
+      - '{data(514ce67f6963e187)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/highres-future-ssp245/
+    description: ''
+    dtype: str
+version: 2

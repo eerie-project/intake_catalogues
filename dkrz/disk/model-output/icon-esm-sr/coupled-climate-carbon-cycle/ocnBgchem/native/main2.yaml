@@ -1,0 +1,714 @@
+aliases: {}
+data:
+  17e823b5b4d94d95:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_remin/combined.parq
+    metadata: {}
+    user_parameters: {}
+  1b2ea8a49438c012:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_det/combined.parq
+    metadata: {}
+    user_parameters: {}
+  218dd2efdd1a3e16:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_P15DM_o2/combined.parq
+    metadata: {}
+    user_parameters: {}
+  4bd3a73b1de5e869:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_aou/combined.parq
+    metadata: {}
+    user_parameters: {}
+  54290d5717bb314e:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_phyp/combined.parq
+    metadata: {}
+    user_parameters: {}
+  6615026bb9bab713:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_P15DM_o2/combined.parq
+    metadata: {}
+    user_parameters: {}
+  664465c9c9789d10:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_dissic/combined.parq
+    metadata: {}
+    user_parameters: {}
+  803a11d848b78d90:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_o2/combined.parq
+    metadata: {}
+    user_parameters: {}
+  803b83ee9ea89929:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_phydiaz/combined.parq
+    metadata: {}
+    user_parameters: {}
+  8313a4ac3d7bc8fa:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_2d_P1DM/combined.parq
+    metadata: {}
+    user_parameters: {}
+  87780d793f67285f:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_o2/combined.parq
+    metadata: {}
+    user_parameters: {}
+  aaecc0939ca4f5bb:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_dissoc/combined.parq
+    metadata: {}
+    user_parameters: {}
+  b2feae65a55c0a03:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_o2/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_dissoc/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_dissic/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_det/combined.parq
+    metadata: {}
+    user_parameters: {}
+  b38329be1e256ae9:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_monitor/combined.parq
+    metadata: {}
+    user_parameters: {}
+  b4ada94ca9fb60d0:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_dissic/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c5f895a4b0054b1a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_remin/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_no3/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_hi/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_det/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_talk/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_dissic/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_delcar/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_phydiaz/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_phyp/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_dissoc/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_delsil/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_o2/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_wpoc/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_po4/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_aou/combined.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_NPP/combined.parq
+    metadata: {}
+    user_parameters: {}
+  cb88a0552475ad27:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_talk/combined.parq
+    metadata: {}
+    user_parameters: {}
+  d2e7f5d925443203:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_no3/combined.parq
+    metadata: {}
+    user_parameters: {}
+  d4754d47e24f34c0:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_diag_P15DM_det/combined.parq
+    metadata: {}
+    user_parameters: {}
+  da0f55c60fe4a8c7:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_delcar/combined.parq
+    metadata: {}
+    user_parameters: {}
+  db44f76c61b0671d:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_2d_P1DM/combined.parq
+    metadata: {}
+    user_parameters: {}
+  de8054df227f577d:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_hi/combined.parq
+    metadata: {}
+    user_parameters: {}
+  e109359f714b47eb:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_monitor/combined.parq
+    metadata: {}
+    user_parameters: {}
+  e941c45844b589e1:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_dissoc/combined.parq
+    metadata: {}
+    user_parameters: {}
+  f325cea16c625e14:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_po4/combined.parq
+    metadata: {}
+    user_parameters: {}
+  f8be8a9f81b0a45f:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_wpoc/combined.parq
+    metadata: {}
+    user_parameters: {}
+  f936515afb0fa280:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_NPP/combined.parq
+    metadata: {}
+    user_parameters: {}
+  fae595e28a6c18a1:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/obgc_3d_EU_P1DM_delsil/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_daily:
+    kwargs:
+      args:
+      - '{data(db44f76c61b0671d)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 527039
+      time_min: 1439
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - Calc flux at 90 m
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - co2 flux (positive upward)
+      - OM flux at 90 m
+      - o2 flux
+      - Opal flux at 90 m
+      - co2 ocean partical pressure
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(8313a4ac3d7bc8fa)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily:
+    kwargs:
+      args:
+      - '{data(c5f895a4b0054b1a)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 165599
+      time_min: 1439
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - apparent O2 utilisation
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - calcium carbonate production
+      - opal production
+      - POC concentration
+      - DIC concentration
+      - DOC concentration
+      - hydrogen ion concentration
+      - Nitrate concentration
+      - oxygen concentration
+      - cyanobacteria concentration
+      - phytoplankton concentration
+      - phosphate concentration
+      - aerob detritus remineralization
+      - alkalinity
+      - detrius sinking speed
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  model-level-eu_daily_parquet_0:
+    kwargs:
+      args:
+      - '{data(17e823b5b4d94d95)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_1:
+    kwargs:
+      args:
+      - '{data(d2e7f5d925443203)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_10:
+    kwargs:
+      args:
+      - '{data(fae595e28a6c18a1)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_11:
+    kwargs:
+      args:
+      - '{data(87780d793f67285f)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_12:
+    kwargs:
+      args:
+      - '{data(f8be8a9f81b0a45f)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_13:
+    kwargs:
+      args:
+      - '{data(f325cea16c625e14)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_14:
+    kwargs:
+      args:
+      - '{data(4bd3a73b1de5e869)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_15:
+    kwargs:
+      args:
+      - '{data(f936515afb0fa280)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_2:
+    kwargs:
+      args:
+      - '{data(de8054df227f577d)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_3:
+    kwargs:
+      args:
+      - '{data(1b2ea8a49438c012)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_4:
+    kwargs:
+      args:
+      - '{data(cb88a0552475ad27)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_5:
+    kwargs:
+      args:
+      - '{data(664465c9c9789d10)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_6:
+    kwargs:
+      args:
+      - '{data(da0f55c60fe4a8c7)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_7:
+    kwargs:
+      args:
+      - '{data(803b83ee9ea89929)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_8:
+    kwargs:
+      args:
+      - '{data(54290d5717bb314e)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_daily_parquet_9:
+    kwargs:
+      args:
+      - '{data(e941c45844b589e1)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_diag_P15DM:
+    kwargs:
+      args:
+      - '{data(b2feae65a55c0a03)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 15day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 527039
+      time_min: 21599
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/mh0287/m300805/code/ICON/nextgems_cycle3/experiments/ngc_72lev_HAM_prod/work/run_20200116T000000-20200130T235920/ngc_72lev_HAM_prod_obgc_3d_EU_diag_P15DM_dissic_20200131T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - DIC. tend. impl. diff.
+      - DIC tend. total
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - product of DIC and zonal velocity
+      - product of DIC and meridiornal velocity
+      - product of DIC and vertical velocity
+      - DOC. tend. impl. diff.
+      - doc tend. total
+      - product of DOC and zonal velocity
+      - product of DOC and meridiornal velocity
+      - product of DOC and vertical velocity
+      - OXY. tend. impl. diff.
+      - oxy. tend. total
+      - product of oxygen and zonal velocity
+      - product of oxygen and meridiornal velocity
+      - product of oxygen and vertical velocity
+      - POC. tend. impl. diff.
+      - poc tend. total
+      - product of POC and zonal velocity
+      - product of POC and meridiornal velocity
+      - product of POC and vertical velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  model-level-eu_diag_P15DM_parquet_0:
+    kwargs:
+      args:
+      - '{data(803a11d848b78d90)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_diag_P15DM_parquet_1:
+    kwargs:
+      args:
+      - '{data(aaecc0939ca4f5bb)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_diag_P15DM_parquet_2:
+    kwargs:
+      args:
+      - '{data(b4ada94ca9fb60d0)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_diag_P15DM_parquet_3:
+    kwargs:
+      args:
+      - '{data(d4754d47e24f34c0)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level_P15DM:
+    kwargs:
+      args:
+      - '{data(218dd2efdd1a3e16)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 15day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 527039
+      time_min: 21599
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/mh0287/m300805/code/ICON/nextgems_cycle3/experiments/ngc_72lev_HAM_prod/work/run_20200116T000000-20200130T235920/ngc_72lev_HAM_prod_obgc_3d_P15DM_o2_20200131T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - oxygen concentration
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  model-level_P15DM_parquet_0:
+    kwargs:
+      args:
+      - '{data(6615026bb9bab713)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  monitor:
+    kwargs:
+      args:
+      - '{data(e109359f714b47eb)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 165599
+      time_min: 1439
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - global N2 fixation
+      - global watern column denitrification
+      - global_om_export_at_1000m
+      - global_om_export_at_2000m
+      - global_om_export_at_90m
+      - global caco3 production
+      - global_calc_export_at_90m
+      - global net_co2_flux
+      - global annual primary production of cyanobacteria
+      - global_opal_export_at_90m
+      - global opal production
+      - global net_npp
+      - global_surface_alkalinity
+      - global_surface_dissolved_inorganic_carbon
+      - global_surface_nitrate
+      - global_surface_phosphate
+      - global_surface_silicate
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monitor_parquet_0:
+    kwargs:
+      args:
+      - '{data(b38329be1e256ae9)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

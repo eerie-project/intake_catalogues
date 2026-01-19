@@ -1,0 +1,42 @@
+aliases: {}
+data:
+  c27cfc0fc782949c:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference::/work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/wave/gr025/2D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+  c7b9ea92a5bf0cdc:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ifs-amip-tco1279_hist_v20240901_cloud/wave/gr025/2D_monthly.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2D_monthly:
+    kwargs:
+      args:
+      - '{data(c27cfc0fc782949c)}'
+      chunks: auto
+      zarr_format: 2
+    metadata: {}
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2D_monthly_parquet_0:
+    kwargs:
+      args:
+      - '{data(c7b9ea92a5bf0cdc)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2

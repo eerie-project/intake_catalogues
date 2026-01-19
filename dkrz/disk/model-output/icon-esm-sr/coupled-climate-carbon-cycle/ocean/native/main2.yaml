@@ -1,0 +1,447 @@
+aliases: {}
+data:
+  0ddc463cd02b37ed:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_2d_1d_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  4a6c5830324f960b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_ml_1d_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  531f00db5187614b:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/ngc_72lev_HAM_prod_oce_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  58ad8fca00909766:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_2d_1d_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  738d61fc01a7d7e3:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/ngc_72lev_HAM_prod_oce_mon/combined.parq
+    metadata: {}
+    user_parameters: {}
+  86af0fec6ceed91a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_3d_EU_P15DM_diag/combined.parq
+    metadata: {}
+    user_parameters: {}
+  8f7e2652a8fec338:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_3d_EU_P15DM_diag/combined.parq
+    metadata: {}
+    user_parameters: {}
+  c46b840b99994c53:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_ml_1d_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  d41ed2d512b6fbdb:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        lazy: true
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_moc_1d_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+  e19c97a55030f9cc:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ngc_72lev_HAM_prod/oce_moc_1d_mean/combined.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_daily_mean:
+    kwargs:
+      args:
+      - '{data(0ddc463cd02b37ed)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: 2d
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 165599
+      time_min: 1439
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - Conductive heat flux at ice-ocean interface
+      - Energy flux available for surface melting
+      - Wind Speed at 10m height
+      - atmos_fluxes_FrshFlux_Evaporation
+      - atmos_fluxes_FrshFlux_Precipitation
+      - atmos_fluxes_FrshFlux_Runoff
+      - atmos_fluxes_FrshFlux_SnowFall
+      - atmos_fluxes_HeatFlux_Latent
+      - atmos_fluxes_HeatFlux_LongWave
+      - atmos_fluxes_HeatFlux_Sensible
+      - atmos_fluxes_HeatFlux_ShortWave
+      - atmos_fluxes_HeatFlux_Total
+      - atmos_fluxes_stress_x
+      - atmos_fluxes_stress_xw
+      - atmos_fluxes_stress_y
+      - atmos_fluxes_stress_yw
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - ice concentration in each ice class
+      - heat_content_seaice
+      - heat_conten_snow
+      - heat_content_total
+      - ice thickness
+      - snow thickness
+      - zonal velocity
+      - meridional velocity
+      - ocean_mixed_layer_thickness_defined_by_sigma_t
+      - Sea Level Pressure
+      - zstar surface stretch at cell center
+      - vertically integrated mass flux at edges
+      - zstar sfc elevation at cell center
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(58ad8fca00909766)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  moc_daily_mean:
+    kwargs:
+      args:
+      - '{data(d41ed2d512b6fbdb)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 165599
+      time_min: 1439
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - atlantic northward ocean heat transport
+      - atlantic implied heat transport
+      - atlantic meridional overturning
+      - atlantic northward ocean salt transport
+      - atlantic implied freshwater transport
+      - global northward ocean heat transport
+      - global implied heat transport
+      - global meridional overturning
+      - global northward ocean salt transport
+      - global implied freshwater transport
+      - indopacific northward ocean heat transport
+      - indopacific implied heat transport
+      - indopacific meridional overturning
+      - indopacific northward ocean salt transport
+      - indopacific implied freshwater transport
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  moc_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(e19c97a55030f9cc)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level-eu_P15DM_diag:
+    kwargs:
+      args:
+      - '{data(8f7e2652a8fec338)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 15day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 527039
+      time_min: 21599
+      time_reduction: mean
+      title: ICON simulation
+      uri: /work/mh0287/m300805/code/ICON/nextgems_cycle3/experiments/ngc_72lev_HAM_prod/work/run_20200116T000000-20200130T235920/ngc_72lev_HAM_prod_oce_3d_EU_P15DM_diag_20200131T000000Z.nc
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - square of density
+      - square of salinity
+      - square of temperature
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - product of fw flux and density
+      - product of net heatflux and density
+      - density anomaly
+      - product of x windstress and u-velocity
+      - product of y windstress and v-velocity
+      - product of zonal velocity and density
+      - product of zonal velocity and salinity
+      - product of zonal velocity and temperature
+      - square of zonal velocity
+      - product of zonal velocity and meridional velocity
+      - product of zonal velocity and vertical velocity
+      - product of meridional velocity and density
+      - product of meridional velocity and salinity
+      - product of meridional velocity and temperature
+      - square of meridional velocity
+      - product of meridional velocity and vertical velocity
+      - product of vertical velocity and density
+      - product of vertical velocity and salinity
+      - product of vertical velocity and temperature
+      - vertical velocity at prism center
+      - square of vertical velocity
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  model-level-eu_P15DM_diag_parquet_0:
+    kwargs:
+      args:
+      - '{data(86af0fec6ceed91a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  model-level_daily_mean:
+    kwargs:
+      args:
+      - '{data(4a6c5830324f960b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_file_uri: http://icon-downloads.mpimet.mpg.de/grids/public/mpim/0016/icon_grid_0016_R02B09_O.nc
+      grid_id: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      number_of_grid_used: 16
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 165599
+      time_min: 1439
+      time_reduction: mean
+      title: ICON simulation
+      uuidOfHGrid: 375cb0cc-637e-11e8-9d6f-8f41a9b9ff4b
+      variable-long_names:
+      - sea water potential temperature(A_tracer_v)
+      - sea (-2 inner, -1 boundary) land (2 inner, 1 boundary) mask for the cell
+      - potential density
+      - sea water salinity
+      - turbulent kinetic energy
+      - sea water potential temperature
+      - u zonal velocity component
+      - v meridional velocity component
+      - vertical velocity at cells
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  model-level_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(c46b840b99994c53)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  monitor_oce_mon:
+    kwargs:
+      args:
+      - '{data(531f00db5187614b)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.2.0 (https://mpimet.mpg.de/cdi)
+      Conventions: CF-1.6
+      activity_id: C4MIP
+      comment: Fatemeh Chegini (m300805) on l40347 (Linux 4.18.0-372.32.1.el8_6.x86_64
+        x86_64)
+      experiment: coupled-climate-carbon-cycle
+      experiment_id: nextgems_cycle3
+      format: netcdf
+      frequency: 1day
+      grid_id: not implemented
+      grid_label: gn
+      history: deleted for convenience
+      institution: Max Planck Institute for Meteorology/Deutscher Wetterdienst
+      institution_id: MPI-M
+      level_type: ml
+      member_id: r1i1p1f1
+      project: nextGEMS
+      project_id: nextGEMS
+      realm: oce
+      references: see MPIM/DWD publications
+      simulation_id: ngc_72lev_HAM_prod
+      source: git@gitlab.dkrz.de:icon/icon-mpim.git@e2bd9f1c8546609deac7bc0489372d12abc5de2a
+      source_id: ICON-ESM
+      source_type: AOGCM
+      time_max: 165599
+      time_min: 1439
+      time_reduction: mean
+      title: ICON simulation
+      variable-long_names:
+      - FrshFlux_Evaporation_global
+      - FrshFlux_Precipitation
+      - FrshFlux_Runoff
+      - FrshFlux_SnowFall_global
+      - FrshFlux_TotalIce
+      - FrshFlux_TotalOcean
+      - FrshFlux_VolumeIce
+      - FrshFlux_VolumeTotal
+      - HeatFlux_Total
+      - amoc26n
+      - global_heat_content
+      - global_heat_content_solid
+      - ice_extent_nh
+      - ice_extent_sh
+      - ice_volume_nh
+      - ice_volume_sh
+      - kin_energy
+      - pot_energy
+      - potential_enstrophy
+      - ssh_global
+      - global mean sea surface salinity
+      - global mean sea surface temperature
+      - total_energy
+      - total_salt
+      - total_saltinliquidwater
+      - total_saltinseaice
+      - totalsnowfall
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  monitor_oce_mon_parquet_0:
+    kwargs:
+      args:
+      - '{data(738d61fc01a7d7e3)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters: {}
+version: 2
