@@ -4,7 +4,7 @@ sources:
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
       urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/wave/gr025/2D_monthly_s3.parq
