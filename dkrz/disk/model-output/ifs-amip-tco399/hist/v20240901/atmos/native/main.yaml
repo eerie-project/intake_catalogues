@@ -1,98 +1,100 @@
 sources:
   2D_const:
-    description: 2D constant variables from IFS-AMIP on 0.25 degree grid
+    description: 2D constant variables from IFS-AMIP on the native model grid
     driver: zarr
     args:
+      storage_options:
+        remote_protocol: https
+        lazy: true
       consolidated: false
-      urlpath:
-      - reference::/work/bk1377/b382473/IFS_AMIP/production/indices/tco399-eerie_production_202407/native/clte/jsons.1980/atm2d_const.json
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_const_s3.parq
   2D_monthly:
     description: 2D monthly variables from IFS-AMIP on the native grid. Mostly monthly averages, but also mininum (mn2t) and maximum (mx2t, 10fg)
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_monthly.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_monthly_s3.parq
   2D_24h:
     description: 2D 24-hourly variables from IFS-AMIP on the native grid. Mostly daily averages, but also mininum (mn2t24) and maximum (mx2t24, 10fg)
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_24h.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_24h_s3.parq
   2D_6h:
     description: 2D 6-hourly instantaneous variables from IFS-AMIP on the native grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_6h.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_6h_s3.parq
   2D_6h_acc:
     description: 2D 6-hourly accumulated variables from IFS-AMIP on the native grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_6h_acc.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_6h_acc_s3.parq
   3D_monthly:
     description: 3D monthly average variables from IFS-AMIP on the native grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/3D_monthly.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/3D_monthly_s3.parq
   3D_24h:
     description: 3D 24-hourly average variables from IFS-AMIP on the native grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/3D_24h.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/3D_24h_s3.parq
   3D_6h:
     description: 3D 6-hourly instantaneous variables from IFS-AMIP on the native grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/3D_6h.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/3D_6h_s3.parq
   2D_monthly_wam:
     description: 2D monthly mean variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_monthly_wam.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_monthly_wam_s3.parq
   2D_24h_wam:
     description: 2D daily mean variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_24h_wam.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_24h_wam_s3.parq
   2D_6h_wam:
     description: 6-hourly instantaneous variables from IFS-AMIP on the native wave model (WAM) grid
     driver: zarr
     args:
       storage_options:
-        remote_protocol: file
+        remote_protocol: https
         lazy: true
       consolidated: false
-      urlpath: reference::/work/bk1377/b382473/IFS_AMIP/production/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_6h_wam.parq
+      urlpath: reference::https://s3.eu-dkrz-1.dkrz.cloud/bm1344/ifs-amip/parquets/ifs-amip-tco399/hist/v20240901/atmos/native/2D_6h_wam_s3.parq
