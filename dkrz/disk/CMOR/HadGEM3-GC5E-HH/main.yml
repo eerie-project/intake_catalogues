@@ -1,0 +1,6 @@
+sources:
+  ssp245:
+    args:
+      path: "{{CATALOG_DIR}}/ssp245/main.yaml"
+    description: This catalog contains CMORized HadGEM3-GC5E-HH ssp245 output available at DKRZ disk.
+    driver: yaml_file_cat
