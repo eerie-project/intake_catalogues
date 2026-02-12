@@ -1,0 +1,19 @@
+sources:
+  Omon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://home/b/b380701/Kerchunk/model-output/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-ssp245/r1i1p1f1/HadGEM3-GC5-EERIE-N640-ORCA12_eerie-ssp245_r1i1p1f1_Omon.parquet
+    driver: zarr
+  Oday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://home/b/b380701/Kerchunk/model-output/HadGEM3-GC5-EERIE-N640-ORCA12/eerie-ssp245/r1i1p1f1/HadGEM3-GC5-EERIE-N640-ORCA12_eerie-ssp245_r1i1p1f1_Oday.parquet
+    driver: zarr
