@@ -171,6 +171,66 @@ sources:
         default: avg_sigrowth
         description: All available variables in the dataset
         type: str
+  3D_daily_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/3D_daily_avg.parquet
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T00:00:00.000000000'
+      time_min: '1950-01-01T00:00:00.000000000'
+      variable-long_names:
+      - Time-mean sea water practical salinity
+      - Time-mean sea water potential temperature
+      - Time-mean eastward sea water velocity
+      - Time-mean northward sea water velocity
+      - Time-mean upward sea water velocity
+    parameters:
+      variables:
+        allowed:
+        - avg_so
+        - avg_thetao
+        - avg_uoe
+        - avg_von
+        - avg_wo
+        default: avg_so
+        description: All available variables in the dataset
+        type: str                
   AMOC:
     args:
       chunks: auto
@@ -223,3 +283,135 @@ sources:
         default: atlantic_moc
         description: All available variables in the dataset
         type: str
+  2D_monthly_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/2D_monthly_avg.parquet
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T00:00:00.000000000'
+      time_min: '1950-01-01T00:00:00.000000000'
+      variable-long_names:
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.03 kg m-3
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.125 kg m-3
+      - Time-mean sea ice area fraction
+      - Time-mean sea ice growth
+      - Time-mean snow thickness over sea ice
+      - Time-mean sea ice thickness
+      - Time-mean eastward sea ice velocity
+      - Time-mean northward sea ice velocity
+      - Time-mean sea surface practical salinity
+      - Time-mean sea surface temperature
+      - Time-mean sea surface height
+    parameters:
+      variables:
+        allowed:
+        - avg_mlotst030
+        - avg_mlotst125
+        - avg_siconc
+        - avg_sigrowth
+        - avg_sisnthick
+        - avg_sithick
+        - avg_siue
+        - avg_sivn
+        - avg_sos
+        - avg_tos
+        - avg_zos
+        default: avg_mlotst030
+        description: All available variables in the dataset
+        type: str
+  3D_monthly_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/gr025/3D_monthly_avg.parquet
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-control-1950 run
+      activity_id: EERIE
+      experiment: eerie-control-1950
+      experiment_id: eerie-control-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r1i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_eerie-control-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T00:00:00.000000000'
+      time_min: '1950-01-01T00:00:00.000000000'
+      variable-long_names:
+      - Time-mean sea water practical salinity
+      - Time-mean sea water potential temperature
+      - Time-mean eastward sea water velocity
+      - Time-mean northward sea water velocity
+      - Time-mean upward sea water velocity
+    parameters:
+      variables:
+        allowed:
+        - avg_so
+        - avg_thetao
+        - avg_uoe
+        - avg_von
+        - avg_wo
+        default: avg_so
+        description: All available variables in the dataset
+        type: str        
