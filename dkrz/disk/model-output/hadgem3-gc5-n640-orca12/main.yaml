@@ -9,3 +9,8 @@ sources:
       path: "{{CATALOG_DIR}}/eerie-ssp245/main.yaml"
     description: This catalog contains EERIE HADGEM3-GC5-EERIE-N640-ORCA12 eerie-ssp245 output available at DKRZ disk.
     driver: yaml_file_cat
+  eerie-historical:
+    args:
+      path: "{{CATALOG_DIR}}/eerie-historical/main.yaml"
+    description: This catalog contains EERIE HADGEM3-GC5-EERIE-N640-ORCA12 eerie-historical output available at DKRZ disk.
+    driver: yaml_file_cat
