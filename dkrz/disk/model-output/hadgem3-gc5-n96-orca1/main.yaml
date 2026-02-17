@@ -1,0 +1,16 @@
+sources:
+  eerie-picontrol:
+    args:
+      path: "{{CATALOG_DIR}}/eerie-picontrol/main.yaml"
+    description: This catalog contains EERIE HADGEM3 eerie-picontrol output available at DKRZ disk.
+    driver: yaml_file_cat
+  eerie-ssp245:
+    args:
+      path: "{{CATALOG_DIR}}/eerie-ssp245/main.yaml"
+    description: This catalog contains EERIE HADGEM3-GC5-EERIE-N96-ORCA1 eerie-ssp245 output available at DKRZ disk.
+    driver: yaml_file_cat
+  eerie-historical:
+    args:
+      path: "{{CATALOG_DIR}}/eerie-historical/main.yaml"
+    description: This catalog contains EERIE HADGEM3-GC5-EERIE-N96-ORCA1 eerie-historical output available at DKRZ disk.
+    driver: yaml_file_cat

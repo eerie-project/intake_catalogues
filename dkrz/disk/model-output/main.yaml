@@ -37,12 +37,17 @@ sources:
   hadgem3-gc5-n640-orca12:
     args:
       path: "{{CATALOG_DIR}}/hadgem3-gc5-n640-orca12/main.yaml"
-    description: IFS-NEMO output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
+    description: HadGEM3-GC5-N640-ORCA12 output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1344
     driver: yaml_file_cat
   hadgem3-gc5-n216-orca025:
     args:
       path: "{{CATALOG_DIR}}/hadgem3-gc5-n216-orca025/main.yaml"
-    description: IFS-NEMO output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1377
+    description: HadGEM3-GC5-N216-ORCA025 output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1344
+    driver: yaml_file_cat
+  hadgem3-gc5-n96-orca1:
+    args:
+      path: "{{CATALOG_DIR}}/hadgem3-gc5-n96-orca1/main.yaml"
+    description: HadGEM3-GC5-N96-ORCA1 output available on DKRZ's Levante File System. This catalog contains datasets for data in /work/bk1344
     driver: yaml_file_cat
   csv:
     args:
