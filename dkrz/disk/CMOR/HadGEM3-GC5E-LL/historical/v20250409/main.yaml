@@ -1,0 +1,6 @@
+sources:
+  gr1:
+    args:
+      path: "{{CATALOG_DIR}}/gr1/main.yaml"
+    description: This catalog contains CMORized HadGEM3-GC5E-LL historical v20250409 output on quarter degree grid available at DKRZ disk.
+    driver: yaml_file_cat

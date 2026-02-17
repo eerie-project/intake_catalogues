@@ -19,3 +19,8 @@ sources:
       path: "{{CATALOG_DIR}}/HadGEM3-GC5E-HH/main.yaml"
     description: CMORized HadGEM3-GC5E-HH output for publication on ESGF
     driver: yaml_file_cat
+  HadGEM3-GC5E-LL:
+    args:
+      path: "{{CATALOG_DIR}}/HadGEM3-GC5E-LL/main.yaml"
+    description: CMORized HadGEM3-GC5E-LL output for publication on ESGF
+    driver: yaml_file_cat
