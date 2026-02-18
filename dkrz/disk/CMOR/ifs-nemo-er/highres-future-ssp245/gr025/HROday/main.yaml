@@ -1,0 +1,12 @@
+sources:
+  zos:
+    description: HROday zos (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/highres-future-ssp245/r1i1p1f1/HROday/zos/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"

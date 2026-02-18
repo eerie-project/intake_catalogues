@@ -1,0 +1,48 @@
+sources:
+  uas:
+    description: 6hrPlevPt uas (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/6hrPlevPt/uas/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  vas:
+    description: 6hrPlevPt vas (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/6hrPlevPt/vas/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  psl:
+    description: 6hrPlevPt psl (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/6hrPlevPt/psl/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  zg:
+    description: 6hrPlevPt zg (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/6hrPlevPt/zg/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"

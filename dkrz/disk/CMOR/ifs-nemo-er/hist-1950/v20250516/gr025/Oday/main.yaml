@@ -1,0 +1,23 @@
+sources:
+  sos:
+    description: Oday sos (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/Oday/sos/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+  tos:
+    description: Oday tos (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/Oday/tos/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"

@@ -1,0 +1,11 @@
+sources:
+  monthly:
+    args:
+      path: "{{CATALOG_DIR}}/monthly/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER ssp245 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat
+  HROday:
+    args:
+      path: "{{CATALOG_DIR}}/HROday/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER ssp245 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat

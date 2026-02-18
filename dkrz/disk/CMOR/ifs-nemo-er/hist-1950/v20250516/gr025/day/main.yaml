@@ -1,0 +1,72 @@
+sources:
+  pr:
+    description: day pr (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/day/pr/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  rlut:
+    description: day rlut (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/day/rlut/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  tas:
+    description: day tas (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/day/tas/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  ua:
+    description: day ua (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/day/ua/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  va:
+    description: day va (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/day/va/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+
+  zg:
+    description: day zg (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/day/zg/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
