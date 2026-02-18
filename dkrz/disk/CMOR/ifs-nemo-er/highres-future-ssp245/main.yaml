@@ -1,6 +1,6 @@
 sources:
-  gr025:
+  v20250516:
     args:
-      path: "{{CATALOG_DIR}}/gr025/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER ssp245 testing output on regular grid available at DKRZ disk.
+      path: "{{CATALOG_DIR}}/v20250516/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER ssp245 testing output available at DKRZ disk; v1.
     driver: yaml_file_cat
