@@ -1,0 +1,19 @@
+sources:
+  Amon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/HadGEM3-GC5E-HH/HadGEM3-GC5E-HH_ssp245_r1i1p1f1_Amon.parquet
+    driver: zarr
+  AmonExtremes:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/HadGEM3-GC5E-HH/HadGEM3-GC5E-HH_ssp245_r1i1p1f1_AmonExtremes.parquet
+    driver: zarr

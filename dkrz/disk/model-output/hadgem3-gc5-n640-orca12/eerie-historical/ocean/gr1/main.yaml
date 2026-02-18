@@ -1,0 +1,19 @@
+sources:
+  Omon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/HadGEM3-GC5E-HH/HadGEM3-GC5-EERIE-N640-ORCA12_eerie-historical_r1i1p1f1_Omon.parquet
+    driver: zarr
+  Oday:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/HadGEM3-GC5E-HH/HadGEM3-GC5-EERIE-N640-ORCA12_eerie-historical_r1i1p1f1_Oday.parquet
+    driver: zarr
