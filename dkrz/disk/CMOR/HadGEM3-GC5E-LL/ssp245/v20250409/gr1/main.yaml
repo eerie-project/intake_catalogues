@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://home/b/b380701/Kerchunk/CMOR/HadGEM3-GC5E-LL/ssp245/r1i1p1f1/HadGEM3-GC5E-LL_ssp245_r1i1p1f1_Amon.parquet
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/HadGEM3-GC5E-LL/HadGEM3-GC5E-LL_ssp245_r1i1p1f1_Amon.parquet
     driver: zarr
   AmonExtremes:
     args:
@@ -15,5 +15,5 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://home/b/b380701/Kerchunk/CMOR/HadGEM3-GC5E-LL/ssp245/r1i1p1f1/HadGEM3-GC5E-LL_ssp245_r1i1p1f1_AmonExtremes.parquet
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/HadGEM3-GC5E-LL/HadGEM3-GC5E-LL_ssp245_r1i1p1f1_AmonExtremes.parquet
     driver: zarr
