@@ -1,0 +1,6 @@
+sources:
+  ifs-fesom2-sr:
+    args:
+      path: "{{CATALOG_DIR}}/ifs-fesom2-sr/main.yaml"
+    description: IFS-FESOM2 phase 2 output 
+    driver: yaml_file_cat

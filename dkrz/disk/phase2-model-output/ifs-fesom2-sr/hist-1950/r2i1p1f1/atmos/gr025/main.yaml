@@ -1,0 +1,865 @@
+sources:
+  2D_daily_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_daily_0.25deg_atmos_avg.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Mean convective precipitation rate
+      - Evaporation
+      - Time-mean 10 metre U wind component
+      - Time-mean 10 metre V wind component
+      - Time-mean 2 metre dewpoint temperature
+      - Time-mean 2 metre specific humidity
+      - Time-mean boundary layer height
+      - Time-mean sea ice area fraction
+      - Mean of 10 metre wind speed
+      - Mean 2 metre temperature
+      - Mean total cloud cover
+      - Mean eastward turbulent surface stress
+      - Time-mean high cloud cover
+      - Time-mean low cloud cover
+      - Time-mean medium cloud cover
+      - Time-mean mean sea level pressure
+      - Mean northward turbulent surface stress
+      - Mean runoff rate
+      - Time-mean snow depth
+      - Mean surface downward long-wave radiation flux
+      - Mean surface downward short-wave radiation flux
+      - Time-mean skin temperature
+      - Mean surface latent heat flux
+      - Mean surface net long-wave radiation flux
+      - Mean surface net long-wave radiation flux, clear sky
+      - Mean surface net short-wave radiation flux
+      - Mean surface net short-wave radiation flux, clear sky
+      - Time-mean surface pressure
+      - Mean surface runoff rate
+      - Mean surface sensible heat flux
+      - Mean sub-surface runoff rate
+      - Time-mean sea surface temperature
+      - Time-mean total column cloud ice water
+      - Time-mean total column liquid water
+      - Time-mean total column water
+      - Time-mean total column vertically-integrated water vapour
+      - Mean top downward short-wave radiation flux
+      - Mean top net long-wave radiation flux
+      - Mean top net long-wave radiation flux, clear sky
+      - Mean top net short-wave radiation flux
+      - Mean top net short-wave radiation flux, clear sky
+      - Mean total snowfall rate
+      - Mean total precipitation rate
+    parameters:
+      variables:
+        allowed:
+        - cprate
+        - erate
+        - m10u
+        - m10v
+        - m2d
+        - m2sh
+        - mblh
+        - mci
+        - mean10ws
+        - mean2t
+        - meantcc
+        - metss
+        - mhcc_frac
+        - mlcc_frac
+        - mmcc_frac
+        - mmsl
+        - mntss
+        - mrort
+        - msd_m
+        - msdwlwrf
+        - msdwswrf
+        - mskt
+        - mslhf
+        - msnlwrf
+        - msnlwrfcs
+        - msnswrf
+        - msnswrfcs
+        - msp
+        - msror
+        - msshf
+        - mssror
+        - msst
+        - mtciw
+        - mtclw
+        - mtcw
+        - mtcwv
+        - mtdwswrf
+        - mtnlwrf
+        - mtnlwrfcs
+        - mtnswrf
+        - mtnswrfcs
+        - mtsfr
+        - tprate
+        default: cprate
+        description: All available variables in the dataset
+        type: str
+  2D_daily_max:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_daily_0.25deg_atmos_max.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Maximum 10 metre wind gust since previous post-processing
+      - Maximum temperature at 2 metres in the last 24 hours
+    parameters:
+      variables:
+        allowed:
+        - 10fg
+        - mx2t24
+        default: 10fg
+        description: All available variables in the dataset
+        type: str
+  2D_daily_min:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_daily_0.25deg_atmos_min.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Minimum temperature at 2 metres in the last 24 hours
+    parameters:
+      variables:
+        allowed:
+        - mn2t24
+        default: mn2t24
+        description: All available variables in the dataset
+        type: str
+  2D_monthly_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_monthly_0.25deg_atmos_avg.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Mean convective precipitation rate
+      - Evaporation
+      - Time-mean 10 metre U wind component
+      - Time-mean 10 metre V wind component
+      - Time-mean 2 metre dewpoint temperature
+      - Time-mean 2 metre specific humidity
+      - Time-mean boundary layer height
+      - Time-mean sea ice area fraction
+      - Mean of 10 metre wind speed
+      - Mean 2 metre temperature
+      - Mean total cloud cover
+      - Mean eastward turbulent surface stress
+      - Time-mean high cloud cover
+      - Time-mean low cloud cover
+      - Time-mean medium cloud cover
+      - Time-mean mean sea level pressure
+      - Mean northward turbulent surface stress
+      - Mean runoff rate
+      - Time-mean snow depth
+      - Mean surface downward long-wave radiation flux
+      - Mean surface downward short-wave radiation flux
+      - Time-mean skin temperature
+      - Mean surface latent heat flux
+      - Mean surface net long-wave radiation flux
+      - Mean surface net long-wave radiation flux, clear sky
+      - Mean surface net short-wave radiation flux
+      - Mean surface net short-wave radiation flux, clear sky
+      - Time-mean surface pressure
+      - Mean surface runoff rate
+      - Mean surface sensible heat flux
+      - Mean sub-surface runoff rate
+      - Time-mean sea surface temperature
+      - Time-mean total column cloud ice water
+      - Time-mean total column liquid water
+      - Time-mean total column water
+      - Time-mean total column vertically-integrated water vapour
+      - Mean top downward short-wave radiation flux
+      - Mean top net long-wave radiation flux
+      - Mean top net long-wave radiation flux, clear sky
+      - Mean top net short-wave radiation flux
+      - Mean top net short-wave radiation flux, clear sky
+      - Mean total snowfall rate
+      - Mean total precipitation rate
+    parameters:
+      variables:
+        allowed:
+        - cprate
+        - erate
+        - m10u
+        - m10v
+        - m2d
+        - m2sh
+        - mblh
+        - mci
+        - mean10ws
+        - mean2t
+        - meantcc
+        - metss
+        - mhcc_frac
+        - mlcc_frac
+        - mmcc_frac
+        - mmsl
+        - mntss
+        - mrort
+        - msd_m
+        - msdwlwrf
+        - msdwswrf
+        - mskt
+        - mslhf
+        - msnlwrf
+        - msnlwrfcs
+        - msnswrf
+        - msnswrfcs
+        - msp
+        - msror
+        - msshf
+        - mssror
+        - msst
+        - mtciw
+        - mtclw
+        - mtcw
+        - mtcwv
+        - mtdwswrf
+        - mtnlwrf
+        - mtnlwrfcs
+        - mtnswrf
+        - mtnswrfcs
+        - mtsfr
+        - tprate
+        default: cprate
+        description: All available variables in the dataset
+        type: str
+  2D_monthly_max:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_monthly_0.25deg_atmos_max.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Maximum 10 metre wind gust since previous post-processing
+      - Maximum temperature at 2 metres since previous post-processing
+    parameters:
+      variables:
+        allowed:
+        - 10fg
+        - mx2t
+        default: 10fg
+        description: All available variables in the dataset
+        type: str
+  2D_monthly_min:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_monthly_0.25deg_atmos_min.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Minimum temperature at 2 metres since previous post-processing
+    parameters:
+      variables:
+        allowed:
+        - mn2t
+        default: mn2t
+        description: All available variables in the dataset
+        type: str
+  3D_daily_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/3D_daily_0.25deg_atmos_avg.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean specific humidity
+      - Time-mean relative humidity
+      - Time-mean temperature
+      - Time-mean U component of wind
+      - Time-mean V component of wind
+      - Time-mean vertical velocity
+      - Time-mean geopotential
+    parameters:
+      variables:
+        allowed:
+        - mq
+        - mr
+        - mt
+        - mu
+        - mv
+        - mw
+        - mz
+        default: mq
+        description: All available variables in the dataset
+        type: str
+  3D_monthly_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/3D_monthly_0.25deg_atmos_avg.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean specific humidity
+      - Time-mean relative humidity
+      - Time-mean temperature
+      - Time-mean U component of wind
+      - Time-mean V component of wind
+      - Time-mean vertical velocity
+      - Time-mean geopotential
+    parameters:
+      variables:
+        allowed:
+        - mq
+        - mr
+        - mt
+        - mu
+        - mv
+        - mw
+        - mz
+        default: mq
+        description: All available variables in the dataset
+        type: str
+  3D_6hourly:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/3D_6hourly_0.25deg_atmos.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Specific humidity
+      - Relative humidity
+      - Temperature
+      - U component of wind
+      - V component of wind
+      - Vertical velocity
+      - Geopotential
+    parameters:
+      variables:
+        allowed:
+        - q
+        - r
+        - t
+        - u
+        - v
+        - w
+        - z
+        default: q
+        description: All available variables in the dataset
+        type: str
+  2D_6hourly_accumulated:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_6hourly_0.25deg_atmos_accumulated.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Convective precipitation
+      - Evaporation
+      - Time-integrated eastward turbulent surface stress
+      - Time-integrated northward turbulent surface stress
+      - Runoff
+      - Snowfall
+      - Surface latent heat flux
+      - Surface runoff
+      - Surface sensible heat flux
+      - Surface net short-wave (solar) radiation
+      - Surface net short-wave (solar) radiation, clear sky
+      - Surface short-wave (solar) radiation downwards
+      - Sub-surface runoff
+      - Surface net long-wave (thermal) radiation
+      - Surface net long-wave (thermal) radiation, clear sky
+      - Surface long-wave (thermal) radiation downwards
+      - TOA incident short-wave (solar) radiation
+      - Total precipitation
+      - Top net short-wave (solar) radiation
+      - Top net short-wave (solar) radiation, clear sky
+      - Top net long-wave (thermal) radiation
+      - Top net long-wave (thermal) radiation, clear sky
+    parameters:
+      variables:
+        allowed:
+        - cp
+        - e
+        - ewss
+        - nsss
+        - ro
+        - sf
+        - slhf
+        - sro
+        - sshf
+        - ssr
+        - ssrc
+        - ssrd
+        - ssro
+        - str
+        - strc
+        - strd
+        - tisr
+        - tp
+        - tsr
+        - tsrc
+        - ttr
+        - ttrc
+        default: cp
+        description: All available variables in the dataset
+        type: str
+  2D_6hourly_instant:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/atmos/gr025/2D_6hourly_0.25deg_atmos_instant.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - 10 metre wind speed
+      - 10 metre U wind component
+      - 10 metre V wind component
+      - 2 metre dewpoint temperature
+      - 2 metre specific humidity
+      - 2 metre temperature
+      - Boundary layer height
+      - Sea ice area fraction
+      - High cloud cover
+      - Instantaneous 10 metre wind gust
+      - Low cloud cover
+      - Medium cloud cover
+      - Mean sea level pressure
+      - Snow depth
+      - Skin temperature
+      - Surface pressure
+      - Sea surface temperature
+      - Total cloud cover
+      - Total column cloud ice water
+      - Total column cloud liquid water
+      - Total column water
+      - Total column vertically-integrated water vapour
+    parameters:
+      variables:
+        allowed:
+        - 10si
+        - 10u
+        - 10v
+        - 2d
+        - 2sh
+        - 2t
+        - blh
+        - ci
+        - hcc
+        - i10fg
+        - lcc
+        - mcc
+        - msl
+        - sd
+        - skt
+        - sp
+        - sst
+        - tcc
+        - tciw
+        - tclw
+        - tcw
+        - tcwv
+        default: 10si
+        description: All available variables in the dataset
+        type: str        
