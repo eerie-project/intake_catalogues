@@ -1,0 +1,11 @@
+sources:
+  r2i1p1f1:
+    args:
+      path: "{{CATALOG_DIR}}/r2i1p1f1/main.yaml"
+    description: This catalog contains EERIE ifs-fesom2-sr hist-1950 output available at DKRZ disk; v1. 
+    driver: yaml_file_cat
+  r3i1p1f1:
+    args:
+      path: "{{CATALOG_DIR}}/r3i1p1f1/main.yaml"
+    description: This catalog contains EERIE ifs-fesom2-sr hist-1950 output available at DKRZ disk; v1. 
+    driver: yaml_file_cat    

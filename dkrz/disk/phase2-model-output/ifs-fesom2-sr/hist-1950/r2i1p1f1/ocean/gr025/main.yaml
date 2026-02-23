@@ -1,0 +1,69 @@
+sources:
+  2D_daily_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/ocean/gr025/2D_daily_avg_Phase2-HIST-ENS1-FESOM.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: gr025
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.125 kg m-3
+      - Time-mean sea ice area fraction
+      - Time-mean snow thickness over sea ice
+      - Time-mean sea ice thickness
+      - Time-mean eastward sea ice velocity
+      - Time-mean northward sea ice velocity
+      - Time-mean sea surface practical salinity
+      - Time-mean sea surface temperature
+      - Time-mean sea surface height
+    parameters:
+      variables:
+        allowed:
+        - avg_mlotst125
+        - avg_siconc
+        - avg_sisnthick
+        - avg_sithick
+        - avg_siue
+        - avg_sivn
+        - avg_sos
+        - avg_tos
+        - avg_zos
+        default: avg_mlotst125
+        description: All available variables in the dataset
+        type: str       

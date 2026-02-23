@@ -19,3 +19,8 @@ sources:
       path: "{{CATALOG_DIR}}/derived-variables/main.yaml"
     description: Products of EERIE Earth System Model output available on DKRZ's Levante File System.
     driver: yaml_file_cat    
+  phase2-model-output:
+    args:
+      path: "{{CATALOG_DIR}}/phase2-model-output/main.yaml"
+    description: Products of EERIE Earth System Model phase 2 output available on DKRZs Levante File System
+    driver: yaml_file_cat  

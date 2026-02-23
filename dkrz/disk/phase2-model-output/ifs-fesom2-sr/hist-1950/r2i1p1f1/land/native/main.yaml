@@ -1,0 +1,109 @@
+sources:
+  3D_daily_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/land/native/3D_daily_native_soil_avg.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: native
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean soil temperature
+      - Time-mean volumetric soil moisture
+    parameters:
+      variables:
+        allowed:
+        - msot
+        - mvsw
+        default: msot
+        description: All available variables in the dataset
+        type: str
+  3D_monthly_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/land/native/3D_monthly_native_soil_avg.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      activity_id: EERIE
+      experiment: hist-1950
+      experiment_id: hist-1950
+      grid_label: native
+      history: deleted for convenience
+      institution: European Centre for Medium-Range Weather Forecasts
+      member_id: r2i1p1f1
+      plots:
+        quicklook:
+          aspect: 1
+          cmap: jet
+          coastline: 50m
+          geo: true
+          groupby: time
+          kind: image
+          use_dask: true
+          width: 800
+          x: lon
+          y: lat
+          z: '{{variables}}'
+      simulation_id: IFS-FESOM2-SR_hist-1950
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: '2014-12-31T12:00:00.000000000'
+      time_min: '1975-01-01T12:00:00.000000000'
+      variable-long_names:
+      - Time-mean soil temperature
+      - Time-mean volumetric soil moisture
+    parameters:
+      variables:
+        allowed:
+        - msot
+        - mvsw
+        default: msot
+        description: All available variables in the dataset
+        type: str
