@@ -1,0 +1,11 @@
+sources:
+  day:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+        cache: true
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_eerie-control-1950_day.parquet"
+      chunks: null
+    driver: zarr 

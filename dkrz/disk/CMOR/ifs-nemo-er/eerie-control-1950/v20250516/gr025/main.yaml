@@ -1,0 +1,29 @@
+sources:
+  Amon:
+    args:
+      path: "{{CATALOG_DIR}}/Amon/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat 
+  HROday:
+    args:
+      path: "{{CATALOG_DIR}}/HROday/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat  
+  day:
+    args:
+      path: "{{CATALOG_DIR}}/day/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat  
+  Oday:
+    args:
+      path: "{{CATALOG_DIR}}/Oday/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat  
+  SIday:
+    args:
+      path: "{{CATALOG_DIR}}/SIday/main.yaml"
+    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
+    driver: yaml_file_cat  
+
+    
+    

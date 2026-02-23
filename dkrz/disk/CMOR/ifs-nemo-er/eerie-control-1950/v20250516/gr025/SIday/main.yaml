@@ -1,0 +1,23 @@
+sources:
+  siconc:
+    description: SIday siconc (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/EERIE/BSC/IFS-NEMO-ER/control-1950/r1i1p1f1/SIday/siconc/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+  sithick:
+    description: SIday sithick (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/EERIE/BSC/IFS-NEMO-ER/control-1950/r1i1p1f1/SIday/sithick/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
