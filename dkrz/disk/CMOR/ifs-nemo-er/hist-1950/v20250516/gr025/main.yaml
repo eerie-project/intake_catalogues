@@ -1,49 +1,132 @@
 sources:
-  monthly:
-    args:
-      path: "{{CATALOG_DIR}}/monthly/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat
   6hrPlevPt:
+    description: 6hrPlevPt all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/6hrPlevPt/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/6hrPlevPt/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+  day:
+    description: day all (native chunks)
+    driver: netcdf
+    args:
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/day/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
   E1hr:
+    description: E1hr all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/E1hr/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/E1hr/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
   Eday:
+    description: Eday all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/Eday/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat    
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/Eday/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"   
   HR6hr:
+    description: HR6hr all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/HR6hr/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat  
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/HR6hr/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override" 
   HROday:
+    description: HROday all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/HROday/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat  
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/HROday/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
   HRday:
+    description: HRday all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/HRday/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat  
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/HRday/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
   Oday:
+    description: Oday all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/Oday/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat  
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/Oday/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
   SIday:
+    description: SIday all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/SIday/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER hist-1950 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat  
+      urlpath: "/work/kd0956/EERIE_CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/hist-1950/r1i1p1f1/SIday/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"  
+  Amon:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+        cache: true
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_hist-1950_Amon.parquet"
+      chunks: null
+    driver: zarr 
+  Omon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_hist-1950_Omon.parquet"    
+    driver: zarr
+  SImon:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_hist-1950_SImon.parquet"
+    driver: zarr
+
 
     
     

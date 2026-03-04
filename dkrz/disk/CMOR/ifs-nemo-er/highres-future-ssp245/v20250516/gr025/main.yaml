@@ -1,11 +1,52 @@
 sources:
-  monthly:
-    args:
-      path: "{{CATALOG_DIR}}/monthly/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER ssp245 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat
   HROday:
+    description: HROday all (native chunks)
+    driver: netcdf
     args:
-      path: "{{CATALOG_DIR}}/HROday/main.yaml"
-    description: This catalog contains CMORized IFS-NEMO-ER ssp245 testing output on regular grid available at DKRZ disk.
-    driver: yaml_file_cat
+      urlpath: "/work/bm1344/DKRZ/CMOR/EERIE/HighResMIP/BSC/IFS-NEMO-ER/highres-future-ssp245/r1i1p1f1/HROday/*/gr/v20250516/*.nc"
+      chunks: {}
+      xarray_kwargs:
+        decode_times: True
+        combine: "by_coords"
+        coords: "minimal"
+        compat: "override"
+  Amon:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+        cache: true
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_highres-future-ssp245_Amon.parquet"
+      chunks: null
+    driver: zarr 
+  HROmon:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+        cache: true
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_highres-future-ssp245_HROmon.parquet"
+      chunks: null
+    driver: zarr 
+  Omon:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+        cache: true
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_highres-future-ssp245_Omon.parquet"
+      chunks: null
+    driver: zarr     
+  SImon:
+    args:
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+        cache: true
+      urlpath: "reference:://work/bm1344/k202193/Kerchunk/BSC/cmor/IFS-NEMO-ER_highres-future-ssp245_SImon.parquet"
+      chunks: null
+    driver: zarr    
