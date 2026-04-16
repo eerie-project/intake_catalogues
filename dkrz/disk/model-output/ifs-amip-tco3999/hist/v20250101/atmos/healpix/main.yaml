@@ -1,6 +1,5 @@
 sources:
-        #                  {% with time_map = {'PT1H': 'hourly', 'P1M': 'monthly'}, zoom_map = {7: '128', 9: '512', 10: '1024', 11: '2048'} -%}
-  PT1H_7:
+  ifs_tco3999_rcbmf.PT1H_7:
     description: IFS-AMIP on HEALPix
     driver: zarr
     args:
@@ -11,7 +10,7 @@ sources:
       urlpath: reference:://work/bm1235/b382473/IFS_AMIP/production/parquets_2d3d/tco3999-ng-rcbmf_end/hourly_healpix128.parq
     metadata:
       creator: Aengstenheyster
-  PT1H_11:
+  ifs_tco3999_rcbmf.PT1H_11:
     description: IFS-AMIP on HEALPix
     driver: zarr
     args:
@@ -22,7 +21,7 @@ sources:
       urlpath: reference:://work/bm1235/b382473/IFS_AMIP/production/parquets_2d3d/tco3999-ng-rcbmf_end/hourly_healpix2048.parq
     metadata:
       creator: Aengstenheyster
-  P1M_7:
+  ifs_tco3999_rcbmf.P1M_7:
     description: IFS-AMIP on HEALPix
     driver: zarr
     args:
@@ -33,7 +32,7 @@ sources:
       urlpath: reference:://work/bm1235/b382473/IFS_AMIP/production/parquets_2d3d/tco3999-ng-rcbmf_end/monthly_healpix128.parq
     metadata:
       creator: Aengstenheyster
-  P1M_11:
+  ifs_tco3999_rcbmf.P1M_11:
     description: IFS-AMIP on HEALPix
     driver: zarr
     args:

@@ -45,14 +45,14 @@ entries:
     output_instance: intake.readers.entry:Catalog
     reader: intake.readers.readers:YAMLCatalogReader
     user_parameters: {}
-#  hist.v20250101.atmos.healpix_ng:
-    #kwargs:
-    #  args:
-    #  - '{data(6893d35ee4fd3429)}'
-    #metadata: {}
-    #output_instance: intake.readers.entry:Catalog
-    #reader: intake.readers.readers:YAMLCatalogReader
-    #user_parameters: {}
+  hist.v20250101.atmos.healpix_ng:
+    kwargs:
+      args:
+      - '{data(6893d35ee4fd3429)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
   hist.v20250101.atmos.native:
     kwargs:
       args:

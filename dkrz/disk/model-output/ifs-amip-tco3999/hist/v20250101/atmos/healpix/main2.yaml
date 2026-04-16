@@ -77,7 +77,7 @@ data:
     metadata: {}
     user_parameters: {}
 entries:
-  P1M_11:
+  ifs_tco3999_rcbmf.P1M_11:
     kwargs:
       args:
       - '{data(77a7a7253bb0cf6e)}'
@@ -94,7 +94,7 @@ entries:
     output_instance: xarray:Dataset
     reader: intake.readers.readers:XArrayDatasetReader
     user_parameters: {}
-  P1M_11_parquet_0:
+  ifs_tco3999_rcbmf.P1M_11_parquet_0:
     kwargs:
       args:
       - '{data(7af0e7606e4ded26)}'
@@ -103,7 +103,7 @@ entries:
     output_instance: pandas:DataFrame
     reader: intake.readers.readers:PandasParquet
     user_parameters: {}
-  P1M_7:
+  ifs_tco3999_rcbmf.P1M_7:
     kwargs:
       args:
       - '{data(badbba67d7fed412)}'
@@ -120,7 +120,7 @@ entries:
     output_instance: xarray:Dataset
     reader: intake.readers.readers:XArrayDatasetReader
     user_parameters: {}
-  P1M_7_parquet_0:
+  ifs_tco3999_rcbmf.P1M_7_parquet_0:
     kwargs:
       args:
       - '{data(8837f291e165cc32)}'
@@ -129,7 +129,7 @@ entries:
     output_instance: pandas:DataFrame
     reader: intake.readers.readers:PandasParquet
     user_parameters: {}
-  PT1H_11:
+  ifs_tco3999_rcbmf.PT1H_11:
     kwargs:
       args:
       - '{data(49fc859a84e1e5fc)}'
@@ -146,7 +146,7 @@ entries:
     output_instance: xarray:Dataset
     reader: intake.readers.readers:XArrayDatasetReader
     user_parameters: {}
-  PT1H_11_parquet_0:
+  ifs_tco3999_rcbmf.PT1H_11_parquet_0:
     kwargs:
       args:
       - '{data(1e36df699c45a018)}'
@@ -155,7 +155,7 @@ entries:
     output_instance: pandas:DataFrame
     reader: intake.readers.readers:PandasParquet
     user_parameters: {}
-  PT1H_7:
+  ifs_tco3999_rcbmf.PT1H_7:
     kwargs:
       args:
       - '{data(b50a1aba0b0c6812)}'
@@ -172,7 +172,7 @@ entries:
     output_instance: xarray:Dataset
     reader: intake.readers.readers:XArrayDatasetReader
     user_parameters: {}
-  PT1H_7_parquet_0:
+  ifs_tco3999_rcbmf.PT1H_7_parquet_0:
     kwargs:
       args:
       - '{data(b34a54b1682a1b47)}'
