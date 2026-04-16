@@ -10,7 +10,30 @@ sources:
         remote_protocol: slk
       urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_2D_daily_avg_slk.parq
     driver: zarr
-  3D_daily_avg_elems:
+    #  3D_daily_avg_elems:
+    #args:
+    #  chunks: auto
+    #  consolidated: false
+    #  storage_options:
+    #              lazy: true
+    #    remote_options:
+    #      slk_cache: /scratch/k/k202134/INTAKE_CACHE
+    #    remote_protocol: slk
+    #  urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_3D_daily_avg_elems_slk.parq
+    #driver: zarr
+    #  3D_daily_avg_nodes:
+    #args:
+    #  chunks: auto
+    #  consolidated: false
+    #  storage_options:
+    #    lazy: true
+    #    remote_options:
+    #      slk_cache: /scratch/k/k202134/INTAKE_CACHE
+    #    remote_protocol: slk
+    #  urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_3D_daily_avg_nodes_slk.parq
+    #driver: zarr
+
+  3D_daily_avg:
     args:
       chunks: auto
       consolidated: false
@@ -19,16 +42,5 @@ sources:
         remote_options:
           slk_cache: /scratch/k/k202134/INTAKE_CACHE
         remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_3D_daily_avg_elems_slk.parq
-    driver: zarr
-  3D_daily_avg_nodes:
-    args:
-      chunks: auto
-      consolidated: false
-      storage_options:
-        lazy: true
-        remote_options:
-          slk_cache: /scratch/k/k202134/INTAKE_CACHE
-        remote_protocol: slk
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_3D_daily_avg_nodes_slk.parq
-    driver: zarr
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_3D_daily_avg_slk.parq
+    driver: zarr    

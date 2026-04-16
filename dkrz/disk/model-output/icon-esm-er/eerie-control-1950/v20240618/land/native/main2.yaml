@@ -1,44 +1,48 @@
 aliases: {}
 data:
-  0261526fb7cad35b:
+  617a059cef063b5c:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_land_native_2d_daily_mean.parq
+    metadata: {}
+    user_parameters: {}
+  628b78e3430aad98:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_land_native_2d_monthly_mean.parq
+    metadata: {}
+    user_parameters: {}
+  726cc47323a3b3d7:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options:
+        consolidated: false
         lazy: true
+        remote_protocol: file
       url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/land_native_2d_monthly_mean.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_land_native_2d_daily_mean.parq
     metadata: {}
     user_parameters: {}
-  1a1eed4bb6f63e5f:
+  c1b354776040d477:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options:
+        consolidated: false
         lazy: true
+        remote_protocol: file
       url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/land_native_2d_daily_mean.parq
-    metadata: {}
-    user_parameters: {}
-  20bcbcef897b6ef2:
-    datatype: intake.readers.datatypes:Parquet
-    kwargs:
-      storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/land_native_2d_monthly_mean.parq
-    metadata: {}
-    user_parameters: {}
-  8f4f8b400e4aa299:
-    datatype: intake.readers.datatypes:Parquet
-    kwargs:
-      storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/land_native_2d_daily_mean.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_land_native_2d_monthly_mean.parq
     metadata: {}
     user_parameters: {}
 entries:
   2d_daily_mean:
     kwargs:
       args:
-      - '{data(1a1eed4bb6f63e5f)}'
+      - '{data(726cc47323a3b3d7)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -100,7 +104,7 @@ entries:
   2d_daily_mean_parquet_0:
     kwargs:
       args:
-      - '{data(8f4f8b400e4aa299)}'
+      - '{data(617a059cef063b5c)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -109,7 +113,7 @@ entries:
   2d_monthly_mean:
     kwargs:
       args:
-      - '{data(0261526fb7cad35b)}'
+      - '{data(c1b354776040d477)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -173,12 +177,16 @@ entries:
   2d_monthly_mean_parquet_0:
     kwargs:
       args:
-      - '{data(20bcbcef897b6ef2)}'
+      - '{data(628b78e3430aad98)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
     reader: intake.readers.readers:PandasParquet
     user_parameters: {}
 metadata: {}
-user_parameters: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20240618/land/native/
+    description: ''
+    dtype: str
 version: 2

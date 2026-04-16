@@ -7,178 +7,191 @@ data:
       url: /work/bm1344/DKRZ/ICON/erc1011/auxiliary/icon_grid_0016_R02B09_O.json
     metadata: {}
     user_parameters: {}
-  06e48e62b6d2c8ae:
-    datatype: intake.readers.datatypes:Zarr
-    kwargs:
-      root: ''
-      storage_options:
-        lazy: true
-      url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_eddy_monthly_mean.parq
-    metadata: {}
-    user_parameters: {}
-  0da7119a73f97af3:
+  1ee8f32c2d3a1c37:
     datatype: intake.readers.datatypes:Parquet
     kwargs:
       storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_eddy_monthly_mean.parq
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_model-level_monthly_mean.parq
     metadata: {}
     user_parameters: {}
-  1ee36c38d2551b63:
+  35ba38594dfadcea:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options:
+        consolidated: false
         lazy: true
+        remote_protocol: file
       url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_square.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_daily_mean.parq
     metadata: {}
     user_parameters: {}
-  1ffb7dab1c02d3a5:
+  3e41ea7ce7829ae7:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_5lev_daily_mean.parq
+    metadata: {}
+    user_parameters: {}
+  467c434bd3a0f5fe:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_model-level_monthly_mean.parq
+    metadata: {}
+    user_parameters: {}
+  4f279ed911987065:
     datatype: intake.readers.datatypes:Parquet
     kwargs:
       storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_square.parq
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_daily_mean.parq
     metadata: {}
     user_parameters: {}
-  20f6a303e5250f28:
+  5009653d157b7582:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_monthly_mean.parq
+    metadata: {}
+    user_parameters: {}
+  52ab4cbf9e35dca9:
     datatype: intake.readers.datatypes:Parquet
     kwargs:
       storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_monthly_mean.parq
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_monthly_mean.parq
     metadata: {}
     user_parameters: {}
-  225921df33dad41f:
-    datatype: intake.readers.datatypes:Zarr
-    kwargs:
-      root: ''
-      storage_options:
-        lazy: true
-      url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_square.parq
-    metadata: {}
-    user_parameters: {}
-  4043bf59c1016d00:
-    datatype: intake.readers.datatypes:Zarr
-    kwargs:
-      root: ''
-      storage_options: {}
-      url:
-      - zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_mon.zarr.zip
-    metadata: {}
-    user_parameters: {}
-  45b3e825de9e5cac:
+  7706134d7fb9c159:
     datatype: intake.readers.datatypes:Parquet
     kwargs:
       storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_square.parq
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_daily_square.parq
     metadata: {}
     user_parameters: {}
-  4bb4f4f4f2955ab7:
-    datatype: intake.readers.datatypes:Zarr
-    kwargs:
-      root: ''
-      storage_options:
-        lazy: true
-      url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_daily_mean.parq
-    metadata: {}
-    user_parameters: {}
-  5653fbb8fda6ae21:
-    datatype: intake.readers.datatypes:Zarr
-    kwargs:
-      root: ''
-      storage_options:
-        lazy: true
-      url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_monthly_mean.parq
-    metadata: {}
-    user_parameters: {}
-  56e2361ead78192e:
+  7c0d03fddb45e638:
     datatype: intake.readers.datatypes:Parquet
     kwargs:
       storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_daily_mean.parq
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_model-level_daily_mean.parq
     metadata: {}
     user_parameters: {}
-  59648653ad71e130:
+  88af41c635401fca:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options:
+        consolidated: false
         lazy: true
-      url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_mean.parq
-    metadata: {}
-    user_parameters: {}
-  5a2780c18e75a9d4:
-    datatype: intake.readers.datatypes:Zarr
-    kwargs:
-      root: ''
-      storage_options:
-        lazy: true
+        remote_protocol: file
       url:
       - reference:://work/bm1344/DKRZ/ICON/erc1011/auxiliary/icon_grid_0016_R02B09_O.json
     metadata: {}
     user_parameters: {}
-  7f5d359454238d4b:
+  8c1c5f12030d0362:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options: {}
       url:
-      - zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_moc_monthly_mean.zarr.zip
+      - zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_moc_monthly_mean.zarr.zip
     metadata: {}
     user_parameters: {}
-  945df94007cf6cc4:
-    datatype: intake.readers.datatypes:Parquet
-    kwargs:
-      storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_mean.parq
-    metadata: {}
-    user_parameters: {}
-  ad9df54e17ca020b:
+  8e5e2f15669e001a:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options:
+        consolidated: false
         lazy: true
+        remote_protocol: file
       url:
       - reference:://work/bm1344/DKRZ/ICON/erc1011/auxiliary/exp.ocean_era51h_zstar_r2b9_23075-ERA_fx_20100101T000200Z.json
     metadata: {}
     user_parameters: {}
-  be4950bcd3561320:
+  951e79f5e538e621:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options:
+        consolidated: false
         lazy: true
+        remote_protocol: file
       url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_mean.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_model-level_daily_mean.parq
     metadata: {}
     user_parameters: {}
-  cbf797dfa39f2e0c:
-    datatype: intake.readers.datatypes:Parquet
-    kwargs:
-      storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_mean.parq
-    metadata: {}
-    user_parameters: {}
-  cd3a4c7255816619:
+  9e4ad3e9c97bd559:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
       root: ''
       storage_options:
+        consolidated: false
         lazy: true
+        remote_protocol: file
       url:
-      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_5lev_daily_mean.parq
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_eddy_monthly_mean.parq
     metadata: {}
     user_parameters: {}
-  d786b66c6a71dede:
+  a1ef3a18bec9b28d:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_monthly_square.parq
+    metadata: {}
+    user_parameters: {}
+  aee228e78f16d834:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options: {}
+      url:
+      - zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_mon.zarr.zip
+    metadata: {}
+    user_parameters: {}
+  b645f3cfd8a95599:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_daily_square.parq
+    metadata: {}
+    user_parameters: {}
+  c0d71da553e3e5de:
     datatype: intake.readers.datatypes:Parquet
     kwargs:
       storage_options: null
-      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_5lev_daily_mean.parq
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_5lev_daily_mean.parq
+    metadata: {}
+    user_parameters: {}
+  dd5c1a127e3a5ddd:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_monthly_square.parq
     metadata: {}
     user_parameters: {}
   eab85f8d3f18a802:
@@ -188,11 +201,18 @@ data:
       url: /work/bm1344/DKRZ/ICON/erc1011/auxiliary/exp.ocean_era51h_zstar_r2b9_23075-ERA_fx_20100101T000200Z.json
     metadata: {}
     user_parameters: {}
+  fa8c030ade6859bf:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_eddy_monthly_mean.parq
+    metadata: {}
+    user_parameters: {}
 entries:
   2d_daily_mean:
     kwargs:
       args:
-      - '{data(be4950bcd3561320)}'
+      - '{data(35ba38594dfadcea)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -282,7 +302,7 @@ entries:
   2d_daily_mean_parquet_0:
     kwargs:
       args:
-      - '{data(945df94007cf6cc4)}'
+      - '{data(4f279ed911987065)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -291,7 +311,7 @@ entries:
   2d_daily_square:
     kwargs:
       args:
-      - '{data(1ee36c38d2551b63)}'
+      - '{data(b645f3cfd8a95599)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -347,7 +367,7 @@ entries:
   2d_daily_square_parquet_0:
     kwargs:
       args:
-      - '{data(1ffb7dab1c02d3a5)}'
+      - '{data(7706134d7fb9c159)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -356,7 +376,7 @@ entries:
   2d_grid:
     kwargs:
       args:
-      - '{data(5a2780c18e75a9d4)}'
+      - '{data(88af41c635401fca)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -522,7 +542,7 @@ entries:
   2d_monthly_mean:
     kwargs:
       args:
-      - '{data(59648653ad71e130)}'
+      - '{data(5009653d157b7582)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -617,7 +637,7 @@ entries:
   2d_monthly_mean_parquet_0:
     kwargs:
       args:
-      - '{data(cbf797dfa39f2e0c)}'
+      - '{data(52ab4cbf9e35dca9)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -626,7 +646,7 @@ entries:
   2d_monthly_square:
     kwargs:
       args:
-      - '{data(225921df33dad41f)}'
+      - '{data(a1ef3a18bec9b28d)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -685,7 +705,7 @@ entries:
   2d_monthly_square_parquet_0:
     kwargs:
       args:
-      - '{data(45b3e825de9e5cac)}'
+      - '{data(dd5c1a127e3a5ddd)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -694,7 +714,7 @@ entries:
   3d_grid:
     kwargs:
       args:
-      - '{data(ad9df54e17ca020b)}'
+      - '{data(8e5e2f15669e001a)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -759,7 +779,7 @@ entries:
   5lev_daily_mean:
     kwargs:
       args:
-      - '{data(cd3a4c7255816619)}'
+      - '{data(3e41ea7ce7829ae7)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -819,7 +839,7 @@ entries:
   5lev_daily_mean_parquet_0:
     kwargs:
       args:
-      - '{data(d786b66c6a71dede)}'
+      - '{data(c0d71da553e3e5de)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -828,7 +848,7 @@ entries:
   eddy_monthly_mean:
     kwargs:
       args:
-      - '{data(06e48e62b6d2c8ae)}'
+      - '{data(9e4ad3e9c97bd559)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -907,7 +927,7 @@ entries:
   eddy_monthly_mean_parquet_0:
     kwargs:
       args:
-      - '{data(0da7119a73f97af3)}'
+      - '{data(fa8c030ade6859bf)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -916,7 +936,7 @@ entries:
   moc_monthly_mean:
     kwargs:
       args:
-      - '{data(7f5d359454238d4b)}'
+      - '{data(8c1c5f12030d0362)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -952,7 +972,7 @@ entries:
   model-level_daily_mean:
     kwargs:
       args:
-      - '{data(4bb4f4f4f2955ab7)}'
+      - '{data(951e79f5e538e621)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -1012,7 +1032,7 @@ entries:
   model-level_daily_mean_parquet_0:
     kwargs:
       args:
-      - '{data(56e2361ead78192e)}'
+      - '{data(7c0d03fddb45e638)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -1021,7 +1041,7 @@ entries:
   model-level_monthly_mean:
     kwargs:
       args:
-      - '{data(5653fbb8fda6ae21)}'
+      - '{data(467c434bd3a0f5fe)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -1082,7 +1102,7 @@ entries:
   model-level_monthly_mean_parquet_0:
     kwargs:
       args:
-      - '{data(20f6a303e5250f28)}'
+      - '{data(1ee8f32c2d3a1c37)}'
       engine: fastparquet
     metadata: {}
     output_instance: pandas:DataFrame
@@ -1091,7 +1111,7 @@ entries:
   oce_mon:
     kwargs:
       args:
-      - '{data(4043bf59c1016d00)}'
+      - '{data(aee228e78f16d834)}'
       chunks: auto
       zarr_format: 2
     metadata:
@@ -1137,5 +1157,9 @@ entries:
     reader: intake.readers.readers:XArrayDatasetReader
     user_parameters: {}
 metadata: {}
-user_parameters: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/icon-esm-er/eerie-control-1950/v20240618/ocean/native/
+    description: ''
+    dtype: str
 version: 2

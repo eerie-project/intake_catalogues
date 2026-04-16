@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_daily_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -134,7 +134,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_daily_square.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_daily_square.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -352,7 +352,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_monthly_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -488,7 +488,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_2d_monthly_square.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_2d_monthly_square.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -611,7 +611,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_5lev_daily_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_5lev_daily_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -683,7 +683,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_eddy_monthly_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_eddy_monthly_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -789,7 +789,7 @@ sources:
   moc_monthly_mean:
     args:
       chunks: auto
-      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_moc_monthly_mean.zarr.zip
+      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_moc_monthly_mean.zarr.zip
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -846,7 +846,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_daily_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_model-level_daily_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -918,7 +918,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_model-level_monthly_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_model-level_monthly_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -988,7 +988,7 @@ sources:
   oce_mon:
     args:
       chunks: auto
-      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/ocean_native_mon.zarr.zip
+      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_ocean_native_mon.zarr.zip
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)

@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/land_native_2d_daily_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_land_native_2d_daily_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -83,7 +83,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/land_native_2d_monthly_mean.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/eerie-control-1950/v20240618/2041-2091/erc2002_land_native_2d_monthly_mean.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
