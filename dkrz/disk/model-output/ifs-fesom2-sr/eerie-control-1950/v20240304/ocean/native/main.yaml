@@ -74,7 +74,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference::/work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/native/3D_daily_avg.parquet
+      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/control-FESOM/ocean/native/3D_daily_avg.parquet
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
