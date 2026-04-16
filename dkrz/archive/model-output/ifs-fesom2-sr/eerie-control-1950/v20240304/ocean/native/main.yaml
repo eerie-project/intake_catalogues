@@ -1,0 +1,12 @@
+sources:
+  3D_daily_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/eerie-control-1950/v20240304/ocean_native_3D_daily_avg_slk.parq
+    driver: zarr    

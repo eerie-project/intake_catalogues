@@ -1,0 +1,40 @@
+aliases: {}
+data:
+  85cc2a9085587cbe:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/eerie-control-1950/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  f0a96ff6fd526a46:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/hist-1950/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  eerie-control-1950:
+    kwargs:
+      args:
+      - '{data(85cc2a9085587cbe)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  hist-1950:
+    kwargs:
+      args:
+      - '{data(f0a96ff6fd526a46)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/archive/model-output/ifs-fesom2-sr/
+    description: ''
+    dtype: str
+version: 2

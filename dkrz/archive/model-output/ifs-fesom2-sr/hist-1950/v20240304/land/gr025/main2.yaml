@@ -1,0 +1,192 @@
+aliases: {}
+data:
+  27da2a4ff522b7d0:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/land_gr025_3D_monthly_avg_slk.parq
+    metadata: {}
+    user_parameters: {}
+  3d57bbb2b5a60df3:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/land_gr025_3D_6hourly_slk.parq
+    metadata: {}
+    user_parameters: {}
+  4b316c1afd18a486:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/land_gr025_3D_monthly_avg_slk.parq
+    metadata: {}
+    user_parameters: {}
+  63de68f289b280da:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/land_gr025_3D_daily_avg_slk.parq
+    metadata: {}
+    user_parameters: {}
+  a8c6035e8818fbc1:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_options:
+          slk_cache: /scratch/k/k202134/INTAKE_CACHE
+        remote_protocol: slk
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/land_gr025_3D_6hourly_slk.parq
+    metadata: {}
+    user_parameters: {}
+  d7e7ab4015333369:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/land_gr025_3D_daily_avg_slk.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  3D_6hourly:
+    kwargs:
+      args:
+      - '{data(a8c6035e8818fbc1)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2024-10-20\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_6hourly_parquet_0:
+    kwargs:
+      args:
+      - '{data(3d57bbb2b5a60df3)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_daily_avg:
+    kwargs:
+      args:
+      - '{data(63de68f289b280da)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      edition: 2
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2024-09-27\r\n"
+      subCentre: 0
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_daily_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(d7e7ab4015333369)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  3D_monthly_avg:
+    kwargs:
+      args:
+      - '{data(27da2a4ff522b7d0)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      centre: ecmf
+      centreDescription: European Centre for Medium-Range Weather Forecasts
+      contact: rohit.ghosh@awi.de
+      creation_date: '2024-12-16T16:19:29'
+      data_specs_version: 01.00.32
+      edition: 2
+      experiment: coupled historical 1950-2014
+      experiment_id: hist-1950
+      forcing_index: 1
+      grid: gr025
+      grid_label: gr
+      history: "\U0001FA84\U0001F9D9\u200D\u2642\uFE0F\U0001F52E magic dataset assembly\
+        \ provided by gribscan.IFSMagicianEERIE\r\ncreated 2024-09-27\r\n"
+      initialization_index: 1
+      institution: Alfred Wegener Institute, Helmholtz Centre for Polar and Marine
+        Research, Am Handelshafen 12, 27570 Bremerhaven, Germany
+      institution_id: AWI
+      license: 'EERIE model data produced by AWI is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: land
+      references: 'Ghosh, Rohit; Cheedela, Suvarchal Kumar; Wachsmann, Fabian; Wickramage,
+        Chathurika; Beyer, Sebastian; John, Amal; Koldunov, Nikolay; Sidorenko, Dmitry;
+        Jung, Thomas (2024). EERIE: IFS-FESOM TC01279/NG5 (9km, 5km): spinup-1950.
+        DOKU at DKRZ. https://www.wdc-climate.de/ui/entry?acronym=DKRZ_LTA_1344_dsg0001'
+      source: "IFS-FESOM2-SR (2023): \naerosol: none, prescribed MACv2-SP\natmos:\
+        \ IFS (IFS CY48R1, Tco1279, cubic octahedral reduced Gaussian grid; 137 levels)\n\
+        atmosChem: none\nland: none\nlandIce: none/prescribed\nocean: FESOM2 (FESOM;\
+        \ 5 km; 70 levels; top grid cell 0-10m)\nocnBgchem: none\nseaIce: none"
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      subCentre: 0
+      sub_experiment: none
+      sub_experiment_id: none
+      variant_label: r1i1p1f1
+      version_id: v20240304
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  3D_monthly_avg_parquet_0:
+    kwargs:
+      args:
+      - '{data(4b316c1afd18a486)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/archive/model-output/ifs-fesom2-sr/hist-1950/v20240304/land/gr025/
+    description: ''
+    dtype: str
+version: 2

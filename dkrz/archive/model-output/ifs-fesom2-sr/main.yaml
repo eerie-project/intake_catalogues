@@ -4,3 +4,8 @@ sources:
       path: "{{CATALOG_DIR}}/hist-1950/main.yaml"
     description: This catalog contains EERIE IFS-FESOM2-SR hist-1950 output available at DKRZ archive
     driver: yaml_file_cat
+  eerie-control-1950:
+    args:
+      path: "{{CATALOG_DIR}}/eerie-control-1950/main.yaml"
+    description: This catalog contains EERIE IFS-FESOM2-SR hist-1950 output available at DKRZ archive
+    driver: yaml_file_cat    
