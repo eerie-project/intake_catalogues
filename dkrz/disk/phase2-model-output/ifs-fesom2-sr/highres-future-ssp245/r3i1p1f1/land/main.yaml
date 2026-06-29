@@ -1,0 +1,11 @@
+sources:
+  gr025:
+    args:
+      path: "{{CATALOG_DIR}}/gr025/main.yaml"
+    description: EERIE IFS-FESOM2 IFS highres-future-ssp245 output on 0.25deg available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/a270228/phase1_hist
+    driver: yaml_file_cat
+  native:
+    args:
+      path: "{{CATALOG_DIR}}/native/main.yaml"
+    description: EERIE IFS-FESOM2 IFS highres-future-ssp245 output on native grid available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/a270228/phase1_hist
+    driver: yaml_file_cat    
