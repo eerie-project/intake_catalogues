@@ -1,0 +1,40 @@
+aliases: {}
+data:
+  9f148b9eb2d739a5:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/r2i1p1f1/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  a482e112a025d37a:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/r3i1p1f1/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  r2i1p1f1:
+    kwargs:
+      args:
+      - '{data(9f148b9eb2d739a5)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  r3i1p1f1:
+    kwargs:
+      args:
+      - '{data(a482e112a025d37a)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/phase2-model-output/ifs-fesom2-sr/highres-future-ssp245/
+    description: ''
+    dtype: str
+version: 2
