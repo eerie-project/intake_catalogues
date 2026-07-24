@@ -1,0 +1,6 @@
+sources:
+  native:
+    args:
+      path: "{{CATALOG_DIR}}/native/main.yaml"
+    description: EERIE ICON-ESM-ER  hist-1950 output on native grid available on DKRZ's Levante File System. This catalog contains datasets for all raw data in /work/bm1344 and accesses the data via kerchunks in /work/bm1344/a270228/phase1_hist
+    driver: yaml_file_cat    

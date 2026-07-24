@@ -1,0 +1,25 @@
+aliases: {}
+data:
+  1eb7587995c8a5f8:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/native/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  native:
+    kwargs:
+      args:
+      - '{data(1eb7587995c8a5f8)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/phase2-model-output/icon-esm-er/hist-1950/r2i1p1f1/land/
+    description: ''
+    dtype: str
+version: 2

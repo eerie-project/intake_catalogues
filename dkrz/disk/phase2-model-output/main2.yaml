@@ -1,0 +1,40 @@
+aliases: {}
+data:
+  63db7c26965cb1f3:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/icon-esm-er/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+  7e50bbc6f2193a31:
+    datatype: intake.readers.datatypes:YAMLFile
+    kwargs:
+      storage_options: null
+      url: '{CATALOG_DIR}/ifs-fesom2-sr/main2.yaml'
+    metadata: {}
+    user_parameters: {}
+entries:
+  icon-esm-er:
+    kwargs:
+      args:
+      - '{data(63db7c26965cb1f3)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+  ifs-fesom2-sr:
+    kwargs:
+      args:
+      - '{data(7e50bbc6f2193a31)}'
+    metadata: {}
+    output_instance: intake.readers.entry:Catalog
+    reader: intake.readers.readers:YAMLCatalogReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/phase2-model-output/
+    description: ''
+    dtype: str
+version: 2

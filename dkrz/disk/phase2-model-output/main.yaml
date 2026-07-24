@@ -4,3 +4,8 @@ sources:
       path: "{{CATALOG_DIR}}/ifs-fesom2-sr/main.yaml"
     description: IFS-FESOM2 phase 2 output 
     driver: yaml_file_cat
+  icon-esm-er:
+    args:
+      path: "{{CATALOG_DIR}}/icon-esm-er/main.yaml"
+    description: ICON-ESM-ER phase 2 output
+    driver: yaml_file_cat    

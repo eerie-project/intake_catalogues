@@ -1,0 +1,275 @@
+aliases: {}
+data:
+  010d4b4ff0594473:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_land_native_2d_monthly_mean.parq
+    metadata: {}
+    user_parameters: {}
+  2130317f4cd6a612:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_land_native_2d_daily_mean.parq
+    metadata: {}
+    user_parameters: {}
+  a8a9031a28aa4243:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_land_native_2d_monthly_mean.parq
+    metadata: {}
+    user_parameters: {}
+  bc5d7257ab99c45a:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options: {}
+      url:
+      - zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_land_native_mon.zarr.zip
+    metadata: {}
+    user_parameters: {}
+  d9065b35ce10c12a:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_land_native_2d_daily_mean.parq
+    metadata: {}
+    user_parameters: {}
+entries:
+  2d_daily_mean:
+    kwargs:
+      args:
+      - '{data(2130317f4cd6a612)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2024-12-17T17:33:20'
+      data_specs_version: 01.00.32
+      experiment: coupled historical 1950-2014
+      experiment_id: hist-1950
+      forcing_index: 1
+      grid: native
+      grid_label: gn
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: land
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      variable-long_names:
+      - Total drainage
+      - Snow area fraction
+      - Ice content of soil layers
+      - Total surface runoff
+      - Snow amount
+      - Snow amount on canopy
+      - Water content of soil layers
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_daily_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(d9065b35ce10c12a)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  2d_monthly_mean:
+    kwargs:
+      args:
+      - '{data(010d4b4ff0594473)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2024-12-17T17:33:20'
+      data_specs_version: 01.00.32
+      experiment: coupled historical 1950-2014
+      experiment_id: hist-1950
+      forcing_index: 1
+      grid: native
+      grid_label: gn
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: land
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      variable-long_names:
+      - Canopy conductance accounting for water limitation
+      - Discharge to the ocean
+      - Total drainage
+      - Total surface runoff
+      - Density of snow on soil
+      - Transpiration
+      - Snow amount
+      - Snow amount on canopy
+      - Ground heat flux (old)
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  2d_monthly_mean_parquet_0:
+    kwargs:
+      args:
+      - '{data(a8a9031a28aa4243)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
+  mon:
+    kwargs:
+      args:
+      - '{data(bc5d7257ab99c45a)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.5.3 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.5.3 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.7 CMIP-6.2
+      activity_id: HighResMIP
+      comment: Sapphire Dyamond (k203123) on l30465 (Linux 4.18.0-553.74.1.el8_10.x86_64
+        x86_64)
+      contact: juergen.kroeger@mpimet.mpg.de
+      creation_date: '2024-12-17T17:33:20'
+      data_specs_version: 01.00.32
+      experiment: coupled historical 1950-2014
+      experiment_id: hist-1950
+      forcing_index: 1
+      grid: native
+      grid_label: gn
+      history: 'Fri Nov 07 18:24:59 2025: cdo -z zstd copy /work/bm1344/k203123/experiments/erc2023/run_19750101T000000-19750131T235845/erc2023_lnd_mon_19750201T000000Z.nc
+        /work/bm1344/k203123/experiments/erc2023/run_19750101T000000-19750131T235845/erc2023_lnd_mon_19750201T000000Z.nc.compr
+
+        /work/bm1344/k203123/experiments/erc2023/run_19750101T000000-19750131T235845/./icon
+        at 20251015 091726'
+      initialization_index: 1
+      institution: Max Planck Institute for Meteorology, Hamburg 20146, Germany
+      institution_id: MPI-M
+      license: 'EERIE model data produced by MPI-M is licensed under a Creative Commons
+        Attribution 4.0 International License (https://creativecommons.org/licenses).
+        The data producers and data providers make no warranty, either express or
+        implied, including, but not limited to, warranties of merchantability and
+        fitness for a particular purpose. All liabilities arising from the supply
+        of the information (including any liability arising in negligence) are excluded
+        to the fullest extent permitted by law. '
+      mip_era: EERIE
+      nominal_resolution: 10 km
+      parent_activity_id: HighResMIP
+      parent_experiment_id: spinup-1950
+      physics_index: 1
+      product: model-output
+      project_id: EERIE
+      realization_index: 1
+      realm: land
+      references: "Hohenegger et al., ICON-Sapphire: simulating the components of\
+        \ the Earth system and their interactions at kilometer and subkilometer scales.\
+        \ Geosci. Model Dev., 16, 779\u2013811, 2023, https://doi.org/10.5194/gmd-16-779-2023"
+      source: "ICON-ESM-ER (2023): \naerosol: none, prescribed MACv2-SP\natmos: ICON-A\
+        \ (icosahedral/triangles; 10 km; 90 levels; top level 80 km)\natmosChem: none\n\
+        land: JSBACH4.20\nlandIce: none/prescribed\nocean: ICON-O (icosahedral/triangles;\
+        \ 5 km; 72 levels; top grid cell 0-2 m)\nocnBgchem: none\nseaIce: unnamed\
+        \ (thermodynamic (Semtner zero-layer) dynamic (Hibler 79) sea ice model)"
+      source_id: ICON-ESM-ER
+      source_type: AOGCM
+      sub_experiment: none
+      sub_experiment_id: none
+      title: ICON simulation
+      variable-long_names:
+      - Total HD water imbalance during time step
+      - Global water discharge to the oceans
+      - Global land evapotranspiration
+      - Global snow area (including glaciers)
+      - Global mean transpiration
+      - Global land water balance error
+      - Global amount of land water and ice
+      - Global snow amount on non-glacier land
+      - Global mean relative rootzone moisture
+      - Global land mean foilage projected cover
+      - Global land mean leaf_area_index
+      - Global land mean surface temperature
+      variant_label: r1i1p1f1
+      version_id: v20240618
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+metadata: {}
+user_parameters:
+  CATALOG_DIR:
+    default: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/phase2-model-output/icon-esm-er/hist-1950/r2i1p1f1/land/native/
+    description: ''
+    dtype: str
+version: 2
