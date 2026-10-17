@@ -1,0 +1,8 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "gr025",
+  "description": "Auto-generated STAC catalog for gr025",
+  "zarr_format": 2,
+  "links": []
+}

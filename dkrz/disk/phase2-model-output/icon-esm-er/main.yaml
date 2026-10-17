@@ -1,4 +1,9 @@
 sources:
+  highres-future-ssp245:
+    args:
+      path: "{{CATALOG_DIR}}/highres-future-ssp245/main.yaml"
+    description: This catalog contains EERIE ICON-ESM-ER highres-future-ssp245 phase 2 output available at DKRZ disk.
+    driver: yaml_file_cat        
   hist-1950:
     args:
       path: "{{CATALOG_DIR}}/hist-1950/main.yaml"

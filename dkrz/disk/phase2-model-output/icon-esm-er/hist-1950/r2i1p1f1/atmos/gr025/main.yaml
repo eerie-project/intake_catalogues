@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_atmos_native_2d_daily_max_remap025.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/atmos_native_2d_daily_max_remap025.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -63,7 +63,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_atmos_native_2d_daily_mean_remap025.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/atmos_native_2d_daily_mean_remap025.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -138,7 +138,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_atmos_native_2d_daily_min_remap025.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/atmos_native_2d_daily_min_remap025.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -194,7 +194,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_atmos_native_2d_monthly_mean_remap025.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/atmos_native_2d_monthly_mean_remap025.parq
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
@@ -277,7 +277,7 @@ sources:
   mon:
     args:
       chunks: auto
-      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/erc2023_atmos_native_mon.zarr.zip
+      urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/hist-1950/v20240618/2/atmos_native_mon.zarr.zip
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2

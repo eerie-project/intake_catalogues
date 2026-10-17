@@ -1,0 +1,43 @@
+sources:
+  2D_daily_avg:
+    args:
+      chunks: auto
+      consolidated: false
+      storage_options:
+        lazy: true
+        remote_protocol: file
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/ssp245/r2i1p1f1/ocean/gr025/2D_daily_avg_Phase2-SSP245-ENS1-FESOM.parq
+    driver: zarr
+    metadata:
+      CDI: Climate Data Interface version 2.4.0 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.4.0 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      variable-long_names:
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.03 kg m-3
+      - Time-mean ocean mixed layer depth defined by sigma theta 0.125 kg m-3
+      - Time-mean sea ice area fraction
+      - Time-mean sea ice growth
+      - Time-mean snow thickness over sea ice
+      - Time-mean sea ice thickness
+      - Time-mean eastward sea ice velocity
+      - Time-mean northward sea ice velocity
+      - Time-mean sea surface practical salinity
+      - Time-mean sea surface temperature
+      - Time-mean sea surface height
+    parameters:
+      variables:
+        allowed:
+        - avg_mlotst125
+        - avg_siconc
+        - avg_sisnthick
+        - avg_sithick
+        - avg_siue
+        - avg_sivn
+        - avg_sos
+        - avg_tos
+        - avg_zos
+        - avg_mlotst030
+        - avg_sigrowth
+        default: avg_mlotst125
+        description: All available variables in the dataset
+        type: str
