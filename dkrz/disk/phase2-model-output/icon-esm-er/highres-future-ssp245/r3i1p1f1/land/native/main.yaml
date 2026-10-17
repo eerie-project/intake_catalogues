@@ -127,6 +127,7 @@ sources:
     args:
       chunks: auto
       urlpath: zip:://work/bm1344/DKRZ/kerchunks_batched/ICON/phase2/highres-future-ssp245/v20240618/3/land_native_mon.zarr.zip
+      zarr_format: 2
     driver: zarr
     metadata:
       Conventions: CF-1.7 CMIP-6.2
