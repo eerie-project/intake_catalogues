@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/ssp245/r2i1p1f1/land/native/3D_daily_native_soil_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/ssp245/r22/3D_daily_native_soil_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -60,7 +60,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/ssp245/r2i1p1f1/land/native/3D_monthly_native_soil_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/ssp245/r22/3D_monthly_native_soil_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
