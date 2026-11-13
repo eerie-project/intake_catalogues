@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/2D_daily_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/2D_daily_native_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -142,7 +142,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/2D_daily_max.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/2D_daily_native_atmos_max
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -196,7 +196,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/2D_daily_min.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/2D_daily_native_atmos_min
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -248,7 +248,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/2D_monthly_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/2D_monthly_native_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -384,7 +384,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/2D_monthly_max.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/2D_monthly_native_atmos_max
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -438,7 +438,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/2D_monthly_min.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/2D_monthly_native_atmos_min
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -490,7 +490,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/3D_daily_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/3D_daily_native_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -554,7 +554,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/3D_monthly_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/3D_monthly_native_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -618,7 +618,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/atmos/native/2D_6hourly_instant.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/2D_6hourly_native_atmos_instant
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)

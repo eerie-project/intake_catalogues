@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/land/gr025/3D_daily_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/3D_daily_0.25deg_soil_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -60,7 +60,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/land/gr025/3D_monthly_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/3D_monthly_0.25deg_soil_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -114,7 +114,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/land/gr025/3D_6hourly.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/highres-future-ssp245/v20240304/3D_6hourly_0.25deg_soil
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)

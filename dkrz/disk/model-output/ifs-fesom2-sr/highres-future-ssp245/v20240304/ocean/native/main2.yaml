@@ -1,5 +1,17 @@
 aliases: {}
 data:
+  22e4fd17205c0392:
+    datatype: intake.readers.datatypes:Zarr
+    kwargs:
+      root: ''
+      storage_options:
+        consolidated: false
+        lazy: true
+        remote_protocol: file
+      url:
+      - reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_node-grid.parq
+    metadata: {}
+    user_parameters: {}
   584c7d381f0f642b:
     datatype: intake.readers.datatypes:Zarr
     kwargs:
@@ -35,6 +47,13 @@ data:
         lazy: true
       url:
       - reference:://work/bm1344/k202193/Kerchunk/IFS-FESOM_sr/ssp245_FESOM/ocean/native/3D_daily_avg_native.parquet
+    metadata: {}
+    user_parameters: {}
+  df6885e0ab8b4182:
+    datatype: intake.readers.datatypes:Parquet
+    kwargs:
+      storage_options: null
+      url: /work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/hist-1950/v20240304/ocean_native_node-grid.parq
     metadata: {}
     user_parameters: {}
   e015bb792d792a92:
@@ -239,6 +258,61 @@ entries:
     output_instance: pandas:DataFrame
     reader: intake.readers.readers:PandasParquet
     user_parameters: {}
+  grid:
+    kwargs:
+      args:
+      - '{data(22e4fd17205c0392)}'
+      chunks: auto
+      zarr_format: 2
+    metadata:
+      CDI: Climate Data Interface version 2.0.5 (https://mpimet.mpg.de/cdi)
+      CDO: Climate Data Operators version 2.0.5 (https://mpimet.mpg.de/cdo)
+      Conventions: CF-1.6
+      DOKU_License: CC BY 4.0
+      DOKU_Name: EERIE IFS-FESOM2-SR eerie-spinup-1950 run
+      DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
+      DOKU_responsible_person: Fabian Wachsmann
+      DOKU_summary: EERIE IFS-FESOM2-SR eerie-spinup-1950 run
+      FESOM_ClimateDataPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/hydrography/phc3.0/
+      FESOM_MeshPath: /work/bm1344/a270228/ifs_inputs/fesom/v21/NG5/
+      FESOM_autorotate_back_to_geo: 1
+      FESOM_evp_rheol_steps: 120
+      FESOM_force_rotation: 1
+      FESOM_git_SHA: d6a683a9
+      FESOM_include_fleapyear: 1
+      FESOM_mix_scheme: cvmix_TKE
+      FESOM_model: FESOM2
+      FESOM_opt_visc: 7
+      FESOM_use_floatice: 0
+      FESOM_use_partial_cell: 0
+      FESOM_use_wsplit: 1
+      FESOM_website: fesom.de
+      FESOM_whichEVP: 1
+      FESOM_which_ALE: zstar
+      activity_id: EERIE
+      experiment_id: eerie-spinup-1950
+      grid_label: native
+      history: deleted for convenience
+      member_id: r1i1p1f1
+      source_id: IFS-FESOM2-SR
+      source_type: AOGCM
+      time_max: 284082600
+      time_min: 85800
+    output_instance: xarray:Dataset
+    reader: intake.readers.readers:XArrayDatasetReader
+    user_parameters: {}
+  grid_parquet_0:
+    kwargs:
+      args:
+      - '{data(df6885e0ab8b4182)}'
+      engine: fastparquet
+    metadata: {}
+    output_instance: pandas:DataFrame
+    reader: intake.readers.readers:PandasParquet
+    user_parameters: {}
 metadata: {}
-user_parameters: {}
+user_parameters:
+  CATALOG_DIR: file:///work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/highres-future-ssp245/v20240304/ocean/native
+  CATALOG_PATH: /work/bm1344/DKRZ/intake_catalogues/dkrz/disk/model-output/ifs-fesom2-sr/highres-future-ssp245/v20240304/ocean/native/main2.yaml
+  STORAGE_OPTIONS: {}
 version: 2
