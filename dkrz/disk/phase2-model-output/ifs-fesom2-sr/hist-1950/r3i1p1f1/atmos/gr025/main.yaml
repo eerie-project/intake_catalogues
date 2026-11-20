@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_daily_0.25deg_atmos_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_daily_0.25deg_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -23,7 +23,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -40,8 +40,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Mean convective precipitation rate
       - Evaporation
@@ -142,14 +142,14 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_daily_0.25deg_atmos_max.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_daily_0.25deg_atmos_max
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
       DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
@@ -159,7 +159,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -176,8 +176,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Maximum 10 metre wind gust since previous post-processing
       - Maximum temperature at 2 metres in the last 24 hours
@@ -196,7 +196,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_daily_0.25deg_atmos_min.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_daily_0.25deg_atmos_min
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -213,7 +213,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -230,8 +230,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Minimum temperature at 2 metres in the last 24 hours
     parameters:
@@ -248,7 +248,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_monthly_0.25deg_atmos_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_monthly_0.25deg_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -265,7 +265,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -282,8 +282,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Mean convective precipitation rate
       - Evaporation
@@ -384,24 +384,24 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_monthly_0.25deg_atmos_max.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_monthly_0.25deg_atmos_max
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
       CDO: Climate Data Operators version 2.2.2 (https://mpimet.mpg.de/cdo)
       Conventions: CF-1.6
       DOKU_License: CC BY 4.0
-      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_Name: EERIE IFS-FESOM2-SR hist-1950
       DOKU_authors: Ghosh, R.; Koldunov, N.; Wachsmann, F.
       DOKU_responsible_person: Fabian Wachsmann
-      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950 run
+      DOKU_summary: EERIE IFS-FESOM2-SR hist-1950
       activity_id: EERIE
       experiment: hist-1950
       experiment_id: hist-1950
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -418,8 +418,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Maximum 10 metre wind gust since previous post-processing
       - Maximum temperature at 2 metres since previous post-processing
@@ -438,7 +438,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_monthly_0.25deg_atmos_min.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_monthly_0.25deg_atmos_min
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -455,7 +455,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -472,8 +472,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Minimum temperature at 2 metres since previous post-processing
     parameters:
@@ -490,7 +490,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/3D_daily_0.25deg_atmos_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/3D_daily_0.25deg_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -507,7 +507,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -524,8 +524,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Time-mean specific humidity
       - Time-mean relative humidity
@@ -554,7 +554,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/3D_monthly_0.25deg_atmos_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/3D_monthly_0.25deg_atmos_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -571,7 +571,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -588,8 +588,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T12:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Time-mean specific humidity
       - Time-mean relative humidity
@@ -618,7 +618,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/3D_6hourly_0.25deg_atmos.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/3D_6hourly_0.25deg_atmos
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -635,7 +635,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -652,8 +652,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T18:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Specific humidity
       - Relative humidity
@@ -682,7 +682,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_6hourly_0.25deg_atmos_accumulated.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_6hourly_0.25deg_atmos_accumulated
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -699,7 +699,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -716,8 +716,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T21:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Convective precipitation
       - Evaporation
@@ -776,7 +776,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r3i1p1f1/atmos/gr025/2D_6hourly_0.25deg_atmos_instant.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r3/2D_6hourly_0.25deg_atmos_instant
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -793,7 +793,7 @@ sources:
       grid_label: gr025
       history: deleted for convenience
       institution: European Centre for Medium-Range Weather Forecasts
-      member_id: r3i1p1f1
+      member_id: r2i1p1f1
       plots:
         quicklook:
           aspect: 1
@@ -810,8 +810,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T18:00:00.000000000'
+      time_min: '2015-01-01T06:00:00.000000000'
       variable-long_names:
       - 10 metre wind speed
       - 10 metre U wind component

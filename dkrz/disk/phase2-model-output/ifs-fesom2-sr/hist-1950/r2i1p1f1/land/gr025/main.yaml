@@ -6,7 +6,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/land/gr025/3D_daily_0.25deg_soil_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r2/3D_daily_0.25deg_soil_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -40,8 +40,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T21:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Time-mean soil temperature
       - Time-mean volumetric soil moisture
@@ -60,7 +60,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/land/gr025/3D_monthly_0.25deg_soil_avg.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r2/3D_monthly_0.25deg_soil_avg
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -94,8 +94,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T21:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Time-mean soil temperature
       - Time-mean volumetric soil moisture
@@ -114,7 +114,7 @@ sources:
       storage_options:
         lazy: true
         remote_protocol: file
-      urlpath: reference:://work/bm1344/DKRZ/kerchunks/IFS-FESOM2/hist-1950/r2i1p1f1/land/gr025/3D_6hourly_0.25deg_soil.parq
+      urlpath: reference:://work/bm1344/DKRZ/kerchunks_pp_batched/IFS-FESOM2/phase2/hist-1950/r2/3D_6hourly_0.25deg_soil
     driver: zarr
     metadata:
       CDI: Climate Data Interface version 2.2.4 (https://mpimet.mpg.de/cdi)
@@ -148,8 +148,8 @@ sources:
       simulation_id: IFS-FESOM2-SR_hist-1950
       source_id: IFS-FESOM2-SR
       source_type: AOGCM
-      time_max: '2014-12-31T12:00:00.000000000'
-      time_min: '1975-01-01T12:00:00.000000000'
+      time_max: '2030-12-31T21:00:00.000000000'
+      time_min: '2015-01-01T03:00:00.000000000'
       variable-long_names:
       - Soil temperature
       - Volumetric soil moisture
